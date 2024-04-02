@@ -1515,3 +1515,1646 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.04.02-04.46.47:670][215]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2024.04.02-04.46.47:674][215]LogUObjectHash: Compacting FUObjectHashTables data took   2.85ms
 [2024.04.02-04.46.47:779][216]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2024.04.02-04.48.43:055][756]Cmd: TRANSACTION UNDO
+[2024.04.02-04.48.43:055][756]LogEditorTransaction: Undo Move Elements
+[2024.04.02-04.48.56:568][105]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.04.02-04.48.56:596][105]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.04.02-04.48.56:596][105]PIE: New page: PIE session: L_One (3/04/2024, 6:48:56 am)
+[2024.04.02-04.48.56:596][105]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_L_One
+[2024.04.02-04.48.56:602][105]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005429s)
+[2024.04.02-04.48.56:602][105]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/L_One.L_One to /Game/Levels/UEDPIE_0_L_One.L_One (0.005497s)
+[2024.04.02-04.48.56:632][105]LogUObjectHash: Compacting FUObjectHashTables data took   2.44ms
+[2024.04.02-04.48.56:634][105]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.02-04.48.56:635][105]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.02-04.48.56:635][105]LogAIModule: Creating AISystem for world L_One
+[2024.04.02-04.48.56:636][105]LogPlayLevel: PIE: World Init took: (0.001320s)
+[2024.04.02-04.48.56:636][105]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2024.04.02-04.48.56:636][105]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.04.02-04.48.56:636][105]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.04.02-04.48.56:636][105]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.04.02-04.48.56:636][105]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.04.02-04.48.56:636][105]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.04.02-04.48.56:636][105]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.04.02-04.48.56:636][105]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.04.02-04.48.56:636][105]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.04.02-04.48.56:636][105]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.04.02-04.48.56:636][105]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.04.02-04.48.56:636][105]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.04.02-04.48.56:639][105]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.04.02-04.48.56:689][105]LogAudioMixer: Display: Using Audio Hardware Device Speakers/Headphones (Realtek(R) Audio)
+[2024.04.02-04.48.56:690][105]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.04.02-04.48.56:690][105]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.04.02-04.48.56:690][105]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.04.02-04.48.56:692][105]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=4
+[2024.04.02-04.48.56:692][105]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=4
+[2024.04.02-04.48.56:695][105]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=4
+[2024.04.02-04.48.56:695][105]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=4
+[2024.04.02-04.48.56:695][105]LogInit: FAudioDevice initialized with ID 4.
+[2024.04.02-04.48.56:695][105]LogAudio: Display: Audio Device (ID: 4) registered with world 'L_One'.
+[2024.04.02-04.48.56:695][105]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 4
+[2024.04.02-04.48.56:699][105]LogLoad: Game class is 'GameMode_C'
+[2024.04.02-04.48.56:701][105]LogWorld: Bringing World /Game/Levels/UEDPIE_0_L_One.L_One up for play (max tick rate 60) at 2024.04.02-17.48.56
+[2024.04.02-04.48.56:702][105]LogWorld: Bringing up level for play took: 0.001464
+[2024.04.02-04.48.56:704][105]LogOnline: OSS: Created online subsystem instance for: :Context_8
+[2024.04.02-04.48.56:706][105]LogBlueprintUserMessages: [BP_Parcel_C_1] Created Parcel
+[2024.04.02-04.48.56:707][105]LogBlueprintUserMessages: [BP_Parcel_C_1] true
+[2024.04.02-04.48.56:707][105]PIE: Server logged in
+[2024.04.02-04.48.56:708][105]PIE: Play in editor total start time 0.124 seconds.
+[2024.04.02-04.49.00:296][167]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.02-04.49.00:296][167]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_L_One
+[2024.04.02-04.49.00:296][167]LogWorld: UWorld::CleanupWorld for L_One, bSessionEnded=true, bCleanupResources=true
+[2024.04.02-04.49.00:297][167]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.02-04.49.00:330][167]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.04.02-04.49.00:336][167]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.02-04.49.00:357][167]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.04.02-04.49.00:357][167]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 4
+[2024.04.02-04.49.00:357][167]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2024.04.02-04.49.00:359][167]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2024.04.02-04.49.00:367][167]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.02-04.49.00:370][167]LogUObjectHash: Compacting FUObjectHashTables data took   1.89ms
+[2024.04.02-04.49.00:437][168]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2024.04.02-04.49.26:697][450]LogViewport: Scene viewport resized to 2406x1073, mode Windowed.
+[2024.04.02-04.49.26:804][451]LogViewport: Scene viewport resized to 2406x989, mode Windowed.
+[2024.04.02-04.49.26:882][452]LogViewport: Scene viewport resized to 2406x937, mode Windowed.
+[2024.04.02-04.49.26:969][453]LogViewport: Scene viewport resized to 2406x885, mode Windowed.
+[2024.04.02-04.49.27:049][454]LogViewport: Scene viewport resized to 2406x856, mode Windowed.
+[2024.04.02-04.49.27:130][455]LogViewport: Scene viewport resized to 2406x838, mode Windowed.
+[2024.04.02-04.49.27:212][456]LogViewport: Scene viewport resized to 2406x836, mode Windowed.
+[2024.04.02-04.49.27:807][483]LogViewport: Scene viewport resized to 2406x834, mode Windowed.
+[2024.04.02-04.49.27:834][484]LogViewport: Scene viewport resized to 2406x825, mode Windowed.
+[2024.04.02-04.49.27:986][485]LogViewport: Scene viewport resized to 2406x758, mode Windowed.
+[2024.04.02-04.49.28:060][486]LogViewport: Scene viewport resized to 2406x745, mode Windowed.
+[2024.04.02-04.54.46:247][345]LogUObjectHash: Compacting FUObjectHashTables data took   4.68ms
+[2024.04.02-04.54.46:289][345]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Levels/L_One_Auto2
+[2024.04.02-04.54.46:289][345]LogSavePackage: Moving '../../../../../../Users/Cassandra/Documents/GitHub/lost-in-transit/lost-in-transit/Saved/L_One_Auto21BBF379B4F5F698BA10593AC4AAD5094.tmp' to '../../../../../../Users/Cassandra/Documents/GitHub/lost-in-transit/lost-in-transit/Saved/Autosaves/Game/Levels/L_One_Auto2.umap'
+[2024.04.02-04.54.46:294][345]LogAssetRegistry: Warning: ScanPathsSynchronous: ../../../../../../Users/Cassandra/Documents/GitHub/lost-in-transit/lost-in-transit/Saved/Autosaves/Game/Levels/L_One_Auto2.umap is in the /Temp path, will not scan.
+[2024.04.02-04.54.46:294][345]LogAssetRegistry: Warning: ScanPathsSynchronous: /Temp/__ExternalActors__/Autosaves/Game/Levels/L_One_Auto2 is in the /Temp path, will not scan.
+[2024.04.02-04.54.46:294][345]LogAssetRegistry: Warning: ScanPathsSynchronous: /Temp/__ExternalObjects__/Autosaves/Game/Levels/L_One_Auto2 is in the /Temp path, will not scan.
+[2024.04.02-04.54.46:294][345]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Levels/L_One' took 0.093
+[2024.04.02-04.54.46:294][345]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.093
+[2024.04.02-05.01.10:430][ 53]Cmd: TRANSACTION UNDO
+[2024.04.02-05.01.10:430][ 53]LogEditorTransaction: Undo Add Component
+[2024.04.02-05.02.35:930][662]LogEditorTransaction: Undo Modify Component Location
+[2024.04.02-05.02.41:338][883]BlueprintLog: New page: Compile Datapad
+[2024.04.02-05.02.41:478][883]LogUObjectHash: Compacting FUObjectHashTables data took   4.24ms
+[2024.04.02-05.02.56:719][437]LogEditorTransaction: Undo Modify Component Location
+[2024.04.02-05.03.02:400][647]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.02-05.03.02:599][647]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/Datapad" FILE="../../../../../../Users/Cassandra/Documents/GitHub/lost-in-transit/lost-in-transit/Content/BP/Datapad.uasset" SILENT=true
+[2024.04.02-05.03.02:617][647]LogSavePackage: Moving output files for package: /Game/BP/Datapad
+[2024.04.02-05.03.02:620][647]LogSavePackage: Moving '../../../../../../Users/Cassandra/Documents/GitHub/lost-in-transit/lost-in-transit/Saved/Datapad8E63BD1C405F0AC2DB69F18791447B52.tmp' to '../../../../../../Users/Cassandra/Documents/GitHub/lost-in-transit/lost-in-transit/Content/BP/Datapad.uasset'
+[2024.04.02-05.03.02:642][647]LogFileHelpers: InternalPromptForCheckoutAndSave took 242 ms (total: 1.32 sec)
+[2024.04.02-05.03.02:647][647]AssetCheck: New page: Asset Save: Datapad
+[2024.04.02-05.03.02:647][647]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/BP/Datapad.Datapad
+[2024.04.02-05.03.03:383][683]BlueprintLog: New page: Compile Datapad
+[2024.04.02-05.03.03:488][683]LogUObjectHash: Compacting FUObjectHashTables data took   3.68ms
+[2024.04.02-05.03.11:700][970]LogEditorTransaction: Undo Modify Component Location
+[2024.04.02-05.03.13:831][ 41]LogEditorTransaction: Undo Modify Component Scale
+[2024.04.02-05.03.41:611][ 74]LogEditorTransaction: Undo Modify Component Scale
+[2024.04.02-05.04.10:180][242]BlueprintLog: New page: Compile Datapad
+[2024.04.02-05.04.10:319][242]LogUObjectHash: Compacting FUObjectHashTables data took   4.37ms
+[2024.04.02-05.04.35:127][959]LogEditorTransaction: Undo Modify Component Location
+[2024.04.02-05.04.48:500][355]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.02-05.04.48:737][355]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/Datapad" FILE="../../../../../../Users/Cassandra/Documents/GitHub/lost-in-transit/lost-in-transit/Content/BP/Datapad.uasset" SILENT=true
+[2024.04.02-05.04.48:750][355]LogSavePackage: Moving output files for package: /Game/BP/Datapad
+[2024.04.02-05.04.48:751][355]LogSavePackage: Moving '../../../../../../Users/Cassandra/Documents/GitHub/lost-in-transit/lost-in-transit/Saved/Datapad7CD4067547F52036217EF1A3158C19D0.tmp' to '../../../../../../Users/Cassandra/Documents/GitHub/lost-in-transit/lost-in-transit/Content/BP/Datapad.uasset'
+[2024.04.02-05.04.48:767][355]LogFileHelpers: InternalPromptForCheckoutAndSave took 267 ms (total: 1.59 sec)
+[2024.04.02-05.04.48:770][355]AssetCheck: New page: Asset Save: Datapad
+[2024.04.02-05.04.48:770][355]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/BP/Datapad.Datapad
+[2024.04.02-05.05.13:281][323]LogUObjectHash: Compacting FUObjectHashTables data took   4.84ms
+[2024.04.02-05.05.13:326][323]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Levels/L_One_Auto3
+[2024.04.02-05.05.13:328][323]LogSavePackage: Moving '../../../../../../Users/Cassandra/Documents/GitHub/lost-in-transit/lost-in-transit/Saved/L_One_Auto316048B654849E34B3A52DBA116A7804B.tmp' to '../../../../../../Users/Cassandra/Documents/GitHub/lost-in-transit/lost-in-transit/Saved/Autosaves/Game/Levels/L_One_Auto3.umap'
+[2024.04.02-05.05.13:332][323]LogAssetRegistry: Warning: ScanPathsSynchronous: ../../../../../../Users/Cassandra/Documents/GitHub/lost-in-transit/lost-in-transit/Saved/Autosaves/Game/Levels/L_One_Auto3.umap is in the /Temp path, will not scan.
+[2024.04.02-05.05.13:333][323]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Levels/L_One' took 0.091
+[2024.04.02-05.05.13:333][323]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.091
+[2024.04.02-05.11.19:908][632]BlueprintLog: New page: Compile Datapad
+[2024.04.02-05.11.20:020][632]LogUObjectHash: Compacting FUObjectHashTables data took   4.92ms
+[2024.04.02-05.11.58:879][250]LogEditorTransaction: Undo Modify Component Location
+[2024.04.02-05.12.16:098][996]LogEditorTransaction: Undo Modify Component Location
+[2024.04.02-05.12.19:927][144]BlueprintLog: New page: Compile Datapad
+[2024.04.02-05.12.20:047][144]LogUObjectHash: Compacting FUObjectHashTables data took   4.45ms
+[2024.04.02-05.12.22:325][189]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.04.02-05.12.22:348][189]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.04.02-05.12.22:348][189]PIE: New page: PIE session: L_One (3/04/2024, 7:12:22 am)
+[2024.04.02-05.12.22:348][189]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_L_One
+[2024.04.02-05.12.22:354][189]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005329s)
+[2024.04.02-05.12.22:354][189]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/L_One.L_One to /Game/Levels/UEDPIE_0_L_One.L_One (0.005391s)
+[2024.04.02-05.12.22:381][189]LogUObjectHash: Compacting FUObjectHashTables data took   3.72ms
+[2024.04.02-05.12.22:384][189]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.02-05.12.22:384][189]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.02-05.12.22:386][189]LogAIModule: Creating AISystem for world L_One
+[2024.04.02-05.12.22:386][189]LogPlayLevel: PIE: World Init took: (0.001891s)
+[2024.04.02-05.12.22:386][189]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2024.04.02-05.12.22:386][189]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.04.02-05.12.22:386][189]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.04.02-05.12.22:386][189]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.04.02-05.12.22:386][189]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.04.02-05.12.22:386][189]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.04.02-05.12.22:386][189]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.04.02-05.12.22:386][189]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.04.02-05.12.22:386][189]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.04.02-05.12.22:388][189]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.04.02-05.12.22:388][189]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.04.02-05.12.22:388][189]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.04.02-05.12.22:390][189]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.04.02-05.12.22:452][189]LogAudioMixer: Display: Using Audio Hardware Device Speakers/Headphones (Realtek(R) Audio)
+[2024.04.02-05.12.22:452][189]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.04.02-05.12.22:452][189]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.04.02-05.12.22:452][189]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.04.02-05.12.22:455][189]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=5
+[2024.04.02-05.12.22:455][189]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=5
+[2024.04.02-05.12.22:458][189]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=5
+[2024.04.02-05.12.22:458][189]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=5
+[2024.04.02-05.12.22:458][189]LogInit: FAudioDevice initialized with ID 5.
+[2024.04.02-05.12.22:458][189]LogAudio: Display: Audio Device (ID: 5) registered with world 'L_One'.
+[2024.04.02-05.12.22:458][189]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 5
+[2024.04.02-05.12.22:462][189]LogLoad: Game class is 'GameMode_C'
+[2024.04.02-05.12.22:465][189]LogWorld: Bringing World /Game/Levels/UEDPIE_0_L_One.L_One up for play (max tick rate 60) at 2024.04.02-18.12.22
+[2024.04.02-05.12.22:465][189]LogWorld: Bringing up level for play took: 0.001684
+[2024.04.02-05.12.22:469][189]LogOnline: OSS: Created online subsystem instance for: :Context_9
+[2024.04.02-05.12.22:471][189]LogBlueprintUserMessages: [BP_Parcel_C_1] Created Parcel
+[2024.04.02-05.12.22:471][189]LogBlueprintUserMessages: [BP_Parcel_C_1] true
+[2024.04.02-05.12.22:472][189]PIE: Server logged in
+[2024.04.02-05.12.22:473][189]PIE: Play in editor total start time 0.125 seconds.
+[2024.04.02-05.12.23:925][205]LogBlueprintUserMessages: [Datapad_C_1] Authorised
+[2024.04.02-05.12.25:241][233]LogBlueprintUserMessages: [Datapad_C_1] Rejected
+[2024.04.02-05.12.26:902][270]LogBlueprintUserMessages: [Datapad_C_1] Authorised
+[2024.04.02-05.12.27:888][292]LogBlueprintUserMessages: [Datapad_C_1] Rejected
+[2024.04.02-05.12.31:166][363]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.02-05.12.31:166][363]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_L_One
+[2024.04.02-05.12.31:166][363]LogWorld: UWorld::CleanupWorld for L_One, bSessionEnded=true, bCleanupResources=true
+[2024.04.02-05.12.31:166][363]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.02-05.12.31:185][363]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.04.02-05.12.31:192][363]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.02-05.12.31:220][363]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.04.02-05.12.31:220][363]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 5
+[2024.04.02-05.12.31:220][363]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2024.04.02-05.12.31:223][363]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2024.04.02-05.12.31:229][363]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.02-05.12.31:233][363]LogUObjectHash: Compacting FUObjectHashTables data took   2.18ms
+[2024.04.02-05.12.31:309][364]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2024.04.02-05.12.42:534][555]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.02-05.12.42:836][555]LogUObjectHash: Compacting FUObjectHashTables data took   3.09ms
+[2024.04.02-05.12.42:861][555]LogSavePackage: Moving output files for package: /Game/Levels/L_One
+[2024.04.02-05.12.42:862][555]LogSavePackage: Moving '../../../../../../Users/Cassandra/Documents/GitHub/lost-in-transit/lost-in-transit/Saved/L_One896EA32748928893281154B9D5F54FE3.tmp' to '../../../../../../Users/Cassandra/Documents/GitHub/lost-in-transit/lost-in-transit/Content/Levels/L_One.umap'
+[2024.04.02-05.12.42:876][555]LogFileHelpers: Saving map 'L_One' took 0.107
+[2024.04.02-05.12.42:888][555]LogFileHelpers: InternalPromptForCheckoutAndSave took 354 ms (total: 1.95 sec)
+[2024.04.02-05.12.42:891][555]AssetCheck: New page: Asset Save: L_One
+[2024.04.02-05.12.42:891][555]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/L_One.L_One
+[2024.04.02-05.13.14:252][754]LogContentBrowser: Deferred new asset file creation: NewInterface
+[2024.04.02-05.13.14:277][754]LogContentBrowser: Creating deferred item: NewInterface
+[2024.04.02-05.13.14:317][755]LogContentBrowser: Renaming the item being created (Deferred Item: NewInterface).
+[2024.04.02-05.13.21:029][917]LogContentBrowser: Attempting asset rename: NewInterface -> CassInteract
+[2024.04.02-05.13.21:036][917]LogContentBrowser: End creating deferred item NewInterface
+[2024.04.02-05.13.22:462][940]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BP/Interfaces/Interactable.Interactable
+[2024.04.02-05.13.22:462][940]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.02-05.13.22:462][940]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.02-05.13.28:526][176]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BP/Interfaces/CassInteract.CassInteract
+[2024.04.02-05.13.28:527][176]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.02-05.13.28:527][176]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.02-05.13.53:081][623]BlueprintLog: New page: Compile CassInteract
+[2024.04.02-05.13.53:135][623]LogUObjectHash: Compacting FUObjectHashTables data took   2.96ms
+[2024.04.02-05.15.03:516][363]BlueprintLog: New page: Compile CassInteract
+[2024.04.02-05.15.03:567][363]LogUObjectHash: Compacting FUObjectHashTables data took   3.92ms
+[2024.04.02-05.15.07:792][452]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.02-05.15.08:000][452]LogSavePackage: Moving output files for package: /Game/BP/Interfaces/CassInteract
+[2024.04.02-05.15.08:000][452]LogSavePackage: Moving '../../../../../../Users/Cassandra/Documents/GitHub/lost-in-transit/lost-in-transit/Saved/CassInteract19863F1847F0887530C5FC8A959EC42F.tmp' to '../../../../../../Users/Cassandra/Documents/GitHub/lost-in-transit/lost-in-transit/Content/BP/Interfaces/CassInteract.uasset'
+[2024.04.02-05.15.08:024][452]LogFileHelpers: InternalPromptForCheckoutAndSave took 233 ms (total: 2.18 sec)
+[2024.04.02-05.15.08:026][452]AssetCheck: New page: Asset Save: CassInteract
+[2024.04.02-05.15.08:027][452]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/BP/Interfaces/CassInteract.CassInteract
+[2024.04.02-05.15.23:246][776]LogSlate: Window 'CassInteract' being destroyed
+[2024.04.02-05.16.06:668][692]LogSlate: Window 'Pick Parent Class' being destroyed
+[2024.04.02-05.16.06:681][692]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2024.04.02-05.16.06:692][692]LogContentBrowser: Creating deferred item: NewBlueprint
+[2024.04.02-05.16.06:707][693]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2024.04.02-05.16.23:534][461]LogContentBrowser: Attempting asset rename: NewBlueprint -> NewBlueprint
+[2024.04.02-05.16.23:551][461]LogContentBrowser: End creating deferred item NewBlueprint
+[2024.04.02-05.16.26:029][530]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2024.04.02-05.16.26:079][530]LogContentBrowser: Creating deferred item: NewFolder
+[2024.04.02-05.16.26:102][531]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2024.04.02-05.16.30:786][657]LogContentBrowser: Attempting asset rename: NewFolder -> Datapad
+[2024.04.02-05.16.30:787][657]LogContentBrowser: End creating deferred item NewFolder
+[2024.04.02-05.16.34:771][779]LogMetaData: Removing '/Game/BP/Datapad/Datapad.Datapad:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/BP/Datapad.PackageMetaData'
+[2024.04.02-05.16.34:771][779]LogMetaData: Removing '/Game/BP/Datapad/Datapad.Datapad_C' ref from Metadata '/Game/BP/Datapad.PackageMetaData'
+[2024.04.02-05.16.34:771][779]LogMetaData: Removing '/Game/BP/Datapad/Datapad.Datapad:EventGraph.K2Node_Event_0' ref from Metadata '/Game/BP/Datapad.PackageMetaData'
+[2024.04.02-05.16.34:771][779]LogMetaData: Removing '/Game/BP/Datapad/Datapad.Datapad:EventGraph.K2Node_Event_1' ref from Metadata '/Game/BP/Datapad.PackageMetaData'
+[2024.04.02-05.16.34:771][779]LogMetaData: Removing '/Game/BP/Datapad/Datapad.Datapad:EventGraph.K2Node_Event_2' ref from Metadata '/Game/BP/Datapad.PackageMetaData'
+[2024.04.02-05.16.34:771][779]LogMetaData: Removing '/Game/BP/Datapad/Datapad.SKEL_Datapad_C' ref from Metadata '/Game/BP/Datapad.PackageMetaData'
+[2024.04.02-05.16.34:771][779]LogMetaData: Removing '/Game/BP/Datapad/Datapad.Datapad_C:ReceiveBeginPlay' ref from Metadata '/Game/BP/Datapad.PackageMetaData'
+[2024.04.02-05.16.34:771][779]LogMetaData: Removing '/Game/BP/Datapad/Datapad.SKEL_Datapad_C:UserConstructionScript' ref from Metadata '/Game/BP/Datapad.PackageMetaData'
+[2024.04.02-05.16.34:771][779]LogMetaData: Removing '/Game/BP/Datapad/Datapad.SKEL_Datapad_C:BndEvt__Datapad_Declined_K2Node_ComponentBoundEvent_2_ComponentOnClickedSignature__DelegateSignature' ref from Metadata '/Game/BP/Datapad.PackageMetaData'
+[2024.04.02-05.16.34:771][779]LogMetaData: Removing '/Game/BP/Datapad/Datapad.SKEL_Datapad_C:BndEvt__Datapad_Plane_K2Node_ComponentBoundEvent_1_ComponentOnClickedSignature__DelegateSignature' ref from Metadata '/Game/BP/Datapad.PackageMetaData'
+[2024.04.02-05.16.34:771][779]LogMetaData: Removing '/Game/BP/Datapad/Datapad.SKEL_Datapad_C:ReceiveBeginPlay' ref from Metadata '/Game/BP/Datapad.PackageMetaData'
+[2024.04.02-05.16.34:810][779]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.02-05.16.35:106][779]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/Datapad/Datapad" FILE="../../../../../../Users/Cassandra/Documents/GitHub/lost-in-transit/lost-in-transit/Content/BP/Datapad/Datapad.uasset" SILENT=true
+[2024.04.02-05.16.35:120][779]LogSavePackage: Moving output files for package: /Game/BP/Datapad/Datapad
+[2024.04.02-05.16.35:120][779]LogSavePackage: Moving '../../../../../../Users/Cassandra/Documents/GitHub/lost-in-transit/lost-in-transit/Saved/DatapadB36AC8F840FF877431A5979C227ED995.tmp' to '../../../../../../Users/Cassandra/Documents/GitHub/lost-in-transit/lost-in-transit/Content/BP/Datapad/Datapad.uasset'
+[2024.04.02-05.16.35:133][779]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/Datapad" FILE="../../../../../../Users/Cassandra/Documents/GitHub/lost-in-transit/lost-in-transit/Content/BP/Datapad.uasset" SILENT=true
+[2024.04.02-05.16.35:134][779]LogSavePackage: Moving output files for package: /Game/BP/Datapad
+[2024.04.02-05.16.35:136][779]LogSavePackage: Moving '../../../../../../Users/Cassandra/Documents/GitHub/lost-in-transit/lost-in-transit/Saved/Datapad9DD9E8214FEA5C3B4E7770A8F1B6CD8E.tmp' to '../../../../../../Users/Cassandra/Documents/GitHub/lost-in-transit/lost-in-transit/Content/BP/Datapad.uasset'
+[2024.04.02-05.16.35:157][779]LogFileHelpers: InternalPromptForCheckoutAndSave took 348 ms (total: 2.53 sec)
+[2024.04.02-05.16.35:227][779]AssetCheck: New page: Asset Save: multiple assets
+[2024.04.02-05.16.35:227][779]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/BP/Datapad/Datapad.Datapad
+[2024.04.02-05.16.35:227][779]LogContentValidation: Display: Validating /Script/CoreUObject.ObjectRedirector /Game/BP/Datapad.Datapad
+[2024.04.02-05.16.35:227][779]LogContentValidation: Display: Validating /Script/CoreUObject.ObjectRedirector /Game/BP/Datapad.Datapad_C
+[2024.04.02-05.16.35:227][779]LogContentValidation: Display: Validating /Script/CoreUObject.ObjectRedirector /Game/BP/Datapad.Default__Datapad_C
+[2024.04.02-05.16.40:082][ 19]LogMetaData: Removing '/Game/BP/Datapad/NewBlueprint.NewBlueprint:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/BP/NewBlueprint.PackageMetaData'
+[2024.04.02-05.16.40:082][ 19]LogMetaData: Removing '/Game/BP/Datapad/NewBlueprint.SKEL_NewBlueprint_C:UserConstructionScript' ref from Metadata '/Game/BP/NewBlueprint.PackageMetaData'
+[2024.04.02-05.16.40:083][ 19]LogMetaData: Removing '/Game/BP/Datapad/NewBlueprint.SKEL_NewBlueprint_C' ref from Metadata '/Game/BP/NewBlueprint.PackageMetaData'
+[2024.04.02-05.16.40:083][ 19]LogMetaData: Removing '/Game/BP/Datapad/NewBlueprint.NewBlueprint_C' ref from Metadata '/Game/BP/NewBlueprint.PackageMetaData'
+[2024.04.02-05.16.40:083][ 19]LogMetaData: Removing '/Game/BP/Datapad/NewBlueprint.NewBlueprint:EventGraph.K2Node_Event_0' ref from Metadata '/Game/BP/NewBlueprint.PackageMetaData'
+[2024.04.02-05.16.40:083][ 19]LogMetaData: Removing '/Game/BP/Datapad/NewBlueprint.NewBlueprint:EventGraph.K2Node_Event_1' ref from Metadata '/Game/BP/NewBlueprint.PackageMetaData'
+[2024.04.02-05.16.40:083][ 19]LogMetaData: Removing '/Game/BP/Datapad/NewBlueprint.NewBlueprint:EventGraph.K2Node_Event_2' ref from Metadata '/Game/BP/NewBlueprint.PackageMetaData'
+[2024.04.02-05.16.40:085][ 19]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.02-05.16.40:272][ 19]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/Datapad/NewBlueprint" FILE="../../../../../../Users/Cassandra/Documents/GitHub/lost-in-transit/lost-in-transit/Content/BP/Datapad/NewBlueprint.uasset" SILENT=true
+[2024.04.02-05.16.40:280][ 19]LogSavePackage: Moving output files for package: /Game/BP/Datapad/NewBlueprint
+[2024.04.02-05.16.40:280][ 19]LogSavePackage: Moving '../../../../../../Users/Cassandra/Documents/GitHub/lost-in-transit/lost-in-transit/Saved/NewBlueprintFB6DB9C1412DB500A0DEF8BD6D832B2C.tmp' to '../../../../../../Users/Cassandra/Documents/GitHub/lost-in-transit/lost-in-transit/Content/BP/Datapad/NewBlueprint.uasset'
+[2024.04.02-05.16.40:311][ 19]LogFileHelpers: InternalPromptForCheckoutAndSave took 225 ms (total: 2.75 sec)
+[2024.04.02-05.16.40:356][ 19]LogUObjectHash: Compacting FUObjectHashTables data took   2.92ms
+[2024.04.02-05.16.40:391][ 19]LogUObjectHash: Compacting FUObjectHashTables data took   3.09ms
+[2024.04.02-05.16.40:424][ 19]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
+[2024.04.02-05.16.40:501][ 19]AssetCheck: New page: Asset Save: NewBlueprint
+[2024.04.02-05.16.40:501][ 19]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/BP/Datapad/NewBlueprint.NewBlueprint
+[2024.04.02-05.16.57:074][634]LogContentBrowser: Attempting asset rename: NewBlueprint -> Approved_Sticker
+[2024.04.02-05.16.57:129][634]LogMetaData: Removing '/Game/BP/Datapad/Approved_Sticker.Approved_Sticker_C' ref from Metadata '/Game/BP/Datapad/NewBlueprint.PackageMetaData'
+[2024.04.02-05.16.57:130][634]LogMetaData: Removing '/Game/BP/Datapad/Approved_Sticker.SKEL_Approved_Sticker_C' ref from Metadata '/Game/BP/Datapad/NewBlueprint.PackageMetaData'
+[2024.04.02-05.16.57:130][634]LogMetaData: Removing '/Game/BP/Datapad/Approved_Sticker.SKEL_Approved_Sticker_C:UserConstructionScript' ref from Metadata '/Game/BP/Datapad/NewBlueprint.PackageMetaData'
+[2024.04.02-05.16.57:130][634]LogMetaData: Removing '/Game/BP/Datapad/Approved_Sticker.Approved_Sticker:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/BP/Datapad/NewBlueprint.PackageMetaData'
+[2024.04.02-05.16.57:130][634]LogMetaData: Removing '/Game/BP/Datapad/Approved_Sticker.Approved_Sticker:EventGraph.K2Node_Event_0' ref from Metadata '/Game/BP/Datapad/NewBlueprint.PackageMetaData'
+[2024.04.02-05.16.57:130][634]LogMetaData: Removing '/Game/BP/Datapad/Approved_Sticker.Approved_Sticker:EventGraph.K2Node_Event_1' ref from Metadata '/Game/BP/Datapad/NewBlueprint.PackageMetaData'
+[2024.04.02-05.16.57:130][634]LogMetaData: Removing '/Game/BP/Datapad/Approved_Sticker.Approved_Sticker:EventGraph.K2Node_Event_2' ref from Metadata '/Game/BP/Datapad/NewBlueprint.PackageMetaData'
+[2024.04.02-05.16.57:131][634]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.02-05.16.57:345][634]LogSavePackage: Moving output files for package: /Game/BP/Datapad/Approved_Sticker
+[2024.04.02-05.16.57:345][634]LogSavePackage: Moving '../../../../../../Users/Cassandra/Documents/GitHub/lost-in-transit/lost-in-transit/Saved/Approved_Sticker2E806C3540317BE2921431AC3F3F2002.tmp' to '../../../../../../Users/Cassandra/Documents/GitHub/lost-in-transit/lost-in-transit/Content/BP/Datapad/Approved_Sticker.uasset'
+[2024.04.02-05.16.57:371][634]LogFileHelpers: InternalPromptForCheckoutAndSave took 240 ms (total: 2.99 sec)
+[2024.04.02-05.16.57:409][634]LogUObjectHash: Compacting FUObjectHashTables data took   2.45ms
+[2024.04.02-05.16.57:438][634]LogUObjectHash: Compacting FUObjectHashTables data took   2.41ms
+[2024.04.02-05.16.57:460][634]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2024.04.02-05.16.57:464][634]AssetCheck: New page: Asset Save: Approved_Sticker
+[2024.04.02-05.16.57:464][634]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/BP/Datapad/Approved_Sticker.Approved_Sticker
+[2024.04.02-05.17.11:806][938]LogContentBrowser: Attempting asset rename: Datapad -> DatapadBP
+[2024.04.02-05.17.11:850][938]LogMetaData: Removing '/Game/BP/Datapad/DatapadBP.DatapadBP_C' ref from Metadata '/Game/BP/Datapad/Datapad.PackageMetaData'
+[2024.04.02-05.17.11:850][938]LogMetaData: Removing '/Game/BP/Datapad/DatapadBP.DatapadBP_C:ReceiveBeginPlay' ref from Metadata '/Game/BP/Datapad/Datapad.PackageMetaData'
+[2024.04.02-05.17.11:850][938]LogMetaData: Removing '/Game/BP/Datapad/DatapadBP.SKEL_DatapadBP_C' ref from Metadata '/Game/BP/Datapad/Datapad.PackageMetaData'
+[2024.04.02-05.17.11:850][938]LogMetaData: Removing '/Game/BP/Datapad/DatapadBP.SKEL_DatapadBP_C:ReceiveBeginPlay' ref from Metadata '/Game/BP/Datapad/Datapad.PackageMetaData'
+[2024.04.02-05.17.11:850][938]LogMetaData: Removing '/Game/BP/Datapad/DatapadBP.SKEL_DatapadBP_C:BndEvt__Datapad_Plane_K2Node_ComponentBoundEvent_1_ComponentOnClickedSignature__DelegateSignature' ref from Metadata '/Game/BP/Datapad/Datapad.PackageMetaData'
+[2024.04.02-05.17.11:850][938]LogMetaData: Removing '/Game/BP/Datapad/DatapadBP.SKEL_DatapadBP_C:BndEvt__Datapad_Declined_K2Node_ComponentBoundEvent_2_ComponentOnClickedSignature__DelegateSignature' ref from Metadata '/Game/BP/Datapad/Datapad.PackageMetaData'
+[2024.04.02-05.17.11:850][938]LogMetaData: Removing '/Game/BP/Datapad/DatapadBP.SKEL_DatapadBP_C:UserConstructionScript' ref from Metadata '/Game/BP/Datapad/Datapad.PackageMetaData'
+[2024.04.02-05.17.11:850][938]LogMetaData: Removing '/Game/BP/Datapad/DatapadBP.DatapadBP:EventGraph.K2Node_Event_0' ref from Metadata '/Game/BP/Datapad/Datapad.PackageMetaData'
+[2024.04.02-05.17.11:850][938]LogMetaData: Removing '/Game/BP/Datapad/DatapadBP.DatapadBP:EventGraph.K2Node_Event_1' ref from Metadata '/Game/BP/Datapad/Datapad.PackageMetaData'
+[2024.04.02-05.17.11:850][938]LogMetaData: Removing '/Game/BP/Datapad/DatapadBP.DatapadBP:EventGraph.K2Node_Event_2' ref from Metadata '/Game/BP/Datapad/Datapad.PackageMetaData'
+[2024.04.02-05.17.11:850][938]LogMetaData: Removing '/Game/BP/Datapad/DatapadBP.DatapadBP:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/BP/Datapad/Datapad.PackageMetaData'
+[2024.04.02-05.17.11:870][938]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.02-05.17.12:048][938]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/Datapad" FILE="../../../../../../Users/Cassandra/Documents/GitHub/lost-in-transit/lost-in-transit/Content/BP/Datapad.uasset" SILENT=true
+[2024.04.02-05.17.12:049][938]LogSavePackage: Moving output files for package: /Game/BP/Datapad
+[2024.04.02-05.17.12:050][938]LogSavePackage: Moving '../../../../../../Users/Cassandra/Documents/GitHub/lost-in-transit/lost-in-transit/Saved/Datapad40D051474015C6917C8AB89DBDECF490.tmp' to '../../../../../../Users/Cassandra/Documents/GitHub/lost-in-transit/lost-in-transit/Content/BP/Datapad.uasset'
+[2024.04.02-05.17.12:053][938]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/Datapad/DatapadBP" FILE="../../../../../../Users/Cassandra/Documents/GitHub/lost-in-transit/lost-in-transit/Content/BP/Datapad/DatapadBP.uasset" SILENT=true
+[2024.04.02-05.17.12:063][938]LogSavePackage: Moving output files for package: /Game/BP/Datapad/DatapadBP
+[2024.04.02-05.17.12:063][938]LogSavePackage: Moving '../../../../../../Users/Cassandra/Documents/GitHub/lost-in-transit/lost-in-transit/Saved/DatapadBP37A2FD3E479241B553A879B15BC6CCF5.tmp' to '../../../../../../Users/Cassandra/Documents/GitHub/lost-in-transit/lost-in-transit/Content/BP/Datapad/DatapadBP.uasset'
+[2024.04.02-05.17.12:081][938]LogFileHelpers: InternalPromptForCheckoutAndSave took 210 ms (total: 3.20 sec)
+[2024.04.02-05.17.12:117][938]LogUObjectHash: Compacting FUObjectHashTables data took   2.70ms
+[2024.04.02-05.17.12:137][938]LogUObjectHash: Compacting FUObjectHashTables data took   1.98ms
+[2024.04.02-05.17.12:161][938]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2024.04.02-05.17.12:165][938]AssetCheck: New page: Asset Save: multiple assets
+[2024.04.02-05.17.12:165][938]LogContentValidation: Display: Validating /Script/CoreUObject.ObjectRedirector /Game/BP/Datapad.Datapad
+[2024.04.02-05.17.12:165][938]LogContentValidation: Display: Validating /Script/CoreUObject.ObjectRedirector /Game/BP/Datapad.Datapad_C
+[2024.04.02-05.17.12:165][938]LogContentValidation: Display: Validating /Script/CoreUObject.ObjectRedirector /Game/BP/Datapad.Default__Datapad_C
+[2024.04.02-05.17.12:165][938]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/BP/Datapad/DatapadBP.DatapadBP
+[2024.04.02-05.17.12:165][938]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.02-05.17.17:047][ 61]LogContentBrowser: Attempting asset rename: Approved_Sticker -> Approved_StickerBP
+[2024.04.02-05.17.17:110][ 61]LogMetaData: Removing '/Game/BP/Datapad/Approved_StickerBP.Approved_StickerBP_C' ref from Metadata '/Game/BP/Datapad/Approved_Sticker.PackageMetaData'
+[2024.04.02-05.17.17:110][ 61]LogMetaData: Removing '/Game/BP/Datapad/Approved_StickerBP.SKEL_Approved_StickerBP_C' ref from Metadata '/Game/BP/Datapad/Approved_Sticker.PackageMetaData'
+[2024.04.02-05.17.17:110][ 61]LogMetaData: Removing '/Game/BP/Datapad/Approved_StickerBP.SKEL_Approved_StickerBP_C:UserConstructionScript' ref from Metadata '/Game/BP/Datapad/Approved_Sticker.PackageMetaData'
+[2024.04.02-05.17.17:110][ 61]LogMetaData: Removing '/Game/BP/Datapad/Approved_StickerBP.Approved_StickerBP:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/BP/Datapad/Approved_Sticker.PackageMetaData'
+[2024.04.02-05.17.17:110][ 61]LogMetaData: Removing '/Game/BP/Datapad/Approved_StickerBP.Approved_StickerBP:EventGraph.K2Node_Event_0' ref from Metadata '/Game/BP/Datapad/Approved_Sticker.PackageMetaData'
+[2024.04.02-05.17.17:110][ 61]LogMetaData: Removing '/Game/BP/Datapad/Approved_StickerBP.Approved_StickerBP:EventGraph.K2Node_Event_1' ref from Metadata '/Game/BP/Datapad/Approved_Sticker.PackageMetaData'
+[2024.04.02-05.17.17:110][ 61]LogMetaData: Removing '/Game/BP/Datapad/Approved_StickerBP.Approved_StickerBP:EventGraph.K2Node_Event_2' ref from Metadata '/Game/BP/Datapad/Approved_Sticker.PackageMetaData'
+[2024.04.02-05.17.17:112][ 61]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.02-05.17.17:269][ 61]LogSavePackage: Moving output files for package: /Game/BP/Datapad/Approved_StickerBP
+[2024.04.02-05.17.17:270][ 61]LogSavePackage: Moving '../../../../../../Users/Cassandra/Documents/GitHub/lost-in-transit/lost-in-transit/Saved/Approved_StickerBP0E686B2643DE43EE41142C8A4A4B4A8A.tmp' to '../../../../../../Users/Cassandra/Documents/GitHub/lost-in-transit/lost-in-transit/Content/BP/Datapad/Approved_StickerBP.uasset'
+[2024.04.02-05.17.17:297][ 61]LogFileHelpers: InternalPromptForCheckoutAndSave took 184 ms (total: 3.39 sec)
+[2024.04.02-05.17.17:341][ 61]LogUObjectHash: Compacting FUObjectHashTables data took   2.64ms
+[2024.04.02-05.17.17:368][ 61]LogUObjectHash: Compacting FUObjectHashTables data took   2.91ms
+[2024.04.02-05.17.17:399][ 61]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2024.04.02-05.17.17:402][ 61]AssetCheck: New page: Asset Save: Approved_StickerBP
+[2024.04.02-05.17.17:402][ 61]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/BP/Datapad/Approved_StickerBP.Approved_StickerBP
+[2024.04.02-05.17.18:931][ 97]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BP/Datapad/Approved_StickerBP.Approved_StickerBP
+[2024.04.02-05.17.18:932][ 97]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.02-05.17.18:932][ 97]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.02-05.17.19:251][ 97]LogViewport: Scene viewport resized to 2277x1279, mode Windowed.
+[2024.04.02-05.17.43:715][372]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.02-05.18.15:695][753]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.02-05.18.15:907][753]LogSavePackage: Moving output files for package: /Game/BP/Datapad/Approved_StickerBP
+[2024.04.02-05.18.15:910][753]LogSavePackage: Moving '../../../../../../Users/Cassandra/Documents/GitHub/lost-in-transit/lost-in-transit/Saved/Approved_StickerBPBE4A00CD4AFECC8D1B0974AE1BDC4556.tmp' to '../../../../../../Users/Cassandra/Documents/GitHub/lost-in-transit/lost-in-transit/Content/BP/Datapad/Approved_StickerBP.uasset'
+[2024.04.02-05.18.15:932][753]LogFileHelpers: InternalPromptForCheckoutAndSave took 236 ms (total: 3.62 sec)
+[2024.04.02-05.18.15:936][753]AssetCheck: New page: Asset Save: Approved_StickerBP
+[2024.04.02-05.18.15:936][753]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/BP/Datapad/Approved_StickerBP.Approved_StickerBP
+[2024.04.02-05.18.18:571][878]BlueprintLog: New page: Compile Approved_StickerBP
+[2024.04.02-05.18.18:665][878]LogUObjectHash: Compacting FUObjectHashTables data took   4.33ms
+[2024.04.02-05.19.45:796][160]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/BP/Datapad/Approved_StickerBP.Approved_StickerBP_C
+[2024.04.02-05.19.45:796][160]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/BP/Datapad/Approved_StickerBP.Approved_StickerBP_C
+[2024.04.02-05.19.45:798][160]LogActorFactory: Actor Factory spawned Blueprint /Game/BP/Datapad/Approved_StickerBP.Approved_StickerBP as actor: Approved_StickerBP_C /Game/Levels/L_One.L_One:PersistentLevel.Approved_StickerBP_C_0
+[2024.04.02-05.19.45:800][160]LogActorFactory: Actor Factory spawned Blueprint /Game/BP/Datapad/Approved_StickerBP.Approved_StickerBP as actor: Approved_StickerBP_C /Game/Levels/L_One.L_One:PersistentLevel.Approved_StickerBP_C_0
+[2024.04.02-05.19.47:221][202]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/BP/Datapad/Approved_StickerBP.Approved_StickerBP_C
+[2024.04.02-05.19.47:221][202]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/BP/Datapad/Approved_StickerBP.Approved_StickerBP_C
+[2024.04.02-05.19.47:226][202]LogActorFactory: Actor Factory spawned Blueprint /Game/BP/Datapad/Approved_StickerBP.Approved_StickerBP as actor: Approved_StickerBP_C /Game/Levels/L_One.L_One:PersistentLevel.Approved_StickerBP_C_1
+[2024.04.02-05.19.47:229][202]LogActorFactory: Actor Factory spawned Blueprint /Game/BP/Datapad/Approved_StickerBP.Approved_StickerBP as actor: Approved_StickerBP_C /Game/Levels/L_One.L_One:PersistentLevel.Approved_StickerBP_C_1
+[2024.04.02-05.20.02:651][836]BlueprintLog: New page: Compile Approved_StickerBP
+[2024.04.02-05.20.02:750][836]LogUObjectHash: Compacting FUObjectHashTables data took   3.87ms
+[2024.04.02-05.20.28:558][597]BlueprintLog: New page: Compile Approved_StickerBP
+[2024.04.02-05.20.28:667][597]LogUObjectHash: Compacting FUObjectHashTables data took   4.33ms
+[2024.04.02-05.20.41:316][975]LogEditorTransaction: Undo Modify Component(s)
+[2024.04.02-05.20.45:287][106]BlueprintLog: New page: Compile Approved_StickerBP
+[2024.04.02-05.20.45:391][106]LogUObjectHash: Compacting FUObjectHashTables data took   5.60ms
+[2024.04.02-05.22.39:564][281]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.02-05.22.39:889][281]LogUObjectHash: Compacting FUObjectHashTables data took   2.87ms
+[2024.04.02-05.22.39:922][281]LogSavePackage: Moving output files for package: /Game/Levels/L_One
+[2024.04.02-05.22.39:923][281]LogSavePackage: Moving '../../../../../../Users/Cassandra/Documents/GitHub/lost-in-transit/lost-in-transit/Saved/L_One7DC133D849108761F3631AA3824D4903.tmp' to '../../../../../../Users/Cassandra/Documents/GitHub/lost-in-transit/lost-in-transit/Content/Levels/L_One.umap'
+[2024.04.02-05.22.39:938][281]LogFileHelpers: Saving map 'L_One' took 0.125
+[2024.04.02-05.22.39:978][281]LogFileHelpers: InternalPromptForCheckoutAndSave took 413 ms (total: 4.04 sec)
+[2024.04.02-05.22.39:981][281]AssetCheck: New page: Asset Save: L_One
+[2024.04.02-05.22.39:981][281]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/L_One.L_One
+[2024.04.02-05.23.49:664][599]BlueprintLog: New page: Compile Approved_StickerBP
+[2024.04.02-05.23.49:772][599]LogUObjectHash: Compacting FUObjectHashTables data took   4.59ms
+[2024.04.02-05.23.50:347][619]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.02-05.23.50:655][619]LogSavePackage: Moving output files for package: /Game/BP/Datapad/Approved_StickerBP
+[2024.04.02-05.23.50:657][619]LogSavePackage: Moving '../../../../../../Users/Cassandra/Documents/GitHub/lost-in-transit/lost-in-transit/Saved/Approved_StickerBP10B278EB4383FF91BD8288A096F0826B.tmp' to '../../../../../../Users/Cassandra/Documents/GitHub/lost-in-transit/lost-in-transit/Content/BP/Datapad/Approved_StickerBP.uasset'
+[2024.04.02-05.23.50:678][619]LogFileHelpers: InternalPromptForCheckoutAndSave took 331 ms (total: 4.37 sec)
+[2024.04.02-05.23.50:681][619]AssetCheck: New page: Asset Save: Approved_StickerBP
+[2024.04.02-05.23.50:681][619]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/BP/Datapad/Approved_StickerBP.Approved_StickerBP
+[2024.04.02-05.25.07:878][580]LogDerivedDataCache: C:/Users/Cassandra/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:04.401 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 2406 files in 3315 folders with total size 118 MiB.
+[2024.04.02-05.26.18:749][627]BlueprintLog: New page: Compile Approved_StickerBP
+[2024.04.02-05.26.18:820][627]LogUObjectHash: Compacting FUObjectHashTables data took   2.76ms
+[2024.04.02-05.26.20:109][687]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.02-05.26.20:502][687]LogSavePackage: Moving output files for package: /Game/BP/Datapad/Approved_StickerBP
+[2024.04.02-05.26.20:504][687]LogSavePackage: Moving '../../../../../../Users/Cassandra/Documents/GitHub/lost-in-transit/lost-in-transit/Saved/Approved_StickerBP46E7C68349F966E980CD2D95AE7D8C98.tmp' to '../../../../../../Users/Cassandra/Documents/GitHub/lost-in-transit/lost-in-transit/Content/BP/Datapad/Approved_StickerBP.uasset'
+[2024.04.02-05.26.20:523][687]LogFileHelpers: InternalPromptForCheckoutAndSave took 413 ms (total: 4.78 sec)
+[2024.04.02-05.26.20:527][687]AssetCheck: New page: Asset Save: Approved_StickerBP
+[2024.04.02-05.26.20:527][687]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/BP/Datapad/Approved_StickerBP.Approved_StickerBP
+[2024.04.02-05.27.59:913][209]Cmd: TRANSACTION UNDO
+[2024.04.02-05.27.59:913][209]LogEditorTransaction: Undo Move Elements
+[2024.04.02-05.28.01:481][254]Cmd: TRANSACTION UNDO
+[2024.04.02-05.28.01:481][254]LogEditorTransaction: Undo Move Elements
+[2024.04.02-05.28.07:992][382]LogViewport: Scene viewport resized to 2034x662, mode Windowed.
+[2024.04.02-05.28.09:527][409]LogViewport: Scene viewport resized to 2406x745, mode Windowed.
+[2024.04.02-05.28.13:528][505]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.02-05.28.13:748][505]LogUObjectHash: Compacting FUObjectHashTables data took   2.65ms
+[2024.04.02-05.28.13:784][505]LogSavePackage: Moving output files for package: /Game/Levels/L_One
+[2024.04.02-05.28.13:786][505]LogSavePackage: Moving '../../../../../../Users/Cassandra/Documents/GitHub/lost-in-transit/lost-in-transit/Saved/L_OneDA96A80A4B33A8592BB16C88710EC7C5.tmp' to '../../../../../../Users/Cassandra/Documents/GitHub/lost-in-transit/lost-in-transit/Content/Levels/L_One.umap'
+[2024.04.02-05.28.13:800][505]LogFileHelpers: Saving map 'L_One' took 0.129
+[2024.04.02-05.28.13:815][505]LogFileHelpers: InternalPromptForCheckoutAndSave took 288 ms (total: 5.07 sec)
+[2024.04.02-05.28.13:819][505]AssetCheck: New page: Asset Save: L_One
+[2024.04.02-05.28.13:819][505]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/L_One.L_One
+[2024.04.02-05.28.56:518][379]LogEditorTransaction: Undo Modify Component(s)
+[2024.04.02-05.29.19:584][273]BlueprintLog: New page: Compile Approved_StickerBP
+[2024.04.02-05.29.19:671][273]LogUObjectHash: Compacting FUObjectHashTables data took   3.60ms
+[2024.04.02-05.29.20:313][301]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.02-05.29.20:590][301]LogSavePackage: Moving output files for package: /Game/BP/Datapad/Approved_StickerBP
+[2024.04.02-05.29.20:592][301]LogSavePackage: Moving '../../../../../../Users/Cassandra/Documents/GitHub/lost-in-transit/lost-in-transit/Saved/Approved_StickerBP3765C6B84340C06B2C777DA2960A3F88.tmp' to '../../../../../../Users/Cassandra/Documents/GitHub/lost-in-transit/lost-in-transit/Content/BP/Datapad/Approved_StickerBP.uasset'
+[2024.04.02-05.29.20:611][301]LogFileHelpers: InternalPromptForCheckoutAndSave took 298 ms (total: 5.37 sec)
+[2024.04.02-05.29.20:614][301]AssetCheck: New page: Asset Save: Approved_StickerBP
+[2024.04.02-05.29.20:614][301]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/BP/Datapad/Approved_StickerBP.Approved_StickerBP
+[2024.04.02-05.30.00:826][351]BlueprintLog: New page: Compile Approved_StickerBP
+[2024.04.02-05.30.00:892][351]LogUObjectHash: Compacting FUObjectHashTables data took   2.84ms
+[2024.04.02-05.30.01:519][374]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.02-05.30.01:854][374]LogSavePackage: Moving output files for package: /Game/BP/Datapad/Approved_StickerBP
+[2024.04.02-05.30.01:855][374]LogSavePackage: Moving '../../../../../../Users/Cassandra/Documents/GitHub/lost-in-transit/lost-in-transit/Saved/Approved_StickerBPF31B0E314585E202891E06BF9B93B476.tmp' to '../../../../../../Users/Cassandra/Documents/GitHub/lost-in-transit/lost-in-transit/Content/BP/Datapad/Approved_StickerBP.uasset'
+[2024.04.02-05.30.01:874][374]LogFileHelpers: InternalPromptForCheckoutAndSave took 354 ms (total: 5.72 sec)
+[2024.04.02-05.30.01:877][374]AssetCheck: New page: Asset Save: Approved_StickerBP
+[2024.04.02-05.30.01:877][374]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/BP/Datapad/Approved_StickerBP.Approved_StickerBP
+[2024.04.02-05.30.51:113][  9]BlueprintLog: New page: Compile Approved_StickerBP
+[2024.04.02-05.30.51:191][  9]LogUObjectHash: Compacting FUObjectHashTables data took   4.42ms
+[2024.04.02-05.30.52:224][ 52]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.02-05.30.52:543][ 52]LogSavePackage: Moving output files for package: /Game/BP/Datapad/Approved_StickerBP
+[2024.04.02-05.30.52:545][ 52]LogSavePackage: Moving '../../../../../../Users/Cassandra/Documents/GitHub/lost-in-transit/lost-in-transit/Saved/Approved_StickerBPACE0FB534607AC4D112CC59EAFDE465A.tmp' to '../../../../../../Users/Cassandra/Documents/GitHub/lost-in-transit/lost-in-transit/Content/BP/Datapad/Approved_StickerBP.uasset'
+[2024.04.02-05.30.52:563][ 52]LogFileHelpers: InternalPromptForCheckoutAndSave took 339 ms (total: 6.06 sec)
+[2024.04.02-05.30.52:566][ 52]AssetCheck: New page: Asset Save: Approved_StickerBP
+[2024.04.02-05.30.52:566][ 52]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/BP/Datapad/Approved_StickerBP.Approved_StickerBP
+[2024.04.02-05.32.45:610][159]BlueprintLog: New page: Compile DatapadBP
+[2024.04.02-05.32.45:673][159]LogUObjectHash: Compacting FUObjectHashTables data took   2.90ms
+[2024.04.02-05.35.08:865][123]LogEditorTransaction: Undo Move Node
+[2024.04.02-05.35.10:486][190]LogEditorTransaction: Undo Move Node
+[2024.04.02-05.35.30:816][301]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.02-05.35.30:977][301]LogSavePackage: Moving output files for package: /Game/BP/Interfaces/CassInteract
+[2024.04.02-05.35.30:979][301]LogSavePackage: Moving '../../../../../../Users/Cassandra/Documents/GitHub/lost-in-transit/lost-in-transit/Saved/CassInteract589A81D34D60FC5FDF90E1963DAA0923.tmp' to '../../../../../../Users/Cassandra/Documents/GitHub/lost-in-transit/lost-in-transit/Content/BP/Interfaces/CassInteract.uasset'
+[2024.04.02-05.35.30:997][301]LogFileHelpers: InternalPromptForCheckoutAndSave took 181 ms (total: 6.24 sec)
+[2024.04.02-05.35.31:000][301]AssetCheck: New page: Asset Save: CassInteract
+[2024.04.02-05.35.31:000][301]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/BP/Interfaces/CassInteract.CassInteract
+[2024.04.02-05.35.37:445][674]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2024.04.02-05.35.37:445][674]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.02-05.35.46:484][199]BlueprintLog: New page: Compile Approved_StickerBP
+[2024.04.02-05.35.46:566][199]LogUObjectHash: Compacting FUObjectHashTables data took   3.17ms
+[2024.04.02-05.37.07:149][715]BlueprintLog: New page: Compile DatapadBP
+[2024.04.02-05.37.07:239][715]LogUObjectHash: Compacting FUObjectHashTables data took   3.55ms
+[2024.04.02-05.37.07:874][741]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.02-05.37.08:180][741]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/Datapad/DatapadBP" FILE="../../../../../../Users/Cassandra/Documents/GitHub/lost-in-transit/lost-in-transit/Content/BP/Datapad/DatapadBP.uasset" SILENT=true
+[2024.04.02-05.37.08:195][741]LogSavePackage: Moving output files for package: /Game/BP/Datapad/DatapadBP
+[2024.04.02-05.37.08:197][741]LogSavePackage: Moving '../../../../../../Users/Cassandra/Documents/GitHub/lost-in-transit/lost-in-transit/Saved/DatapadBPB448FD83428368ED808632BD7081497D.tmp' to '../../../../../../Users/Cassandra/Documents/GitHub/lost-in-transit/lost-in-transit/Content/BP/Datapad/DatapadBP.uasset'
+[2024.04.02-05.37.08:213][741]LogFileHelpers: InternalPromptForCheckoutAndSave took 339 ms (total: 6.58 sec)
+[2024.04.02-05.37.08:216][741]AssetCheck: New page: Asset Save: DatapadBP
+[2024.04.02-05.37.08:216][741]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/BP/Datapad/DatapadBP.DatapadBP
+[2024.04.02-05.38.19:680][328]BlueprintLog: New page: Compile CassInteract
+[2024.04.02-05.38.19:728][328]LogUObjectHash: Compacting FUObjectHashTables data took   3.13ms
+[2024.04.02-05.38.20:299][356]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.02-05.38.20:465][356]LogSavePackage: Moving output files for package: /Game/BP/Interfaces/CassInteract
+[2024.04.02-05.38.20:467][356]LogSavePackage: Moving '../../../../../../Users/Cassandra/Documents/GitHub/lost-in-transit/lost-in-transit/Saved/CassInteract5A0F109C401B9BFBE6A72B85DC3FAED1.tmp' to '../../../../../../Users/Cassandra/Documents/GitHub/lost-in-transit/lost-in-transit/Content/BP/Interfaces/CassInteract.uasset'
+[2024.04.02-05.38.20:485][356]LogFileHelpers: InternalPromptForCheckoutAndSave took 185 ms (total: 6.77 sec)
+[2024.04.02-05.38.20:489][356]AssetCheck: New page: Asset Save: CassInteract
+[2024.04.02-05.38.20:489][356]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/BP/Interfaces/CassInteract.CassInteract
+[2024.04.02-05.41.11:514][765]LogSlate: Vector cache flush requested. Reason: Large atlases out of space; 3/2 Textures; frames since last flush: 215759
+[2024.04.02-05.41.11:514][765]LogSlate: Warning: Setting the threshold to trigger a flush to 3 non-atlased textures as there is a lot of font data being cached.
+[2024.04.02-05.44.41:236][ 54]BlueprintLog: New page: Compile DatapadBP
+[2024.04.02-05.44.41:248][ 54]LogBlueprint: Error: [AssetLog] C:\Users\Cassandra\Documents\GitHub\lost-in-transit\lost-in-transit\Content\BP\Datapad\DatapadBP.uasset: [Compiler] This blueprint (self) is not a Approved_StickerBP_C, therefore ' Target ' must have a connection.
+[2024.04.02-05.44.41:355][ 54]LogUObjectHash: Compacting FUObjectHashTables data took   3.66ms
+[2024.04.02-05.46.52:828][325]LogEditorTransaction: Undo Move Node
+[2024.04.02-05.46.53:757][353]LogEditorTransaction: Undo Break Pin Links
+[2024.04.02-05.46.54:334][377]LogEditorTransaction: Undo Move Node
+[2024.04.02-05.48.22:163][ 84]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.02-05.48.22:516][ 84]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/Datapad/DatapadBP" FILE="../../../../../../Users/Cassandra/Documents/GitHub/lost-in-transit/lost-in-transit/Content/BP/Datapad/DatapadBP.uasset" SILENT=true
+[2024.04.02-05.48.22:539][ 84]LogSavePackage: Moving output files for package: /Game/BP/Datapad/DatapadBP
+[2024.04.02-05.48.22:540][ 84]LogSavePackage: Moving '../../../../../../Users/Cassandra/Documents/GitHub/lost-in-transit/lost-in-transit/Saved/DatapadBP23C1FF114B650578611E0FAFD60D7C7C.tmp' to '../../../../../../Users/Cassandra/Documents/GitHub/lost-in-transit/lost-in-transit/Content/BP/Datapad/DatapadBP.uasset'
+[2024.04.02-05.48.22:560][ 84]LogFileHelpers: InternalPromptForCheckoutAndSave took 396 ms (total: 7.17 sec)
+[2024.04.02-05.48.22:563][ 84]AssetCheck: New page: Asset Save: DatapadBP
+[2024.04.02-05.48.22:563][ 84]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/BP/Datapad/DatapadBP.DatapadBP
+[2024.04.02-05.48.23:133][113]BlueprintLog: New page: Compile DatapadBP
+[2024.04.02-05.48.23:141][113]LogBlueprint: Error: [AssetLog] C:\Users\Cassandra\Documents\GitHub\lost-in-transit\lost-in-transit\Content\BP\Datapad\DatapadBP.uasset: [Compiler] This blueprint (self) is not a Approved_StickerBP_C, therefore ' Target ' must have a connection.
+[2024.04.02-05.48.23:204][113]LogUObjectHash: Compacting FUObjectHashTables data took   3.05ms
+[2024.04.02-05.50.12:251][ 33]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.02-05.50.12:618][ 33]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/Datapad/DatapadBP" FILE="../../../../../../Users/Cassandra/Documents/GitHub/lost-in-transit/lost-in-transit/Content/BP/Datapad/DatapadBP.uasset" SILENT=true
+[2024.04.02-05.50.12:643][ 33]LogSavePackage: Moving output files for package: /Game/BP/Datapad/DatapadBP
+[2024.04.02-05.50.12:645][ 33]LogSavePackage: Moving '../../../../../../Users/Cassandra/Documents/GitHub/lost-in-transit/lost-in-transit/Saved/DatapadBP283BB9854068E19AF38D4295C8B9154D.tmp' to '../../../../../../Users/Cassandra/Documents/GitHub/lost-in-transit/lost-in-transit/Content/BP/Datapad/DatapadBP.uasset'
+[2024.04.02-05.50.12:666][ 33]LogFileHelpers: InternalPromptForCheckoutAndSave took 415 ms (total: 7.58 sec)
+[2024.04.02-05.50.12:670][ 33]AssetCheck: New page: Asset Save: DatapadBP
+[2024.04.02-05.50.12:670][ 33]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/BP/Datapad/DatapadBP.DatapadBP
+[2024.04.02-05.51.17:279][730]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.02-05.51.17:422][730]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/Datapad/DatapadBP" FILE="../../../../../../Users/Cassandra/Documents/GitHub/lost-in-transit/lost-in-transit/Content/BP/Datapad/DatapadBP.uasset" SILENT=true
+[2024.04.02-05.51.17:439][730]LogSavePackage: Moving output files for package: /Game/BP/Datapad/DatapadBP
+[2024.04.02-05.51.17:442][730]LogSavePackage: Moving '../../../../../../Users/Cassandra/Documents/GitHub/lost-in-transit/lost-in-transit/Saved/DatapadBPFBB145D24C355A451AA375A9C66B92BE.tmp' to '../../../../../../Users/Cassandra/Documents/GitHub/lost-in-transit/lost-in-transit/Content/BP/Datapad/DatapadBP.uasset'
+[2024.04.02-05.51.17:457][730]LogFileHelpers: InternalPromptForCheckoutAndSave took 178 ms (total: 7.76 sec)
+[2024.04.02-05.51.17:461][730]AssetCheck: New page: Asset Save: DatapadBP
+[2024.04.02-05.51.17:461][730]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/BP/Datapad/DatapadBP.DatapadBP
+[2024.04.02-05.51.18:130][770]BlueprintLog: New page: Compile DatapadBP
+[2024.04.02-05.51.18:199][770]LogUObjectHash: Compacting FUObjectHashTables data took   2.52ms
+[2024.04.02-05.52.47:522][842]BlueprintLog: New page: Compile DatapadBP
+[2024.04.02-05.52.47:619][842]LogUObjectHash: Compacting FUObjectHashTables data took   3.75ms
+[2024.04.02-05.52.48:922][910]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.02-05.52.49:225][910]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/Datapad/DatapadBP" FILE="../../../../../../Users/Cassandra/Documents/GitHub/lost-in-transit/lost-in-transit/Content/BP/Datapad/DatapadBP.uasset" SILENT=true
+[2024.04.02-05.52.49:245][910]LogSavePackage: Moving output files for package: /Game/BP/Datapad/DatapadBP
+[2024.04.02-05.52.49:246][910]LogSavePackage: Moving '../../../../../../Users/Cassandra/Documents/GitHub/lost-in-transit/lost-in-transit/Saved/DatapadBPC4D0674A458D8406A1BF42A8E45C80DB.tmp' to '../../../../../../Users/Cassandra/Documents/GitHub/lost-in-transit/lost-in-transit/Content/BP/Datapad/DatapadBP.uasset'
+[2024.04.02-05.52.49:263][910]LogFileHelpers: InternalPromptForCheckoutAndSave took 341 ms (total: 8.10 sec)
+[2024.04.02-05.52.49:265][910]AssetCheck: New page: Asset Save: DatapadBP
+[2024.04.02-05.52.49:265][910]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/BP/Datapad/DatapadBP.DatapadBP
+[2024.04.02-05.52.53:718][ 97]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.04.02-05.52.53:750][ 97]BlueprintLog: New page: Pre-Play auto-recompile
+[2024.04.02-05.52.53:751][ 97]LogPlayLevel: [PlayLevel] Compiling L_One before play...
+[2024.04.02-05.52.53:804][ 97]LogUObjectHash: Compacting FUObjectHashTables data took   3.70ms
+[2024.04.02-05.52.53:807][ 97]LogPlayLevel: PlayLevel: Blueprint regeneration took 57 ms (1 blueprints)
+[2024.04.02-05.52.53:807][ 97]PIE: New page: PIE session: L_One (3/04/2024, 7:52:53 am)
+[2024.04.02-05.52.53:807][ 97]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_L_One
+[2024.04.02-05.52.53:813][ 97]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005732s)
+[2024.04.02-05.52.53:813][ 97]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/L_One.L_One to /Game/Levels/UEDPIE_0_L_One.L_One (0.005791s)
+[2024.04.02-05.52.53:846][ 97]LogUObjectHash: Compacting FUObjectHashTables data took   2.95ms
+[2024.04.02-05.52.53:847][ 97]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.02-05.52.53:847][ 97]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.02-05.52.53:848][ 97]LogAIModule: Creating AISystem for world L_One
+[2024.04.02-05.52.53:849][ 97]LogPlayLevel: PIE: World Init took: (0.001715s)
+[2024.04.02-05.52.53:849][ 97]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2024.04.02-05.52.53:849][ 97]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.04.02-05.52.53:849][ 97]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.04.02-05.52.53:849][ 97]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.04.02-05.52.53:849][ 97]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.04.02-05.52.53:849][ 97]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.04.02-05.52.53:849][ 97]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.04.02-05.52.53:849][ 97]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.04.02-05.52.53:849][ 97]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.04.02-05.52.53:850][ 97]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.04.02-05.52.53:850][ 97]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.04.02-05.52.53:850][ 97]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.04.02-05.52.53:853][ 97]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.04.02-05.52.53:914][ 97]LogAudioMixer: Display: Using Audio Hardware Device Speakers/Headphones (Realtek(R) Audio)
+[2024.04.02-05.52.53:915][ 97]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.04.02-05.52.53:915][ 97]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.04.02-05.52.53:915][ 97]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.04.02-05.52.53:916][ 97]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=6
+[2024.04.02-05.52.53:916][ 97]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=6
+[2024.04.02-05.52.53:919][ 97]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=6
+[2024.04.02-05.52.53:919][ 97]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=6
+[2024.04.02-05.52.53:919][ 97]LogInit: FAudioDevice initialized with ID 6.
+[2024.04.02-05.52.53:919][ 97]LogAudio: Display: Audio Device (ID: 6) registered with world 'L_One'.
+[2024.04.02-05.52.53:919][ 97]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 6
+[2024.04.02-05.52.53:924][ 97]LogLoad: Game class is 'GameMode_C'
+[2024.04.02-05.52.53:926][ 97]LogWorld: Bringing World /Game/Levels/UEDPIE_0_L_One.L_One up for play (max tick rate 60) at 2024.04.02-18.52.53
+[2024.04.02-05.52.53:926][ 97]LogWorld: Bringing up level for play took: 0.001861
+[2024.04.02-05.52.53:930][ 97]LogOnline: OSS: Created online subsystem instance for: :Context_15
+[2024.04.02-05.52.53:933][ 97]LogBlueprintUserMessages: [BP_Parcel_C_1] Created Parcel
+[2024.04.02-05.52.53:933][ 97]LogBlueprintUserMessages: [BP_Parcel_C_1] true
+[2024.04.02-05.52.53:934][ 97]PIE: Server logged in
+[2024.04.02-05.52.53:935][ 97]PIE: Play in editor total start time 0.197 seconds.
+[2024.04.02-05.52.56:215][120]LogBlueprintUserMessages: [Datapad_C_1] Authorised
+[2024.04.02-05.52.59:853][211]LogBlueprintUserMessages: [Datapad_C_1] Authorised
+[2024.04.02-05.53.01:002][239]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.02-05.53.01:002][239]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_L_One
+[2024.04.02-05.53.01:003][239]LogWorld: UWorld::CleanupWorld for L_One, bSessionEnded=true, bCleanupResources=true
+[2024.04.02-05.53.01:003][239]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.02-05.53.01:038][239]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.04.02-05.53.01:047][239]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.02-05.53.01:080][239]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.02-05.53.01:081][239]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 6
+[2024.04.02-05.53.01:081][239]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2024.04.02-05.53.01:084][239]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2024.04.02-05.53.01:097][239]LogUObjectHash: Compacting FUObjectHashTables data took   3.18ms
+[2024.04.02-05.53.01:189][240]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2024.04.02-05.53.04:175][287]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.04.02-05.53.04:191][287]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.04.02-05.53.04:191][287]PIE: New page: PIE session: L_One (3/04/2024, 7:53:04 am)
+[2024.04.02-05.53.04:191][287]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_L_One
+[2024.04.02-05.53.04:197][287]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005901s)
+[2024.04.02-05.53.04:198][287]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/L_One.L_One to /Game/Levels/UEDPIE_0_L_One.L_One (0.005976s)
+[2024.04.02-05.53.04:231][287]LogUObjectHash: Compacting FUObjectHashTables data took   2.73ms
+[2024.04.02-05.53.04:234][287]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.02-05.53.04:234][287]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.02-05.53.04:234][287]LogAIModule: Creating AISystem for world L_One
+[2024.04.02-05.53.04:236][287]LogPlayLevel: PIE: World Init took: (0.001881s)
+[2024.04.02-05.53.04:236][287]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2024.04.02-05.53.04:236][287]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.04.02-05.53.04:236][287]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.04.02-05.53.04:236][287]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.04.02-05.53.04:236][287]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.04.02-05.53.04:236][287]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.04.02-05.53.04:236][287]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.04.02-05.53.04:236][287]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.04.02-05.53.04:236][287]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.04.02-05.53.04:238][287]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.04.02-05.53.04:238][287]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.04.02-05.53.04:238][287]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.04.02-05.53.04:241][287]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.04.02-05.53.04:298][287]LogAudioMixer: Display: Using Audio Hardware Device Speakers/Headphones (Realtek(R) Audio)
+[2024.04.02-05.53.04:299][287]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.04.02-05.53.04:299][287]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.04.02-05.53.04:299][287]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.04.02-05.53.04:300][287]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=7
+[2024.04.02-05.53.04:300][287]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=7
+[2024.04.02-05.53.04:304][287]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=7
+[2024.04.02-05.53.04:304][287]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=7
+[2024.04.02-05.53.04:304][287]LogInit: FAudioDevice initialized with ID 7.
+[2024.04.02-05.53.04:304][287]LogAudio: Display: Audio Device (ID: 7) registered with world 'L_One'.
+[2024.04.02-05.53.04:304][287]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 7
+[2024.04.02-05.53.04:309][287]LogLoad: Game class is 'GameMode_C'
+[2024.04.02-05.53.04:311][287]LogWorld: Bringing World /Game/Levels/UEDPIE_0_L_One.L_One up for play (max tick rate 60) at 2024.04.02-18.53.04
+[2024.04.02-05.53.04:311][287]LogWorld: Bringing up level for play took: 0.001806
+[2024.04.02-05.53.04:315][287]LogOnline: OSS: Created online subsystem instance for: :Context_16
+[2024.04.02-05.53.04:317][287]LogBlueprintUserMessages: [BP_Parcel_C_1] Created Parcel
+[2024.04.02-05.53.04:317][287]LogBlueprintUserMessages: [BP_Parcel_C_1] true
+[2024.04.02-05.53.04:318][287]PIE: Server logged in
+[2024.04.02-05.53.04:319][287]PIE: Play in editor total start time 0.128 seconds.
+[2024.04.02-05.53.05:806][315]LogBlueprintUserMessages: [Datapad_C_1] Authorised
+[2024.04.02-05.53.09:082][387]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.02-05.53.09:082][387]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_L_One
+[2024.04.02-05.53.09:083][387]LogWorld: UWorld::CleanupWorld for L_One, bSessionEnded=true, bCleanupResources=true
+[2024.04.02-05.53.09:083][387]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.02-05.53.09:123][387]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.04.02-05.53.09:133][387]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.02-05.53.09:163][387]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.02-05.53.09:163][387]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 7
+[2024.04.02-05.53.09:163][387]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2024.04.02-05.53.09:166][387]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2024.04.02-05.53.09:177][387]LogUObjectHash: Compacting FUObjectHashTables data took   2.66ms
+[2024.04.02-05.53.09:330][388]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2024.04.02-05.53.16:030][537]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'Unable to find Color 'Graph.Node.Comment.TextColor'.'
+[2024.04.02-05.53.34:579][412]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.02-05.53.34:938][412]LogSavePackage: Moving output files for package: /Game/BP/Datapad/Approved_StickerBP
+[2024.04.02-05.53.34:939][412]LogSavePackage: Moving '../../../../../../Users/Cassandra/Documents/GitHub/lost-in-transit/lost-in-transit/Saved/Approved_StickerBP4407BAED43E68A4C6C89A5943605F83E.tmp' to '../../../../../../Users/Cassandra/Documents/GitHub/lost-in-transit/lost-in-transit/Content/BP/Datapad/Approved_StickerBP.uasset'
+[2024.04.02-05.53.34:959][412]LogFileHelpers: InternalPromptForCheckoutAndSave took 380 ms (total: 8.48 sec)
+[2024.04.02-05.53.34:963][412]AssetCheck: New page: Asset Save: Approved_StickerBP
+[2024.04.02-05.53.34:963][412]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/BP/Datapad/Approved_StickerBP.Approved_StickerBP
+[2024.04.02-05.53.35:756][450]BlueprintLog: New page: Compile Approved_StickerBP
+[2024.04.02-05.53.35:822][450]LogUObjectHash: Compacting FUObjectHashTables data took   2.36ms
+[2024.04.02-05.53.36:397][470]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.02-05.53.36:635][470]LogSavePackage: Moving output files for package: /Game/BP/Datapad/Approved_StickerBP
+[2024.04.02-05.53.36:636][470]LogSavePackage: Moving '../../../../../../Users/Cassandra/Documents/GitHub/lost-in-transit/lost-in-transit/Saved/Approved_StickerBPF45001114745A25F01C0B3855E2D8AAF.tmp' to '../../../../../../Users/Cassandra/Documents/GitHub/lost-in-transit/lost-in-transit/Content/BP/Datapad/Approved_StickerBP.uasset'
+[2024.04.02-05.53.36:651][470]LogFileHelpers: InternalPromptForCheckoutAndSave took 253 ms (total: 8.74 sec)
+[2024.04.02-05.53.36:653][470]AssetCheck: New page: Asset Save: Approved_StickerBP
+[2024.04.02-05.53.36:653][470]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/BP/Datapad/Approved_StickerBP.Approved_StickerBP
+[2024.04.02-05.53.38:456][524]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.04.02-05.53.38:474][524]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.04.02-05.53.38:474][524]PIE: New page: PIE session: L_One (3/04/2024, 7:53:38 am)
+[2024.04.02-05.53.38:474][524]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_L_One
+[2024.04.02-05.53.38:481][524]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006600s)
+[2024.04.02-05.53.38:481][524]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/L_One.L_One to /Game/Levels/UEDPIE_0_L_One.L_One (0.006666s)
+[2024.04.02-05.53.38:518][524]LogUObjectHash: Compacting FUObjectHashTables data took   3.16ms
+[2024.04.02-05.53.38:522][524]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.02-05.53.38:522][524]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.02-05.53.38:523][524]LogAIModule: Creating AISystem for world L_One
+[2024.04.02-05.53.38:523][524]LogPlayLevel: PIE: World Init took: (0.001610s)
+[2024.04.02-05.53.38:524][524]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2024.04.02-05.53.38:524][524]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.04.02-05.53.38:524][524]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.04.02-05.53.38:524][524]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.04.02-05.53.38:524][524]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.04.02-05.53.38:524][524]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.04.02-05.53.38:524][524]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.04.02-05.53.38:524][524]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.04.02-05.53.38:524][524]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.04.02-05.53.38:525][524]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.04.02-05.53.38:525][524]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.04.02-05.53.38:525][524]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.04.02-05.53.38:528][524]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.04.02-05.53.38:589][524]LogAudioMixer: Display: Using Audio Hardware Device Speakers/Headphones (Realtek(R) Audio)
+[2024.04.02-05.53.38:591][524]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.04.02-05.53.38:591][524]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.04.02-05.53.38:591][524]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.04.02-05.53.38:592][524]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=8
+[2024.04.02-05.53.38:592][524]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=8
+[2024.04.02-05.53.38:596][524]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=8
+[2024.04.02-05.53.38:596][524]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=8
+[2024.04.02-05.53.38:596][524]LogInit: FAudioDevice initialized with ID 8.
+[2024.04.02-05.53.38:596][524]LogAudio: Display: Audio Device (ID: 8) registered with world 'L_One'.
+[2024.04.02-05.53.38:596][524]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 8
+[2024.04.02-05.53.38:601][524]LogLoad: Game class is 'GameMode_C'
+[2024.04.02-05.53.38:603][524]LogWorld: Bringing World /Game/Levels/UEDPIE_0_L_One.L_One up for play (max tick rate 60) at 2024.04.02-18.53.38
+[2024.04.02-05.53.38:603][524]LogWorld: Bringing up level for play took: 0.002017
+[2024.04.02-05.53.38:607][524]LogOnline: OSS: Created online subsystem instance for: :Context_17
+[2024.04.02-05.53.38:609][524]LogBlueprintUserMessages: [BP_Parcel_C_1] Created Parcel
+[2024.04.02-05.53.38:611][524]LogBlueprintUserMessages: [BP_Parcel_C_1] true
+[2024.04.02-05.53.38:611][524]PIE: Server logged in
+[2024.04.02-05.53.38:612][524]PIE: Play in editor total start time 0.138 seconds.
+[2024.04.02-05.53.40:219][549]LogBlueprintUserMessages: [Datapad_C_1] Authorised
+[2024.04.02-05.53.43:712][626]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.02-05.53.43:712][626]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_L_One
+[2024.04.02-05.53.43:712][626]LogWorld: UWorld::CleanupWorld for L_One, bSessionEnded=true, bCleanupResources=true
+[2024.04.02-05.53.43:712][626]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.02-05.53.43:734][626]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.04.02-05.53.43:743][626]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.02-05.53.43:773][626]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.04.02-05.53.43:773][626]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 8
+[2024.04.02-05.53.43:773][626]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2024.04.02-05.53.43:776][626]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2024.04.02-05.53.43:783][626]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.02-05.53.43:789][626]LogUObjectHash: Compacting FUObjectHashTables data took   3.66ms
+[2024.04.02-05.53.43:912][627]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2024.04.02-05.54.23:677][ 17]LogSlate: Window 'Pick Parent Class' being destroyed
+[2024.04.02-05.54.23:696][ 17]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2024.04.02-05.54.23:708][ 17]LogContentBrowser: Creating deferred item: NewBlueprint
+[2024.04.02-05.54.23:732][ 18]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2024.04.02-05.54.34:356][235]LogContentBrowser: Attempting asset rename: NewBlueprint -> Rejected_StickerBP
+[2024.04.02-05.54.34:368][235]LogContentBrowser: End creating deferred item NewBlueprint
+[2024.04.02-05.54.41:305][425]LogUObjectHash: Compacting FUObjectHashTables data took   4.03ms
+[2024.04.02-05.54.42:714][425]LogSlate: Window 'Delete Assets' being destroyed
+[2024.04.02-05.54.42:767][425]LogUObjectHash: Compacting FUObjectHashTables data took   4.19ms
+[2024.04.02-05.54.42:803][425]LogUObjectHash: Compacting FUObjectHashTables data took   3.99ms
+[2024.04.02-05.54.42:834][425]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2024.04.02-05.55.14:864][218]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.02-05.55.15:030][218]LogSavePackage: Moving output files for package: /Game/BP/Datapad/Approved_StickerBP
+[2024.04.02-05.55.15:031][218]LogSavePackage: Moving '../../../../../../Users/Cassandra/Documents/GitHub/lost-in-transit/lost-in-transit/Saved/Approved_StickerBP0848F8E94A42D894C5CAA9A7BF89C5B7.tmp' to '../../../../../../Users/Cassandra/Documents/GitHub/lost-in-transit/lost-in-transit/Content/BP/Datapad/Approved_StickerBP.uasset'
+[2024.04.02-05.55.15:053][218]LogFileHelpers: InternalPromptForCheckoutAndSave took 188 ms (total: 8.93 sec)
+[2024.04.02-05.55.15:055][218]AssetCheck: New page: Asset Save: Approved_StickerBP
+[2024.04.02-05.55.15:055][218]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/BP/Datapad/Approved_StickerBP.Approved_StickerBP
+[2024.04.02-05.55.20:614][527]LogUObjectHash: Compacting FUObjectHashTables data took   4.70ms
+[2024.04.02-05.55.20:662][527]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Levels/L_One_Auto4
+[2024.04.02-05.55.20:662][527]LogSavePackage: Moving '../../../../../../Users/Cassandra/Documents/GitHub/lost-in-transit/lost-in-transit/Saved/L_One_Auto42AB97EBE45DD7FDB1C93379D7FA292DC.tmp' to '../../../../../../Users/Cassandra/Documents/GitHub/lost-in-transit/lost-in-transit/Saved/Autosaves/Game/Levels/L_One_Auto4.umap'
+[2024.04.02-05.55.20:666][527]LogAssetRegistry: Warning: ScanPathsSynchronous: ../../../../../../Users/Cassandra/Documents/GitHub/lost-in-transit/lost-in-transit/Saved/Autosaves/Game/Levels/L_One_Auto4.umap is in the /Temp path, will not scan.
+[2024.04.02-05.55.20:666][527]LogAssetRegistry: Warning: ScanPathsSynchronous: /Temp/__ExternalActors__/Autosaves/Game/Levels/L_One_Auto4 is in the /Temp path, will not scan.
+[2024.04.02-05.55.20:666][527]LogAssetRegistry: Warning: ScanPathsSynchronous: /Temp/__ExternalObjects__/Autosaves/Game/Levels/L_One_Auto4 is in the /Temp path, will not scan.
+[2024.04.02-05.55.20:666][527]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Levels/L_One' took 0.095
+[2024.04.02-05.55.20:666][527]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.095
+[2024.04.02-05.57.09:329][676]BlueprintLog: New page: Compile DatapadBP
+[2024.04.02-05.57.09:413][676]LogUObjectHash: Compacting FUObjectHashTables data took   4.27ms
+[2024.04.02-05.57.10:008][699]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.02-05.57.10:324][699]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/Datapad/DatapadBP" FILE="../../../../../../Users/Cassandra/Documents/GitHub/lost-in-transit/lost-in-transit/Content/BP/Datapad/DatapadBP.uasset" SILENT=true
+[2024.04.02-05.57.10:345][699]LogSavePackage: Moving output files for package: /Game/BP/Datapad/DatapadBP
+[2024.04.02-05.57.10:347][699]LogSavePackage: Moving '../../../../../../Users/Cassandra/Documents/GitHub/lost-in-transit/lost-in-transit/Saved/DatapadBP70824676442457B86B84B2A349C4E439.tmp' to '../../../../../../Users/Cassandra/Documents/GitHub/lost-in-transit/lost-in-transit/Content/BP/Datapad/DatapadBP.uasset'
+[2024.04.02-05.57.10:366][699]LogFileHelpers: InternalPromptForCheckoutAndSave took 359 ms (total: 9.28 sec)
+[2024.04.02-05.57.10:369][699]AssetCheck: New page: Asset Save: DatapadBP
+[2024.04.02-05.57.10:369][699]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/BP/Datapad/DatapadBP.DatapadBP
+[2024.04.02-06.00.25:890][388]LogEditorTransaction: Undo Move Nodes
+[2024.04.02-06.00.26:569][398]LogEditorTransaction: Undo Move Node
+[2024.04.02-06.00.27:077][419]LogEditorTransaction: Undo Create Pin Link
+[2024.04.02-06.00.27:409][427]LogEditorTransaction: Undo Move Node
+[2024.04.02-06.00.27:806][440]LogEditorTransaction: Undo Move Node
+[2024.04.02-06.00.28:370][463]LogEditorTransaction: Undo Create Pin Link
+[2024.04.02-06.00.28:746][474]LogEditorTransaction: Undo Move Node
+[2024.04.02-06.00.29:304][497]LogEditorTransaction: Undo Move Node
+[2024.04.02-06.00.58:583][123]BlueprintLog: New page: Compile DatapadBP
+[2024.04.02-06.00.58:668][123]LogUObjectHash: Compacting FUObjectHashTables data took   2.66ms
+[2024.04.02-06.00.59:226][142]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.02-06.00.59:546][142]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/Datapad/DatapadBP" FILE="../../../../../../Users/Cassandra/Documents/GitHub/lost-in-transit/lost-in-transit/Content/BP/Datapad/DatapadBP.uasset" SILENT=true
+[2024.04.02-06.00.59:566][142]LogSavePackage: Moving output files for package: /Game/BP/Datapad/DatapadBP
+[2024.04.02-06.00.59:567][142]LogSavePackage: Moving '../../../../../../Users/Cassandra/Documents/GitHub/lost-in-transit/lost-in-transit/Saved/DatapadBPBBD4E0D145713F7A22DBD59552D42D62.tmp' to '../../../../../../Users/Cassandra/Documents/GitHub/lost-in-transit/lost-in-transit/Content/BP/Datapad/DatapadBP.uasset'
+[2024.04.02-06.00.59:586][142]LogFileHelpers: InternalPromptForCheckoutAndSave took 359 ms (total: 9.64 sec)
+[2024.04.02-06.00.59:589][142]AssetCheck: New page: Asset Save: DatapadBP
+[2024.04.02-06.00.59:589][142]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/BP/Datapad/DatapadBP.DatapadBP
+[2024.04.02-06.01.05:289][320]LogContentBrowser: Deferred new asset file creation: Approved_StickerBP1
+[2024.04.02-06.01.05:329][320]LogContentBrowser: Creating deferred item: Approved_StickerBP1
+[2024.04.02-06.01.05:357][321]LogContentBrowser: Renaming the item being created (Deferred Item: Approved_StickerBP1).
+[2024.04.02-06.01.11:287][450]LogContentBrowser: Attempting asset rename: Approved_StickerBP1 -> Rejected_StickerBP1
+[2024.04.02-06.01.11:344][450]LogUObjectHash: Compacting FUObjectHashTables data took   3.50ms
+[2024.04.02-06.01.11:368][450]LogContentBrowser: End creating deferred item Approved_StickerBP1
+[2024.04.02-06.01.11:370][450]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.02-06.01.12:890][471]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BP/Datapad/Rejected_StickerBP1.Rejected_StickerBP1
+[2024.04.02-06.01.12:891][471]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.02-06.01.12:891][471]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.02-06.01.29:906][267]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.02-06.01.30:258][267]LogSavePackage: Moving output files for package: /Game/BP/Datapad/Rejected_StickerBP1
+[2024.04.02-06.01.30:258][267]LogSavePackage: Moving '../../../../../../Users/Cassandra/Documents/GitHub/lost-in-transit/lost-in-transit/Saved/Rejected_StickerBP10844621C47BE4E25804455BCA66B179E.tmp' to '../../../../../../Users/Cassandra/Documents/GitHub/lost-in-transit/lost-in-transit/Content/BP/Datapad/Rejected_StickerBP1.uasset'
+[2024.04.02-06.01.30:281][267]LogFileHelpers: InternalPromptForCheckoutAndSave took 374 ms (total: 10.0 sec)
+[2024.04.02-06.01.30:283][267]AssetCheck: New page: Asset Save: Rejected_StickerBP1
+[2024.04.02-06.01.30:283][267]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/BP/Datapad/Rejected_StickerBP1.Rejected_StickerBP1
+[2024.04.02-06.02.56:306][880]LogEditorTransaction: Undo Create Pin Link
+[2024.04.02-06.04.02:913][436]BlueprintLog: New page: Compile DatapadBP
+[2024.04.02-06.04.02:920][436]LogBlueprint: Error: [AssetLog] C:\Users\Cassandra\Documents\GitHub\lost-in-transit\lost-in-transit\Content\BP\Datapad\DatapadBP.uasset: [Compiler] Invalid pin connection from  Array  and  Out Actors : Array of Approved Sticker BP Object References is not compatible with Array of Rejected Sticker BP1 Object References. (You may have changed the type after the connections were made)
+[2024.04.02-06.04.02:927][436]LogBlueprint: Error: [AssetLog] C:\Users\Cassandra\Documents\GitHub\lost-in-transit\lost-in-transit\Content\BP\Datapad\DatapadBP.uasset: [Compiler] COMPILER ERROR: failed building connection with 'Array of Approved Sticker BP Object References is not compatible with Array of Rejected Sticker BP1 Object References.' at  Get (a copy) generated from expanding For Each Loop with Break
+[2024.04.02-06.04.02:928][436]LogBlueprint: Error: [AssetLog] C:\Users\Cassandra\Documents\GitHub\lost-in-transit\lost-in-transit\Content\BP\Datapad\DatapadBP.uasset: [Compiler] Can't connect pins  Out Actors  and  Target Array generated from expanding For Each Loop with Break : Array of Rejected Sticker BP1 Object References is not compatible with Array of Approved Sticker BP Object References.
+[2024.04.02-06.04.02:929][436]LogBlueprint: Error: [AssetLog] C:\Users\Cassandra\Documents\GitHub\lost-in-transit\lost-in-transit\Content\BP\Datapad\DatapadBP.uasset: [Compiler] Invalid pin connection from ' Out Actors ' to ' Target Array generated from expanding For Each Loop with Break '. You may have changed the type after the connections were made.
+[2024.04.02-06.04.02:932][436]LogBlueprint: Error: [AssetLog] C:\Users\Cassandra\Documents\GitHub\lost-in-transit\lost-in-transit\Content\BP\Datapad\DatapadBP.uasset: [Compiler] Can't connect pins  Target Array generated from expanding For Each Loop with Break  and  Out Actors : Array of Approved Sticker BP Object References is not compatible with Array of Rejected Sticker BP1 Object References.
+[2024.04.02-06.04.02:936][436]LogBlueprint: Error: [AssetLog] C:\Users\Cassandra\Documents\GitHub\lost-in-transit\lost-in-transit\Content\BP\Datapad\DatapadBP.uasset: [Compiler] The current value of the ' Array generated from expanding Get (a copy) ' pin is invalid: Array inputs (like 'Target Array') must have an input wired into them (try connecting a MakeArray node).
+[2024.04.02-06.04.03:019][436]LogUObjectHash: Compacting FUObjectHashTables data took   3.63ms
+[2024.04.02-06.05.02:046][597]BlueprintLog: New page: Compile DatapadBP
+[2024.04.02-06.05.02:052][597]LogBlueprint: Error: [AssetLog] C:\Users\Cassandra\Documents\GitHub\lost-in-transit\lost-in-transit\Content\BP\Datapad\DatapadBP.uasset: [Compiler] This blueprint (self) is not a Rejected_StickerBP1_C, therefore ' Target ' must have a connection.
+[2024.04.02-06.05.02:052][597]LogBlueprint: Error: [AssetLog] C:\Users\Cassandra\Documents\GitHub\lost-in-transit\lost-in-transit\Content\BP\Datapad\DatapadBP.uasset: [Compiler] This blueprint (self) is not a Approved_StickerBP_C, therefore ' Target ' must have a connection.
+[2024.04.02-06.05.02:120][597]LogUObjectHash: Compacting FUObjectHashTables data took   2.79ms
+[2024.04.02-06.05.35:692][406]LogEditorTransaction: Undo Move Nodes
+[2024.04.02-06.05.35:978][407]LogEditorTransaction: Undo Paste clipboard contents
+[2024.04.02-06.05.36:636][430]LogEditorTransaction: Undo Move Node
+[2024.04.02-06.05.36:944][437]LogEditorTransaction: Undo Move Node
+[2024.04.02-06.05.37:185][441]LogEditorTransaction: Undo Move Node
+[2024.04.02-06.05.37:481][452]LogEditorTransaction: Undo Create Pin Link
+[2024.04.02-06.05.37:743][458]LogEditorTransaction: Undo Delete current selection
+[2024.04.02-06.05.38:028][465]LogEditorTransaction: Undo Move Nodes
+[2024.04.02-06.05.38:298][471]LogEditorTransaction: Undo Delete current selection
+[2024.04.02-06.05.38:637][480]LogEditorTransaction: Undo Move Node
+[2024.04.02-06.05.40:460][578]LogEditorTransaction: Undo Create Pin Link
+[2024.04.02-06.05.41:191][592]LogEditorTransaction: Undo Move Node
+[2024.04.02-06.05.41:832][620]LogEditorTransaction: Undo Delete current selection
+[2024.04.02-06.05.51:286][114]LogBlueprint: Warning: [AssetLog] C:\Users\Cassandra\Documents\GitHub\lost-in-transit\lost-in-transit\Content\BP\Datapad\DatapadBP.uasset: [Compiler] Pasted node  CustomEvent   conflicted with  Event Sticker Interact  and was replaced as a Custom Event!
+[2024.04.02-06.06.21:755][711]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.02-06.06.21:937][711]LogSavePackage: Moving output files for package: /Game/BP/Interfaces/CassInteract
+[2024.04.02-06.06.21:938][711]LogSavePackage: Moving '../../../../../../Users/Cassandra/Documents/GitHub/lost-in-transit/lost-in-transit/Saved/CassInteract10C22C6742239BA439F6DFAA37BE586B.tmp' to '../../../../../../Users/Cassandra/Documents/GitHub/lost-in-transit/lost-in-transit/Content/BP/Interfaces/CassInteract.uasset'
+[2024.04.02-06.06.21:955][711]LogFileHelpers: InternalPromptForCheckoutAndSave took 200 ms (total: 10.2 sec)
+[2024.04.02-06.06.21:957][711]AssetCheck: New page: Asset Save: CassInteract
+[2024.04.02-06.06.21:957][711]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/BP/Interfaces/CassInteract.CassInteract
+[2024.04.02-06.06.22:377][734]BlueprintLog: New page: Compile CassInteract
+[2024.04.02-06.06.22:416][734]LogUObjectHash: Compacting FUObjectHashTables data took   2.39ms
+[2024.04.02-06.06.23:390][783]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.02-06.06.23:588][783]LogSavePackage: Moving output files for package: /Game/BP/Interfaces/CassInteract
+[2024.04.02-06.06.23:590][783]LogSavePackage: Moving '../../../../../../Users/Cassandra/Documents/GitHub/lost-in-transit/lost-in-transit/Saved/CassInteract539B285B4AFF0BE4CC3F19850E0FB793.tmp' to '../../../../../../Users/Cassandra/Documents/GitHub/lost-in-transit/lost-in-transit/Content/BP/Interfaces/CassInteract.uasset'
+[2024.04.02-06.06.23:610][783]LogFileHelpers: InternalPromptForCheckoutAndSave took 218 ms (total: 10.4 sec)
+[2024.04.02-06.06.23:613][783]AssetCheck: New page: Asset Save: CassInteract
+[2024.04.02-06.06.23:613][783]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/BP/Interfaces/CassInteract.CassInteract
+[2024.04.02-06.06.43:268][777]BlueprintLog: New page: Compile DatapadBP
+[2024.04.02-06.06.43:275][777]LogBlueprint: Error: [AssetLog] C:\Users\Cassandra\Documents\GitHub\lost-in-transit\lost-in-transit\Content\BP\Datapad\DatapadBP.uasset: [Compiler] Invalid pin connection from  Array  and  Out Actors : Array of Approved Sticker BP Object References is not compatible with Array of Rejected Sticker BP1 Object References. (You may have changed the type after the connections were made)
+[2024.04.02-06.06.43:282][777]LogBlueprint: Error: [AssetLog] C:\Users\Cassandra\Documents\GitHub\lost-in-transit\lost-in-transit\Content\BP\Datapad\DatapadBP.uasset: [Compiler] COMPILER ERROR: failed building connection with 'Array of Approved Sticker BP Object References is not compatible with Array of Rejected Sticker BP1 Object References.' at  Get (a copy) generated from expanding For Each Loop with Break
+[2024.04.02-06.06.43:284][777]LogBlueprint: Error: [AssetLog] C:\Users\Cassandra\Documents\GitHub\lost-in-transit\lost-in-transit\Content\BP\Datapad\DatapadBP.uasset: [Compiler] Can't connect pins  Out Actors  and  Target Array generated from expanding For Each Loop with Break : Array of Rejected Sticker BP1 Object References is not compatible with Array of Approved Sticker BP Object References.
+[2024.04.02-06.06.43:284][777]LogBlueprint: Error: [AssetLog] C:\Users\Cassandra\Documents\GitHub\lost-in-transit\lost-in-transit\Content\BP\Datapad\DatapadBP.uasset: [Compiler] Invalid pin connection from ' Out Actors ' to ' Target Array generated from expanding For Each Loop with Break '. You may have changed the type after the connections were made.
+[2024.04.02-06.06.43:286][777]LogBlueprint: Error: [AssetLog] C:\Users\Cassandra\Documents\GitHub\lost-in-transit\lost-in-transit\Content\BP\Datapad\DatapadBP.uasset: [Compiler] Can't connect pins  Target Array generated from expanding For Each Loop with Break  and  Out Actors : Array of Approved Sticker BP Object References is not compatible with Array of Rejected Sticker BP1 Object References.
+[2024.04.02-06.06.43:290][777]LogBlueprint: Error: [AssetLog] C:\Users\Cassandra\Documents\GitHub\lost-in-transit\lost-in-transit\Content\BP\Datapad\DatapadBP.uasset: [Compiler] The current value of the ' Array generated from expanding Get (a copy) ' pin is invalid: Array inputs (like 'Target Array') must have an input wired into them (try connecting a MakeArray node).
+[2024.04.02-06.06.43:369][777]LogUObjectHash: Compacting FUObjectHashTables data took   3.19ms
+[2024.04.02-06.07.49:927][109]BlueprintLog: New page: Compile DatapadBP
+[2024.04.02-06.07.49:933][109]LogBlueprint: Error: [AssetLog] C:\Users\Cassandra\Documents\GitHub\lost-in-transit\lost-in-transit\Content\BP\Datapad\DatapadBP.uasset: [Compiler] Invalid pin connection from  Array  and  Out Actors : Array of Approved Sticker BP Object References is not compatible with Array of Rejected Sticker BP1 Object References. (You may have changed the type after the connections were made)
+[2024.04.02-06.07.49:938][109]LogBlueprint: Error: [AssetLog] C:\Users\Cassandra\Documents\GitHub\lost-in-transit\lost-in-transit\Content\BP\Datapad\DatapadBP.uasset: [Compiler] COMPILER ERROR: failed building connection with 'Array of Approved Sticker BP Object References is not compatible with Array of Rejected Sticker BP1 Object References.' at  Get (a copy) generated from expanding For Each Loop with Break
+[2024.04.02-06.07.49:939][109]LogBlueprint: Error: [AssetLog] C:\Users\Cassandra\Documents\GitHub\lost-in-transit\lost-in-transit\Content\BP\Datapad\DatapadBP.uasset: [Compiler] Can't connect pins  Out Actors  and  Target Array generated from expanding For Each Loop with Break : Array of Rejected Sticker BP1 Object References is not compatible with Array of Approved Sticker BP Object References.
+[2024.04.02-06.07.49:940][109]LogBlueprint: Error: [AssetLog] C:\Users\Cassandra\Documents\GitHub\lost-in-transit\lost-in-transit\Content\BP\Datapad\DatapadBP.uasset: [Compiler] Invalid pin connection from ' Out Actors ' to ' Target Array generated from expanding For Each Loop with Break '. You may have changed the type after the connections were made.
+[2024.04.02-06.07.49:941][109]LogBlueprint: Error: [AssetLog] C:\Users\Cassandra\Documents\GitHub\lost-in-transit\lost-in-transit\Content\BP\Datapad\DatapadBP.uasset: [Compiler] Can't connect pins  Target Array generated from expanding For Each Loop with Break  and  Out Actors : Array of Approved Sticker BP Object References is not compatible with Array of Rejected Sticker BP1 Object References.
+[2024.04.02-06.07.49:944][109]LogBlueprint: Error: [AssetLog] C:\Users\Cassandra\Documents\GitHub\lost-in-transit\lost-in-transit\Content\BP\Datapad\DatapadBP.uasset: [Compiler] The current value of the ' Array generated from expanding Get (a copy) ' pin is invalid: Array inputs (like 'Target Array') must have an input wired into them (try connecting a MakeArray node).
+[2024.04.02-06.07.50:013][109]LogUObjectHash: Compacting FUObjectHashTables data took   2.64ms
+[2024.04.02-06.07.53:801][306]LogEditorTransaction: Undo Create Pin Link
+[2024.04.02-06.08.21:087][613]LogViewport: Scene viewport resized to 2277x1132, mode Windowed.
+[2024.04.02-06.09.09:002][158]BlueprintLog: New page: Compile CassInteract
+[2024.04.02-06.09.09:056][158]LogUObjectHash: Compacting FUObjectHashTables data took   3.62ms
+[2024.04.02-06.09.16:831][542]BlueprintLog: New page: Compile DatapadBP
+[2024.04.02-06.09.16:836][542]LogBlueprint: Error: [AssetLog] C:\Users\Cassandra\Documents\GitHub\lost-in-transit\lost-in-transit\Content\BP\Datapad\DatapadBP.uasset: [Compiler] Invalid pin connection from  Array  and  Out Actors : Array of Approved Sticker BP Object References is not compatible with Array of Rejected Sticker BP1 Object References. (You may have changed the type after the connections were made)
+[2024.04.02-06.09.16:841][542]LogBlueprint: Error: [AssetLog] C:\Users\Cassandra\Documents\GitHub\lost-in-transit\lost-in-transit\Content\BP\Datapad\DatapadBP.uasset: [Compiler] COMPILER ERROR: failed building connection with 'Array of Approved Sticker BP Object References is not compatible with Array of Rejected Sticker BP1 Object References.' at  Get (a copy) generated from expanding For Each Loop with Break
+[2024.04.02-06.09.16:843][542]LogBlueprint: Error: [AssetLog] C:\Users\Cassandra\Documents\GitHub\lost-in-transit\lost-in-transit\Content\BP\Datapad\DatapadBP.uasset: [Compiler] Can't connect pins  Out Actors  and  Target Array generated from expanding For Each Loop with Break : Array of Rejected Sticker BP1 Object References is not compatible with Array of Approved Sticker BP Object References.
+[2024.04.02-06.09.16:843][542]LogBlueprint: Error: [AssetLog] C:\Users\Cassandra\Documents\GitHub\lost-in-transit\lost-in-transit\Content\BP\Datapad\DatapadBP.uasset: [Compiler] Invalid pin connection from ' Out Actors ' to ' Target Array generated from expanding For Each Loop with Break '. You may have changed the type after the connections were made.
+[2024.04.02-06.09.16:845][542]LogBlueprint: Error: [AssetLog] C:\Users\Cassandra\Documents\GitHub\lost-in-transit\lost-in-transit\Content\BP\Datapad\DatapadBP.uasset: [Compiler] Can't connect pins  Target Array generated from expanding For Each Loop with Break  and  Out Actors : Array of Approved Sticker BP Object References is not compatible with Array of Rejected Sticker BP1 Object References.
+[2024.04.02-06.09.16:847][542]LogBlueprint: Error: [AssetLog] C:\Users\Cassandra\Documents\GitHub\lost-in-transit\lost-in-transit\Content\BP\Datapad\DatapadBP.uasset: [Compiler] This blueprint (self) is not a Rejected_StickerBP1_C, therefore ' Target ' must have a connection.
+[2024.04.02-06.09.16:848][542]LogBlueprint: Error: [AssetLog] C:\Users\Cassandra\Documents\GitHub\lost-in-transit\lost-in-transit\Content\BP\Datapad\DatapadBP.uasset: [Compiler] The current value of the ' Array generated from expanding Get (a copy) ' pin is invalid: Array inputs (like 'Target Array') must have an input wired into them (try connecting a MakeArray node).
+[2024.04.02-06.09.16:915][542]LogUObjectHash: Compacting FUObjectHashTables data took   2.65ms
+[2024.04.02-06.10.11:440][279]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.02-06.10.11:778][279]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/Datapad/DatapadBP" FILE="../../../../../../Users/Cassandra/Documents/GitHub/lost-in-transit/lost-in-transit/Content/BP/Datapad/DatapadBP.uasset" SILENT=true
+[2024.04.02-06.10.11:802][279]LogSavePackage: Moving output files for package: /Game/BP/Datapad/DatapadBP
+[2024.04.02-06.10.11:804][279]LogSavePackage: Moving '../../../../../../Users/Cassandra/Documents/GitHub/lost-in-transit/lost-in-transit/Saved/DatapadBP18DDE184437640AB6B8071B712D6FE79.tmp' to '../../../../../../Users/Cassandra/Documents/GitHub/lost-in-transit/lost-in-transit/Content/BP/Datapad/DatapadBP.uasset'
+[2024.04.02-06.10.11:822][279]LogFileHelpers: InternalPromptForCheckoutAndSave took 382 ms (total: 10.8 sec)
+[2024.04.02-06.10.11:825][279]AssetCheck: New page: Asset Save: DatapadBP
+[2024.04.02-06.10.11:825][279]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/BP/Datapad/DatapadBP.DatapadBP
+[2024.04.02-06.10.13:335][368]BlueprintLog: New page: Compile DatapadBP
+[2024.04.02-06.10.13:340][368]LogBlueprint: Error: [AssetLog] C:\Users\Cassandra\Documents\GitHub\lost-in-transit\lost-in-transit\Content\BP\Datapad\DatapadBP.uasset: [Compiler] Invalid pin connection from  Array  and  Out Actors : Array of Approved Sticker BP Object References is not compatible with Array of Rejected Sticker BP1 Object References. (You may have changed the type after the connections were made)
+[2024.04.02-06.10.13:345][368]LogBlueprint: Error: [AssetLog] C:\Users\Cassandra\Documents\GitHub\lost-in-transit\lost-in-transit\Content\BP\Datapad\DatapadBP.uasset: [Compiler] COMPILER ERROR: failed building connection with 'Array of Approved Sticker BP Object References is not compatible with Array of Rejected Sticker BP1 Object References.' at  Get (a copy) generated from expanding For Each Loop with Break
+[2024.04.02-06.10.13:346][368]LogBlueprint: Error: [AssetLog] C:\Users\Cassandra\Documents\GitHub\lost-in-transit\lost-in-transit\Content\BP\Datapad\DatapadBP.uasset: [Compiler] Can't connect pins  Out Actors  and  Target Array generated from expanding For Each Loop with Break : Array of Rejected Sticker BP1 Object References is not compatible with Array of Approved Sticker BP Object References.
+[2024.04.02-06.10.13:347][368]LogBlueprint: Error: [AssetLog] C:\Users\Cassandra\Documents\GitHub\lost-in-transit\lost-in-transit\Content\BP\Datapad\DatapadBP.uasset: [Compiler] Invalid pin connection from ' Out Actors ' to ' Target Array generated from expanding For Each Loop with Break '. You may have changed the type after the connections were made.
+[2024.04.02-06.10.13:349][368]LogBlueprint: Error: [AssetLog] C:\Users\Cassandra\Documents\GitHub\lost-in-transit\lost-in-transit\Content\BP\Datapad\DatapadBP.uasset: [Compiler] Can't connect pins  Target Array generated from expanding For Each Loop with Break  and  Out Actors : Array of Approved Sticker BP Object References is not compatible with Array of Rejected Sticker BP1 Object References.
+[2024.04.02-06.10.13:353][368]LogBlueprint: Error: [AssetLog] C:\Users\Cassandra\Documents\GitHub\lost-in-transit\lost-in-transit\Content\BP\Datapad\DatapadBP.uasset: [Compiler] The current value of the ' Array generated from expanding Get (a copy) ' pin is invalid: Array inputs (like 'Target Array') must have an input wired into them (try connecting a MakeArray node).
+[2024.04.02-06.10.13:437][368]LogUObjectHash: Compacting FUObjectHashTables data took   3.78ms
+[2024.04.02-06.10.26:038][ 16]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.02-06.10.26:437][ 16]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/Datapad/DatapadBP" FILE="../../../../../../Users/Cassandra/Documents/GitHub/lost-in-transit/lost-in-transit/Content/BP/Datapad/DatapadBP.uasset" SILENT=true
+[2024.04.02-06.10.26:465][ 16]LogSavePackage: Moving output files for package: /Game/BP/Datapad/DatapadBP
+[2024.04.02-06.10.26:467][ 16]LogSavePackage: Moving '../../../../../../Users/Cassandra/Documents/GitHub/lost-in-transit/lost-in-transit/Saved/DatapadBP8A2BB7CD4DC2E1E45B5D4796DE9BC84F.tmp' to '../../../../../../Users/Cassandra/Documents/GitHub/lost-in-transit/lost-in-transit/Content/BP/Datapad/DatapadBP.uasset'
+[2024.04.02-06.10.26:489][ 16]LogFileHelpers: InternalPromptForCheckoutAndSave took 451 ms (total: 11.2 sec)
+[2024.04.02-06.10.26:493][ 16]AssetCheck: New page: Asset Save: DatapadBP
+[2024.04.02-06.10.26:493][ 16]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/BP/Datapad/DatapadBP.DatapadBP
+[2024.04.02-06.10.33:702][421]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.02-06.10.34:003][421]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/Datapad/DatapadBP" FILE="../../../../../../Users/Cassandra/Documents/GitHub/lost-in-transit/lost-in-transit/Content/BP/Datapad/DatapadBP.uasset" SILENT=true
+[2024.04.02-06.10.34:023][421]LogSavePackage: Moving output files for package: /Game/BP/Datapad/DatapadBP
+[2024.04.02-06.10.34:024][421]LogSavePackage: Moving '../../../../../../Users/Cassandra/Documents/GitHub/lost-in-transit/lost-in-transit/Saved/DatapadBP53CFF3DF4AE21ADB7E9FA6965BBE95CE.tmp' to '../../../../../../Users/Cassandra/Documents/GitHub/lost-in-transit/lost-in-transit/Content/BP/Datapad/DatapadBP.uasset'
+[2024.04.02-06.10.34:041][421]LogFileHelpers: InternalPromptForCheckoutAndSave took 339 ms (total: 11.6 sec)
+[2024.04.02-06.10.34:044][421]AssetCheck: New page: Asset Save: DatapadBP
+[2024.04.02-06.10.34:044][421]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/BP/Datapad/DatapadBP.DatapadBP
+[2024.04.02-06.10.42:335][770]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.04.02-06.10.42:353][770]BlueprintLog: New page: Pre-Play auto-recompile
+[2024.04.02-06.10.42:354][770]LogPlayLevel: [PlayLevel] Compiling DatapadBP before play...
+[2024.04.02-06.10.42:451][770]LogPlayLevel: [PlayLevel] Compiling Approved_StickerBP before play...
+[2024.04.02-06.10.42:528][770]LogPlayLevel: [PlayLevel] Compiling Rejected_StickerBP1 before play...
+[2024.04.02-06.10.42:627][770]LogUObjectHash: Compacting FUObjectHashTables data took   2.74ms
+[2024.04.02-06.10.42:632][770]LogPlayLevel: PlayLevel: Blueprint regeneration took 279 ms (3 blueprints)
+[2024.04.02-06.10.42:632][770]PIE: New page: PIE session: L_One (3/04/2024, 8:10:42 am)
+[2024.04.02-06.10.42:632][770]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_L_One
+[2024.04.02-06.10.42:638][770]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005562s)
+[2024.04.02-06.10.42:638][770]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/L_One.L_One to /Game/Levels/UEDPIE_0_L_One.L_One (0.005622s)
+[2024.04.02-06.10.42:670][770]LogUObjectHash: Compacting FUObjectHashTables data took   2.45ms
+[2024.04.02-06.10.42:671][770]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.02-06.10.42:671][770]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.02-06.10.42:672][770]LogAIModule: Creating AISystem for world L_One
+[2024.04.02-06.10.42:672][770]LogPlayLevel: PIE: World Init took: (0.001627s)
+[2024.04.02-06.10.42:672][770]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2024.04.02-06.10.42:672][770]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.04.02-06.10.42:672][770]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.04.02-06.10.42:672][770]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.04.02-06.10.42:672][770]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.04.02-06.10.42:672][770]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.04.02-06.10.42:672][770]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.04.02-06.10.42:672][770]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.04.02-06.10.42:672][770]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.04.02-06.10.42:673][770]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.04.02-06.10.42:673][770]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.04.02-06.10.42:673][770]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.04.02-06.10.42:676][770]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.04.02-06.10.42:731][770]LogAudioMixer: Display: Using Audio Hardware Device Speakers/Headphones (Realtek(R) Audio)
+[2024.04.02-06.10.42:732][770]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.04.02-06.10.42:732][770]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.04.02-06.10.42:732][770]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.04.02-06.10.42:734][770]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=9
+[2024.04.02-06.10.42:734][770]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=9
+[2024.04.02-06.10.42:737][770]LogInit: FAudioDevice initialized with ID 9.
+[2024.04.02-06.10.42:737][770]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=9
+[2024.04.02-06.10.42:737][770]LogAudio: Display: Audio Device (ID: 9) registered with world 'L_One'.
+[2024.04.02-06.10.42:737][770]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=9
+[2024.04.02-06.10.42:737][770]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 9
+[2024.04.02-06.10.42:742][770]LogLoad: Game class is 'GameMode_C'
+[2024.04.02-06.10.42:744][770]LogWorld: Bringing World /Game/Levels/UEDPIE_0_L_One.L_One up for play (max tick rate 60) at 2024.04.02-19.10.42
+[2024.04.02-06.10.42:744][770]LogWorld: Bringing up level for play took: 0.001796
+[2024.04.02-06.10.42:748][770]LogOnline: OSS: Created online subsystem instance for: :Context_20
+[2024.04.02-06.10.42:750][770]LogBlueprintUserMessages: [BP_Parcel_C_1] Created Parcel
+[2024.04.02-06.10.42:750][770]LogBlueprintUserMessages: [BP_Parcel_C_1] true
+[2024.04.02-06.10.42:750][770]PIE: Server logged in
+[2024.04.02-06.10.42:752][770]PIE: Play in editor total start time 0.399 seconds.
+[2024.04.02-06.10.44:812][776]LogBlueprintUserMessages: [Datapad_C_1] Authorised
+[2024.04.02-06.10.48:246][853]LogBlueprintUserMessages: [Datapad_C_1] Authorised
+[2024.04.02-06.10.50:537][907]LogBlueprintUserMessages: [Datapad_C_1] Authorised
+[2024.04.02-06.11.03:301][209]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.02-06.11.03:301][209]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_L_One
+[2024.04.02-06.11.03:302][209]LogWorld: UWorld::CleanupWorld for L_One, bSessionEnded=true, bCleanupResources=true
+[2024.04.02-06.11.03:302][209]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.02-06.11.03:328][209]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.04.02-06.11.03:338][209]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.02-06.11.03:372][209]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.04.02-06.11.03:372][209]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 9
+[2024.04.02-06.11.03:372][209]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2024.04.02-06.11.03:376][209]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2024.04.02-06.11.03:384][209]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.02-06.11.03:391][209]LogUObjectHash: Compacting FUObjectHashTables data took   4.20ms
+[2024.04.02-06.11.03:611][210]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2024.04.02-06.11.17:056][822]BlueprintLog: New page: Compile Rejected_StickerBP1
+[2024.04.02-06.11.17:134][822]LogUObjectHash: Compacting FUObjectHashTables data took   3.44ms
+[2024.04.02-06.11.17:897][845]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.02-06.11.18:210][845]LogSavePackage: Moving output files for package: /Game/BP/Datapad/Rejected_StickerBP1
+[2024.04.02-06.11.18:211][845]LogSavePackage: Moving '../../../../../../Users/Cassandra/Documents/GitHub/lost-in-transit/lost-in-transit/Saved/Rejected_StickerBP1462A140940C5F0F81037D7BC4BD0E470.tmp' to '../../../../../../Users/Cassandra/Documents/GitHub/lost-in-transit/lost-in-transit/Content/BP/Datapad/Rejected_StickerBP1.uasset'
+[2024.04.02-06.11.18:231][845]LogFileHelpers: InternalPromptForCheckoutAndSave took 332 ms (total: 11.9 sec)
+[2024.04.02-06.11.18:233][845]AssetCheck: New page: Asset Save: Rejected_StickerBP1
+[2024.04.02-06.11.18:233][845]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/BP/Datapad/Rejected_StickerBP1.Rejected_StickerBP1
+[2024.04.02-06.11.52:120][517]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.02-06.11.52:442][517]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/Datapad/DatapadBP" FILE="../../../../../../Users/Cassandra/Documents/GitHub/lost-in-transit/lost-in-transit/Content/BP/Datapad/DatapadBP.uasset" SILENT=true
+[2024.04.02-06.11.52:466][517]LogSavePackage: Moving output files for package: /Game/BP/Datapad/DatapadBP
+[2024.04.02-06.11.52:468][517]LogSavePackage: Moving '../../../../../../Users/Cassandra/Documents/GitHub/lost-in-transit/lost-in-transit/Saved/DatapadBP50B96E58476EA0AF54C9ED9970AA16FA.tmp' to '../../../../../../Users/Cassandra/Documents/GitHub/lost-in-transit/lost-in-transit/Content/BP/Datapad/DatapadBP.uasset'
+[2024.04.02-06.11.52:486][517]LogFileHelpers: InternalPromptForCheckoutAndSave took 365 ms (total: 12.3 sec)
+[2024.04.02-06.11.52:488][517]AssetCheck: New page: Asset Save: DatapadBP
+[2024.04.02-06.11.52:488][517]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/BP/Datapad/DatapadBP.DatapadBP
+[2024.04.02-06.12.01:153][972]BlueprintLog: New page: Compile DatapadBP
+[2024.04.02-06.12.01:160][972]LogBlueprint: Error: [AssetLog] C:\Users\Cassandra\Documents\GitHub\lost-in-transit\lost-in-transit\Content\BP\Datapad\DatapadBP.uasset: [Compiler] Invalid pin connection from  Array  and  Out Actors : Array of Approved Sticker BP Object References is not compatible with Array of Rejected Sticker BP1 Object References. (You may have changed the type after the connections were made)
+[2024.04.02-06.12.01:165][972]LogBlueprint: Error: [AssetLog] C:\Users\Cassandra\Documents\GitHub\lost-in-transit\lost-in-transit\Content\BP\Datapad\DatapadBP.uasset: [Compiler] COMPILER ERROR: failed building connection with 'Array of Approved Sticker BP Object References is not compatible with Array of Rejected Sticker BP1 Object References.' at  Get (a copy) generated from expanding For Each Loop with Break
+[2024.04.02-06.12.01:167][972]LogBlueprint: Error: [AssetLog] C:\Users\Cassandra\Documents\GitHub\lost-in-transit\lost-in-transit\Content\BP\Datapad\DatapadBP.uasset: [Compiler] Can't connect pins  Out Actors  and  Target Array generated from expanding For Each Loop with Break : Array of Rejected Sticker BP1 Object References is not compatible with Array of Approved Sticker BP Object References.
+[2024.04.02-06.12.01:168][972]LogBlueprint: Error: [AssetLog] C:\Users\Cassandra\Documents\GitHub\lost-in-transit\lost-in-transit\Content\BP\Datapad\DatapadBP.uasset: [Compiler] Invalid pin connection from ' Out Actors ' to ' Target Array generated from expanding For Each Loop with Break '. You may have changed the type after the connections were made.
+[2024.04.02-06.12.01:171][972]LogBlueprint: Error: [AssetLog] C:\Users\Cassandra\Documents\GitHub\lost-in-transit\lost-in-transit\Content\BP\Datapad\DatapadBP.uasset: [Compiler] Can't connect pins  Target Array generated from expanding For Each Loop with Break  and  Out Actors : Array of Approved Sticker BP Object References is not compatible with Array of Rejected Sticker BP1 Object References.
+[2024.04.02-06.12.01:175][972]LogBlueprint: Error: [AssetLog] C:\Users\Cassandra\Documents\GitHub\lost-in-transit\lost-in-transit\Content\BP\Datapad\DatapadBP.uasset: [Compiler] The current value of the ' Array generated from expanding Get (a copy) ' pin is invalid: Array inputs (like 'Target Array') must have an input wired into them (try connecting a MakeArray node).
+[2024.04.02-06.12.01:275][972]LogUObjectHash: Compacting FUObjectHashTables data took   3.39ms
+[2024.04.02-06.12.44:854][207]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.02-06.12.45:156][207]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/Datapad/DatapadBP" FILE="../../../../../../Users/Cassandra/Documents/GitHub/lost-in-transit/lost-in-transit/Content/BP/Datapad/DatapadBP.uasset" SILENT=true
+[2024.04.02-06.12.45:179][207]LogSavePackage: Moving output files for package: /Game/BP/Datapad/DatapadBP
+[2024.04.02-06.12.45:182][207]LogSavePackage: Moving '../../../../../../Users/Cassandra/Documents/GitHub/lost-in-transit/lost-in-transit/Saved/DatapadBP4A7D71BD4F8EBE748A017A890A4A5EC9.tmp' to '../../../../../../Users/Cassandra/Documents/GitHub/lost-in-transit/lost-in-transit/Content/BP/Datapad/DatapadBP.uasset'
+[2024.04.02-06.12.45:200][207]LogFileHelpers: InternalPromptForCheckoutAndSave took 346 ms (total: 12.6 sec)
+[2024.04.02-06.12.45:203][207]AssetCheck: New page: Asset Save: DatapadBP
+[2024.04.02-06.12.45:203][207]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/BP/Datapad/DatapadBP.DatapadBP
+[2024.04.02-06.13.33:558][639]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.02-06.13.33:893][639]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/Datapad/DatapadBP" FILE="../../../../../../Users/Cassandra/Documents/GitHub/lost-in-transit/lost-in-transit/Content/BP/Datapad/DatapadBP.uasset" SILENT=true
+[2024.04.02-06.13.33:915][639]LogSavePackage: Moving output files for package: /Game/BP/Datapad/DatapadBP
+[2024.04.02-06.13.33:916][639]LogSavePackage: Moving '../../../../../../Users/Cassandra/Documents/GitHub/lost-in-transit/lost-in-transit/Saved/DatapadBP0DB09C0249E1AF338CD45EAB7FF647B2.tmp' to '../../../../../../Users/Cassandra/Documents/GitHub/lost-in-transit/lost-in-transit/Content/BP/Datapad/DatapadBP.uasset'
+[2024.04.02-06.13.33:935][639]LogFileHelpers: InternalPromptForCheckoutAndSave took 376 ms (total: 13.0 sec)
+[2024.04.02-06.13.33:938][639]AssetCheck: New page: Asset Save: DatapadBP
+[2024.04.02-06.13.33:938][639]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/BP/Datapad/DatapadBP.DatapadBP
+[2024.04.02-06.14.02:552][129]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.02-06.14.02:842][129]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/Datapad/DatapadBP" FILE="../../../../../../Users/Cassandra/Documents/GitHub/lost-in-transit/lost-in-transit/Content/BP/Datapad/DatapadBP.uasset" SILENT=true
+[2024.04.02-06.14.02:865][129]LogSavePackage: Moving output files for package: /Game/BP/Datapad/DatapadBP
+[2024.04.02-06.14.02:866][129]LogSavePackage: Moving '../../../../../../Users/Cassandra/Documents/GitHub/lost-in-transit/lost-in-transit/Saved/DatapadBPC9A2445C46BF07B582EA15B57A4B455B.tmp' to '../../../../../../Users/Cassandra/Documents/GitHub/lost-in-transit/lost-in-transit/Content/BP/Datapad/DatapadBP.uasset'
+[2024.04.02-06.14.02:887][129]LogFileHelpers: InternalPromptForCheckoutAndSave took 335 ms (total: 13.3 sec)
+[2024.04.02-06.14.02:891][129]AssetCheck: New page: Asset Save: DatapadBP
+[2024.04.02-06.14.02:892][129]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/BP/Datapad/DatapadBP.DatapadBP
+[2024.04.02-06.14.04:088][190]BlueprintLog: New page: Compile DatapadBP
+[2024.04.02-06.14.04:099][190]LogBlueprint: Error: [AssetLog] C:\Users\Cassandra\Documents\GitHub\lost-in-transit\lost-in-transit\Content\BP\Datapad\DatapadBP.uasset: [Compiler] This blueprint (self) is not a Rejected_StickerBP1_C, therefore ' Target ' must have a connection.
+[2024.04.02-06.14.04:180][190]LogUObjectHash: Compacting FUObjectHashTables data took   3.30ms
+[2024.04.02-06.14.46:058][374]LogUObjectHash: Compacting FUObjectHashTables data took   4.38ms
+[2024.04.02-06.14.53:197][374]LogSlate: Window 'Delete Assets' being destroyed
+[2024.04.02-06.14.53:318][374]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2024.04.02-06.14.53:318][374]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.02-06.14.53:380][374]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/BP/Datapad/Rejected_StickerBP1.Rejected_StickerBP1
+	Asset Type: Blueprint
+[2024.04.02-06.14.53:850][374]LogUObjectHash: Compacting FUObjectHashTables data took   2.31ms
+[2024.04.02-06.14.53:916][374]LogUObjectHash: Compacting FUObjectHashTables data took   2.35ms
+[2024.04.02-06.14.53:944][374]LogUObjectHash: Compacting FUObjectHashTables data took   2.34ms
+[2024.04.02-06.14.53:969][374]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2024.04.02-06.14.55:878][429]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.02-06.14.56:173][429]LogUObjectHash: Compacting FUObjectHashTables data took   3.94ms
+[2024.04.02-06.14.56:208][429]LogSavePackage: Moving output files for package: /Game/Levels/L_One
+[2024.04.02-06.14.56:210][429]LogSavePackage: Moving '../../../../../../Users/Cassandra/Documents/GitHub/lost-in-transit/lost-in-transit/Saved/L_One84DFD5C84C39A02F37B96688539DCEA7.tmp' to '../../../../../../Users/Cassandra/Documents/GitHub/lost-in-transit/lost-in-transit/Content/Levels/L_One.umap'
+[2024.04.02-06.14.56:226][429]LogFileHelpers: Saving map 'L_One' took 0.138
+[2024.04.02-06.14.56:241][429]LogFileHelpers: InternalPromptForCheckoutAndSave took 363 ms (total: 13.7 sec)
+[2024.04.02-06.14.56:245][429]AssetCheck: New page: Asset Save: L_One
+[2024.04.02-06.14.56:245][429]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/L_One.L_One
+[2024.04.02-06.14.57:061][453]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.02-06.14.57:333][453]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2024.04.02-06.14.57:368][453]LogSavePackage: Moving output files for package: /Game/Levels/L_One
+[2024.04.02-06.14.57:370][453]LogSavePackage: Moving '../../../../../../Users/Cassandra/Documents/GitHub/lost-in-transit/lost-in-transit/Saved/L_One119BB63E44ACF54612359D947A4DC7D1.tmp' to '../../../../../../Users/Cassandra/Documents/GitHub/lost-in-transit/lost-in-transit/Content/Levels/L_One.umap'
+[2024.04.02-06.14.57:386][453]LogFileHelpers: Saving map 'L_One' took 0.137
+[2024.04.02-06.14.57:400][453]LogFileHelpers: InternalPromptForCheckoutAndSave took 339 ms (total: 14.0 sec)
+[2024.04.02-06.14.57:403][453]AssetCheck: New page: Asset Save: L_One
+[2024.04.02-06.14.57:403][453]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/L_One.L_One
+[2024.04.02-06.15.05:606][845]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.02-06.15.05:919][845]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/Datapad/DatapadBP" FILE="../../../../../../Users/Cassandra/Documents/GitHub/lost-in-transit/lost-in-transit/Content/BP/Datapad/DatapadBP.uasset" SILENT=true
+[2024.04.02-06.15.05:938][845]LogSavePackage: Moving output files for package: /Game/BP/Datapad/DatapadBP
+[2024.04.02-06.15.05:939][845]LogSavePackage: Moving '../../../../../../Users/Cassandra/Documents/GitHub/lost-in-transit/lost-in-transit/Saved/DatapadBP4ADE79A34D1050640BD24B89805DECB0.tmp' to '../../../../../../Users/Cassandra/Documents/GitHub/lost-in-transit/lost-in-transit/Content/BP/Datapad/DatapadBP.uasset'
+[2024.04.02-06.15.05:956][845]LogFileHelpers: InternalPromptForCheckoutAndSave took 349 ms (total: 14.4 sec)
+[2024.04.02-06.15.05:958][845]AssetCheck: New page: Asset Save: DatapadBP
+[2024.04.02-06.15.05:958][845]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/BP/Datapad/DatapadBP.DatapadBP
+[2024.04.02-06.15.06:950][896]BlueprintLog: New page: Compile DatapadBP
+[2024.04.02-06.15.07:048][896]LogUObjectHash: Compacting FUObjectHashTables data took   4.46ms
+[2024.04.02-06.15.07:748][920]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.02-06.15.07:983][920]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/Datapad/DatapadBP" FILE="../../../../../../Users/Cassandra/Documents/GitHub/lost-in-transit/lost-in-transit/Content/BP/Datapad/DatapadBP.uasset" SILENT=true
+[2024.04.02-06.15.07:998][920]LogSavePackage: Moving output files for package: /Game/BP/Datapad/DatapadBP
+[2024.04.02-06.15.07:999][920]LogSavePackage: Moving '../../../../../../Users/Cassandra/Documents/GitHub/lost-in-transit/lost-in-transit/Saved/DatapadBP277A75AA4E581DDD9EC267BD494C5880.tmp' to '../../../../../../Users/Cassandra/Documents/GitHub/lost-in-transit/lost-in-transit/Content/BP/Datapad/DatapadBP.uasset'
+[2024.04.02-06.15.08:014][920]LogFileHelpers: InternalPromptForCheckoutAndSave took 265 ms (total: 14.6 sec)
+[2024.04.02-06.15.08:017][920]AssetCheck: New page: Asset Save: DatapadBP
+[2024.04.02-06.15.08:017][920]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/BP/Datapad/DatapadBP.DatapadBP
+[2024.04.02-06.15.10:214][978]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.04.02-06.15.10:234][978]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.04.02-06.15.10:234][978]PIE: New page: PIE session: L_One (3/04/2024, 8:15:10 am)
+[2024.04.02-06.15.10:234][978]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_L_One
+[2024.04.02-06.15.10:241][978]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006538s)
+[2024.04.02-06.15.10:241][978]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/L_One.L_One to /Game/Levels/UEDPIE_0_L_One.L_One (0.006623s)
+[2024.04.02-06.15.10:272][978]LogUObjectHash: Compacting FUObjectHashTables data took   3.66ms
+[2024.04.02-06.15.10:277][978]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.02-06.15.10:277][978]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.02-06.15.10:278][978]LogAIModule: Creating AISystem for world L_One
+[2024.04.02-06.15.10:278][978]LogPlayLevel: PIE: World Init took: (0.001753s)
+[2024.04.02-06.15.10:278][978]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2024.04.02-06.15.10:278][978]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.04.02-06.15.10:278][978]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.04.02-06.15.10:278][978]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.04.02-06.15.10:278][978]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.04.02-06.15.10:278][978]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.04.02-06.15.10:278][978]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.04.02-06.15.10:278][978]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.04.02-06.15.10:278][978]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.04.02-06.15.10:279][978]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.04.02-06.15.10:279][978]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.04.02-06.15.10:279][978]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.04.02-06.15.10:283][978]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.04.02-06.15.10:340][978]LogAudioMixer: Display: Using Audio Hardware Device Speakers/Headphones (Realtek(R) Audio)
+[2024.04.02-06.15.10:341][978]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.04.02-06.15.10:341][978]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.04.02-06.15.10:341][978]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.04.02-06.15.10:343][978]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=10
+[2024.04.02-06.15.10:343][978]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=10
+[2024.04.02-06.15.10:346][978]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=10
+[2024.04.02-06.15.10:346][978]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=10
+[2024.04.02-06.15.10:346][978]LogInit: FAudioDevice initialized with ID 10.
+[2024.04.02-06.15.10:346][978]LogAudio: Display: Audio Device (ID: 10) registered with world 'L_One'.
+[2024.04.02-06.15.10:346][978]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 10
+[2024.04.02-06.15.10:352][978]LogLoad: Game class is 'GameMode_C'
+[2024.04.02-06.15.10:354][978]LogWorld: Bringing World /Game/Levels/UEDPIE_0_L_One.L_One up for play (max tick rate 60) at 2024.04.02-19.15.10
+[2024.04.02-06.15.10:354][978]LogWorld: Bringing up level for play took: 0.001927
+[2024.04.02-06.15.10:358][978]LogOnline: OSS: Created online subsystem instance for: :Context_21
+[2024.04.02-06.15.10:360][978]LogBlueprintUserMessages: [BP_Parcel_C_1] Created Parcel
+[2024.04.02-06.15.10:360][978]LogBlueprintUserMessages: [BP_Parcel_C_1] true
+[2024.04.02-06.15.10:360][978]PIE: Server logged in
+[2024.04.02-06.15.10:362][978]PIE: Play in editor total start time 0.128 seconds.
+[2024.04.02-06.15.11:776][996]LogBlueprintUserMessages: [Datapad_C_1] Authorised
+[2024.04.02-06.15.17:961][146]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.02-06.15.17:961][146]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_L_One
+[2024.04.02-06.15.17:961][146]LogWorld: UWorld::CleanupWorld for L_One, bSessionEnded=true, bCleanupResources=true
+[2024.04.02-06.15.17:961][146]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.02-06.15.17:996][146]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.04.02-06.15.18:005][146]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.02-06.15.18:028][146]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.04.02-06.15.18:028][146]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 10
+[2024.04.02-06.15.18:028][146]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2024.04.02-06.15.18:031][146]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2024.04.02-06.15.18:038][146]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.02-06.15.18:042][146]LogUObjectHash: Compacting FUObjectHashTables data took   2.64ms
+[2024.04.02-06.15.18:127][147]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2024.04.02-06.16.03:486][144]BlueprintLog: New page: Compile Approved_StickerBP
+[2024.04.02-06.16.03:579][144]LogUObjectHash: Compacting FUObjectHashTables data took   3.57ms
+[2024.04.02-06.16.04:380][166]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.02-06.16.04:672][166]LogSavePackage: Moving output files for package: /Game/BP/Datapad/Approved_StickerBP
+[2024.04.02-06.16.04:674][166]LogSavePackage: Moving '../../../../../../Users/Cassandra/Documents/GitHub/lost-in-transit/lost-in-transit/Saved/Approved_StickerBPA3EB296342E3F3D34F454C9B3863C5E5.tmp' to '../../../../../../Users/Cassandra/Documents/GitHub/lost-in-transit/lost-in-transit/Content/BP/Datapad/Approved_StickerBP.uasset'
+[2024.04.02-06.16.04:695][166]LogFileHelpers: InternalPromptForCheckoutAndSave took 314 ms (total: 15.0 sec)
+[2024.04.02-06.16.04:698][166]AssetCheck: New page: Asset Save: Approved_StickerBP
+[2024.04.02-06.16.04:698][166]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/BP/Datapad/Approved_StickerBP.Approved_StickerBP
+[2024.04.02-06.16.22:530][115]BlueprintLog: New page: Compile Approved_StickerBP
+[2024.04.02-06.16.22:638][115]LogUObjectHash: Compacting FUObjectHashTables data took   3.49ms
+[2024.04.02-06.16.23:454][142]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.02-06.16.23:757][142]LogSavePackage: Moving output files for package: /Game/BP/Datapad/Approved_StickerBP
+[2024.04.02-06.16.23:758][142]LogSavePackage: Moving '../../../../../../Users/Cassandra/Documents/GitHub/lost-in-transit/lost-in-transit/Saved/Approved_StickerBP88784F0141C4EE62F4D9568A04ED6282.tmp' to '../../../../../../Users/Cassandra/Documents/GitHub/lost-in-transit/lost-in-transit/Content/BP/Datapad/Approved_StickerBP.uasset'
+[2024.04.02-06.16.23:776][142]LogFileHelpers: InternalPromptForCheckoutAndSave took 322 ms (total: 15.3 sec)
+[2024.04.02-06.16.23:779][142]AssetCheck: New page: Asset Save: Approved_StickerBP
+[2024.04.02-06.16.23:779][142]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/BP/Datapad/Approved_StickerBP.Approved_StickerBP
+[2024.04.02-06.16.57:298][ 28]LogBlueprint: Warning: [AssetLog] C:\Users\Cassandra\Documents\GitHub\lost-in-transit\lost-in-transit\Content\BP\Datapad\DatapadBP.uasset: [Compiler] Pasted node  StickerInteract   conflicted with  Event Sticker Interact  and was replaced as a Custom Event!
+[2024.04.02-06.16.57:298][ 28]LogBlueprint: Warning: [DatapadBP] 'StickerInteract' was removed from its interface - it has been replaced by a custom event, which won't trigger unless you call it manually.
+[2024.04.02-06.17.01:270][235]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.02-06.17.01:574][235]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/Datapad/DatapadBP" FILE="../../../../../../Users/Cassandra/Documents/GitHub/lost-in-transit/lost-in-transit/Content/BP/Datapad/DatapadBP.uasset" SILENT=true
+[2024.04.02-06.17.01:594][235]LogSavePackage: Moving output files for package: /Game/BP/Datapad/DatapadBP
+[2024.04.02-06.17.01:595][235]LogSavePackage: Moving '../../../../../../Users/Cassandra/Documents/GitHub/lost-in-transit/lost-in-transit/Saved/DatapadBP144F91FD433E5EAA335FEC8B37BA6D03.tmp' to '../../../../../../Users/Cassandra/Documents/GitHub/lost-in-transit/lost-in-transit/Content/BP/Datapad/DatapadBP.uasset'
+[2024.04.02-06.17.01:613][235]LogFileHelpers: InternalPromptForCheckoutAndSave took 343 ms (total: 15.6 sec)
+[2024.04.02-06.17.01:615][235]AssetCheck: New page: Asset Save: DatapadBP
+[2024.04.02-06.17.01:615][235]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/BP/Datapad/DatapadBP.DatapadBP
+[2024.04.02-06.17.04:161][321]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.04.02-06.17.04:179][321]BlueprintLog: New page: Pre-Play auto-recompile
+[2024.04.02-06.17.04:181][321]LogPlayLevel: [PlayLevel] Compiling CassInteract before play...
+[2024.04.02-06.17.04:267][321]LogUObjectHash: Compacting FUObjectHashTables data took   2.92ms
+[2024.04.02-06.17.04:272][321]LogPlayLevel: PlayLevel: Blueprint regeneration took 93 ms (1 blueprints)
+[2024.04.02-06.17.04:272][321]PIE: New page: PIE session: L_One (3/04/2024, 8:17:04 am)
+[2024.04.02-06.17.04:272][321]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_L_One
+[2024.04.02-06.17.04:279][321]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006230s)
+[2024.04.02-06.17.04:279][321]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/L_One.L_One to /Game/Levels/UEDPIE_0_L_One.L_One (0.006291s)
+[2024.04.02-06.17.04:315][321]LogUObjectHash: Compacting FUObjectHashTables data took   3.05ms
+[2024.04.02-06.17.04:317][321]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.02-06.17.04:317][321]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.02-06.17.04:318][321]LogAIModule: Creating AISystem for world L_One
+[2024.04.02-06.17.04:318][321]LogPlayLevel: PIE: World Init took: (0.001670s)
+[2024.04.02-06.17.04:318][321]LogAudio: Display: Creating Audio Device:                 Id: 11, Scope: Unique, Realtime: True
+[2024.04.02-06.17.04:318][321]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.04.02-06.17.04:318][321]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.04.02-06.17.04:318][321]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.04.02-06.17.04:318][321]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.04.02-06.17.04:318][321]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.04.02-06.17.04:318][321]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.04.02-06.17.04:318][321]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.04.02-06.17.04:318][321]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.04.02-06.17.04:319][321]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.04.02-06.17.04:319][321]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.04.02-06.17.04:319][321]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.04.02-06.17.04:322][321]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.04.02-06.17.04:384][321]LogAudioMixer: Display: Using Audio Hardware Device Speakers/Headphones (Realtek(R) Audio)
+[2024.04.02-06.17.04:385][321]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.04.02-06.17.04:385][321]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.04.02-06.17.04:385][321]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.04.02-06.17.04:387][321]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=11
+[2024.04.02-06.17.04:387][321]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=11
+[2024.04.02-06.17.04:390][321]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=11
+[2024.04.02-06.17.04:390][321]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=11
+[2024.04.02-06.17.04:390][321]LogInit: FAudioDevice initialized with ID 11.
+[2024.04.02-06.17.04:390][321]LogAudio: Display: Audio Device (ID: 11) registered with world 'L_One'.
+[2024.04.02-06.17.04:390][321]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 11
+[2024.04.02-06.17.04:395][321]LogLoad: Game class is 'GameMode_C'
+[2024.04.02-06.17.04:397][321]LogWorld: Bringing World /Game/Levels/UEDPIE_0_L_One.L_One up for play (max tick rate 60) at 2024.04.02-19.17.04
+[2024.04.02-06.17.04:397][321]LogWorld: Bringing up level for play took: 0.001908
+[2024.04.02-06.17.04:402][321]LogOnline: OSS: Created online subsystem instance for: :Context_22
+[2024.04.02-06.17.04:404][321]LogBlueprintUserMessages: [BP_Parcel_C_1] Created Parcel
+[2024.04.02-06.17.04:404][321]LogBlueprintUserMessages: [BP_Parcel_C_1] false
+[2024.04.02-06.17.04:405][321]PIE: Server logged in
+[2024.04.02-06.17.04:406][321]PIE: Play in editor total start time 0.226 seconds.
+[2024.04.02-06.17.05:896][326]LogBlueprintUserMessages: [Datapad_C_1] Authorised
+[2024.04.02-06.17.08:661][373]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.02-06.17.08:661][373]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_L_One
+[2024.04.02-06.17.08:661][373]LogWorld: UWorld::CleanupWorld for L_One, bSessionEnded=true, bCleanupResources=true
+[2024.04.02-06.17.08:662][373]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.02-06.17.08:685][373]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.04.02-06.17.08:695][373]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.02-06.17.08:725][373]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.02-06.17.08:725][373]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 11
+[2024.04.02-06.17.08:726][373]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2024.04.02-06.17.08:729][373]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2024.04.02-06.17.08:743][373]LogUObjectHash: Compacting FUObjectHashTables data took   3.99ms
+[2024.04.02-06.17.08:835][374]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2024.04.02-06.17.19:603][946]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.02-06.17.20:037][946]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/Datapad/DatapadBP" FILE="../../../../../../Users/Cassandra/Documents/GitHub/lost-in-transit/lost-in-transit/Content/BP/Datapad/DatapadBP.uasset" SILENT=true
+[2024.04.02-06.17.20:060][946]LogSavePackage: Moving output files for package: /Game/BP/Datapad/DatapadBP
+[2024.04.02-06.17.20:062][946]LogSavePackage: Moving '../../../../../../Users/Cassandra/Documents/GitHub/lost-in-transit/lost-in-transit/Saved/DatapadBPDEDF071244803B2C96251BA5952E45F5.tmp' to '../../../../../../Users/Cassandra/Documents/GitHub/lost-in-transit/lost-in-transit/Content/BP/Datapad/DatapadBP.uasset'
+[2024.04.02-06.17.20:083][946]LogFileHelpers: InternalPromptForCheckoutAndSave took 479 ms (total: 16.1 sec)
+[2024.04.02-06.17.20:087][946]AssetCheck: New page: Asset Save: DatapadBP
+[2024.04.02-06.17.20:087][946]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/BP/Datapad/DatapadBP.DatapadBP
+[2024.04.02-06.17.20:527][966]BlueprintLog: New page: Compile DatapadBP
+[2024.04.02-06.17.20:619][966]LogUObjectHash: Compacting FUObjectHashTables data took   3.50ms
+[2024.04.02-06.17.21:395][989]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.02-06.17.21:626][989]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/Datapad/DatapadBP" FILE="../../../../../../Users/Cassandra/Documents/GitHub/lost-in-transit/lost-in-transit/Content/BP/Datapad/DatapadBP.uasset" SILENT=true
+[2024.04.02-06.17.21:641][989]LogSavePackage: Moving output files for package: /Game/BP/Datapad/DatapadBP
+[2024.04.02-06.17.21:643][989]LogSavePackage: Moving '../../../../../../Users/Cassandra/Documents/GitHub/lost-in-transit/lost-in-transit/Saved/DatapadBP4B40491C478131A0621A7781DD88DEB1.tmp' to '../../../../../../Users/Cassandra/Documents/GitHub/lost-in-transit/lost-in-transit/Content/BP/Datapad/DatapadBP.uasset'
+[2024.04.02-06.17.21:658][989]LogFileHelpers: InternalPromptForCheckoutAndSave took 263 ms (total: 16.4 sec)
+[2024.04.02-06.17.21:660][989]AssetCheck: New page: Asset Save: DatapadBP
+[2024.04.02-06.17.21:660][989]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/BP/Datapad/DatapadBP.DatapadBP
+[2024.04.02-06.17.23:770][ 55]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.04.02-06.17.23:788][ 55]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.04.02-06.17.23:788][ 55]PIE: New page: PIE session: L_One (3/04/2024, 8:17:23 am)
+[2024.04.02-06.17.23:789][ 55]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_L_One
+[2024.04.02-06.17.23:796][ 55]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007054s)
+[2024.04.02-06.17.23:796][ 55]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/L_One.L_One to /Game/Levels/UEDPIE_0_L_One.L_One (0.007138s)
+[2024.04.02-06.17.23:827][ 55]LogUObjectHash: Compacting FUObjectHashTables data took   4.10ms
+[2024.04.02-06.17.23:831][ 55]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.02-06.17.23:831][ 55]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.02-06.17.23:832][ 55]LogAIModule: Creating AISystem for world L_One
+[2024.04.02-06.17.23:832][ 55]LogPlayLevel: PIE: World Init took: (0.001585s)
+[2024.04.02-06.17.23:833][ 55]LogAudio: Display: Creating Audio Device:                 Id: 12, Scope: Unique, Realtime: True
+[2024.04.02-06.17.23:833][ 55]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.04.02-06.17.23:833][ 55]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.04.02-06.17.23:833][ 55]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.04.02-06.17.23:833][ 55]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.04.02-06.17.23:833][ 55]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.04.02-06.17.23:833][ 55]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.04.02-06.17.23:833][ 55]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.04.02-06.17.23:833][ 55]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.04.02-06.17.23:833][ 55]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.04.02-06.17.23:834][ 55]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.04.02-06.17.23:834][ 55]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.04.02-06.17.23:837][ 55]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.04.02-06.17.23:897][ 55]LogAudioMixer: Display: Using Audio Hardware Device Speakers/Headphones (Realtek(R) Audio)
+[2024.04.02-06.17.23:898][ 55]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.04.02-06.17.23:898][ 55]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.04.02-06.17.23:898][ 55]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.04.02-06.17.23:900][ 55]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=12
+[2024.04.02-06.17.23:900][ 55]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=12
+[2024.04.02-06.17.23:903][ 55]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=12
+[2024.04.02-06.17.23:903][ 55]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=12
+[2024.04.02-06.17.23:903][ 55]LogInit: FAudioDevice initialized with ID 12.
+[2024.04.02-06.17.23:903][ 55]LogAudio: Display: Audio Device (ID: 12) registered with world 'L_One'.
+[2024.04.02-06.17.23:903][ 55]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 12
+[2024.04.02-06.17.23:909][ 55]LogLoad: Game class is 'GameMode_C'
+[2024.04.02-06.17.23:911][ 55]LogWorld: Bringing World /Game/Levels/UEDPIE_0_L_One.L_One up for play (max tick rate 60) at 2024.04.02-19.17.23
+[2024.04.02-06.17.23:911][ 55]LogWorld: Bringing up level for play took: 0.002027
+[2024.04.02-06.17.23:915][ 55]LogOnline: OSS: Created online subsystem instance for: :Context_23
+[2024.04.02-06.17.23:917][ 55]LogBlueprintUserMessages: [BP_Parcel_C_1] Created Parcel
+[2024.04.02-06.17.23:918][ 55]LogBlueprintUserMessages: [BP_Parcel_C_1] true
+[2024.04.02-06.17.23:918][ 55]PIE: Server logged in
+[2024.04.02-06.17.23:920][ 55]PIE: Play in editor total start time 0.131 seconds.
+[2024.04.02-06.17.26:461][111]LogBlueprintUserMessages: [Datapad_C_1] Authorised
+[2024.04.02-06.17.28:880][162]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.02-06.17.28:881][162]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_L_One
+[2024.04.02-06.17.28:881][162]LogWorld: UWorld::CleanupWorld for L_One, bSessionEnded=true, bCleanupResources=true
+[2024.04.02-06.17.28:881][162]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.02-06.17.28:905][162]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.04.02-06.17.28:914][162]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.02-06.17.28:942][162]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.04.02-06.17.28:942][162]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 12
+[2024.04.02-06.17.28:942][162]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2024.04.02-06.17.28:946][162]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2024.04.02-06.17.28:953][162]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.02-06.17.28:957][162]LogUObjectHash: Compacting FUObjectHashTables data took   2.78ms
+[2024.04.02-06.17.29:047][163]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2024.04.02-06.18.20:061][995]LogBlueprint: Warning: [AssetLog] C:\Users\Cassandra\Documents\GitHub\lost-in-transit\lost-in-transit\Content\BP\Datapad\Approved_StickerBP.uasset: [Compiler] Pasted node  CustomEvent   conflicted with  Print Sticker  and was replaced as a Custom Event!
+[2024.04.02-06.19.06:389][177]BlueprintLog: New page: Compile Approved_StickerBP
+[2024.04.02-06.19.06:499][177]LogUObjectHash: Compacting FUObjectHashTables data took   3.31ms
+[2024.04.02-06.19.08:399][246]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.02-06.19.08:738][246]LogSavePackage: Moving output files for package: /Game/BP/Datapad/Approved_StickerBP
+[2024.04.02-06.19.08:740][246]LogSavePackage: Moving '../../../../../../Users/Cassandra/Documents/GitHub/lost-in-transit/lost-in-transit/Saved/Approved_StickerBPDFB6825442BDC366E69DD5A2A6175451.tmp' to '../../../../../../Users/Cassandra/Documents/GitHub/lost-in-transit/lost-in-transit/Content/BP/Datapad/Approved_StickerBP.uasset'
+[2024.04.02-06.19.08:762][246]LogFileHelpers: InternalPromptForCheckoutAndSave took 362 ms (total: 16.7 sec)
+[2024.04.02-06.19.08:765][246]AssetCheck: New page: Asset Save: Approved_StickerBP
+[2024.04.02-06.19.08:765][246]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/BP/Datapad/Approved_StickerBP.Approved_StickerBP
+[2024.04.02-06.19.16:817][645]BlueprintLog: New page: Compile Approved_StickerBP
+[2024.04.02-06.19.16:915][645]LogUObjectHash: Compacting FUObjectHashTables data took   3.54ms
+[2024.04.02-06.19.17:630][668]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.02-06.19.17:934][668]LogSavePackage: Moving output files for package: /Game/BP/Datapad/Approved_StickerBP
+[2024.04.02-06.19.17:935][668]LogSavePackage: Moving '../../../../../../Users/Cassandra/Documents/GitHub/lost-in-transit/lost-in-transit/Saved/Approved_StickerBPC54FB17341F926FFD398C3800F170BA2.tmp' to '../../../../../../Users/Cassandra/Documents/GitHub/lost-in-transit/lost-in-transit/Content/BP/Datapad/Approved_StickerBP.uasset'
+[2024.04.02-06.19.17:952][668]LogFileHelpers: InternalPromptForCheckoutAndSave took 322 ms (total: 17.0 sec)
+[2024.04.02-06.19.17:954][668]AssetCheck: New page: Asset Save: Approved_StickerBP
+[2024.04.02-06.19.17:954][668]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/BP/Datapad/Approved_StickerBP.Approved_StickerBP
+[2024.04.02-06.19.53:657][599]LogEditorTransaction: Undo Add Node
+[2024.04.02-06.20.41:786][946]LogEditorTransaction: Undo Delete current selection
+[2024.04.02-06.21.12:946][534]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.02-06.21.13:290][534]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/Datapad/DatapadBP" FILE="../../../../../../Users/Cassandra/Documents/GitHub/lost-in-transit/lost-in-transit/Content/BP/Datapad/DatapadBP.uasset" SILENT=true
+[2024.04.02-06.21.13:313][534]LogSavePackage: Moving output files for package: /Game/BP/Datapad/DatapadBP
+[2024.04.02-06.21.13:314][534]LogSavePackage: Moving '../../../../../../Users/Cassandra/Documents/GitHub/lost-in-transit/lost-in-transit/Saved/DatapadBP4BA132BC451232C36B79DBAA92EE08E0.tmp' to '../../../../../../Users/Cassandra/Documents/GitHub/lost-in-transit/lost-in-transit/Content/BP/Datapad/DatapadBP.uasset'
+[2024.04.02-06.21.13:333][534]LogFileHelpers: InternalPromptForCheckoutAndSave took 387 ms (total: 17.4 sec)
+[2024.04.02-06.21.13:336][534]AssetCheck: New page: Asset Save: DatapadBP
+[2024.04.02-06.21.13:336][534]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/BP/Datapad/DatapadBP.DatapadBP
+[2024.04.02-06.21.16:040][673]BlueprintLog: New page: Compile DatapadBP
+[2024.04.02-06.21.16:161][673]LogUObjectHash: Compacting FUObjectHashTables data took   3.69ms
+[2024.04.02-06.21.16:958][703]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.02-06.21.17:267][703]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/Datapad/DatapadBP" FILE="../../../../../../Users/Cassandra/Documents/GitHub/lost-in-transit/lost-in-transit/Content/BP/Datapad/DatapadBP.uasset" SILENT=true
+[2024.04.02-06.21.17:292][703]LogSavePackage: Moving output files for package: /Game/BP/Datapad/DatapadBP
+[2024.04.02-06.21.17:294][703]LogSavePackage: Moving '../../../../../../Users/Cassandra/Documents/GitHub/lost-in-transit/lost-in-transit/Saved/DatapadBP148A119148E09E9DD6138C83B223909D.tmp' to '../../../../../../Users/Cassandra/Documents/GitHub/lost-in-transit/lost-in-transit/Content/BP/Datapad/DatapadBP.uasset'
+[2024.04.02-06.21.17:314][703]LogFileHelpers: InternalPromptForCheckoutAndSave took 355 ms (total: 17.8 sec)
+[2024.04.02-06.21.17:316][703]AssetCheck: New page: Asset Save: DatapadBP
+[2024.04.02-06.21.17:316][703]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/BP/Datapad/DatapadBP.DatapadBP
+[2024.04.02-06.21.19:365][767]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.04.02-06.21.19:386][767]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.04.02-06.21.19:386][767]PIE: New page: PIE session: L_One (3/04/2024, 8:21:19 am)
+[2024.04.02-06.21.19:386][767]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_L_One
+[2024.04.02-06.21.19:394][767]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007102s)
+[2024.04.02-06.21.19:394][767]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/L_One.L_One to /Game/Levels/UEDPIE_0_L_One.L_One (0.007184s)
+[2024.04.02-06.21.19:427][767]LogUObjectHash: Compacting FUObjectHashTables data took   4.12ms
+[2024.04.02-06.21.19:432][767]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.02-06.21.19:432][767]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.02-06.21.19:433][767]LogAIModule: Creating AISystem for world L_One
+[2024.04.02-06.21.19:434][767]LogPlayLevel: PIE: World Init took: (0.001827s)
+[2024.04.02-06.21.19:434][767]LogAudio: Display: Creating Audio Device:                 Id: 13, Scope: Unique, Realtime: True
+[2024.04.02-06.21.19:434][767]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.04.02-06.21.19:434][767]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.04.02-06.21.19:434][767]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.04.02-06.21.19:434][767]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.04.02-06.21.19:434][767]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.04.02-06.21.19:434][767]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.04.02-06.21.19:434][767]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.04.02-06.21.19:434][767]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.04.02-06.21.19:435][767]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.04.02-06.21.19:435][767]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.04.02-06.21.19:435][767]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.04.02-06.21.19:439][767]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.04.02-06.21.19:500][767]LogAudioMixer: Display: Using Audio Hardware Device Speakers/Headphones (Realtek(R) Audio)
+[2024.04.02-06.21.19:501][767]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.04.02-06.21.19:501][767]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.04.02-06.21.19:501][767]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.04.02-06.21.19:503][767]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=13
+[2024.04.02-06.21.19:503][767]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=13
+[2024.04.02-06.21.19:506][767]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=13
+[2024.04.02-06.21.19:506][767]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=13
+[2024.04.02-06.21.19:507][767]LogInit: FAudioDevice initialized with ID 13.
+[2024.04.02-06.21.19:507][767]LogAudio: Display: Audio Device (ID: 13) registered with world 'L_One'.
+[2024.04.02-06.21.19:507][767]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 13
+[2024.04.02-06.21.19:513][767]LogLoad: Game class is 'GameMode_C'
+[2024.04.02-06.21.19:515][767]LogWorld: Bringing World /Game/Levels/UEDPIE_0_L_One.L_One up for play (max tick rate 60) at 2024.04.02-19.21.19
+[2024.04.02-06.21.19:516][767]LogWorld: Bringing up level for play took: 0.002108
+[2024.04.02-06.21.19:519][767]LogOnline: OSS: Created online subsystem instance for: :Context_24
+[2024.04.02-06.21.19:522][767]LogBlueprintUserMessages: [BP_Parcel_C_1] Created Parcel
+[2024.04.02-06.21.19:522][767]LogBlueprintUserMessages: [BP_Parcel_C_1] true
+[2024.04.02-06.21.19:523][767]PIE: Server logged in
+[2024.04.02-06.21.19:524][767]PIE: Play in editor total start time 0.139 seconds.
+[2024.04.02-06.21.20:830][785]LogBlueprintUserMessages: [Datapad_C_1] Rejected
+[2024.04.02-06.21.22:607][829]LogBlueprintUserMessages: [Datapad_C_1] Authorised
+[2024.04.02-06.21.25:930][900]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.02-06.21.25:930][900]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_L_One
+[2024.04.02-06.21.25:930][900]LogWorld: UWorld::CleanupWorld for L_One, bSessionEnded=true, bCleanupResources=true
+[2024.04.02-06.21.25:931][900]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.02-06.21.25:987][900]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.04.02-06.21.25:994][900]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.02-06.21.26:025][900]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.04.02-06.21.26:025][900]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 13
+[2024.04.02-06.21.26:025][900]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2024.04.02-06.21.26:028][900]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2024.04.02-06.21.26:036][900]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.02-06.21.26:042][900]LogUObjectHash: Compacting FUObjectHashTables data took   3.85ms
+[2024.04.02-06.21.26:179][901]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2024.04.02-06.21.26:831][904]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.02-06.21.27:116][904]LogUObjectHash: Compacting FUObjectHashTables data took   2.25ms
+[2024.04.02-06.21.27:144][904]LogSavePackage: Moving output files for package: /Game/Levels/L_One
+[2024.04.02-06.21.27:145][904]LogSavePackage: Moving '../../../../../../Users/Cassandra/Documents/GitHub/lost-in-transit/lost-in-transit/Saved/L_One0658D14A460B9D0FAA48688A13867BB4.tmp' to '../../../../../../Users/Cassandra/Documents/GitHub/lost-in-transit/lost-in-transit/Content/Levels/L_One.umap'
+[2024.04.02-06.21.27:157][904]LogFileHelpers: Saving map 'L_One' took 0.107
+[2024.04.02-06.21.27:174][904]LogFileHelpers: InternalPromptForCheckoutAndSave took 342 ms (total: 18.1 sec)
+[2024.04.02-06.21.27:177][904]AssetCheck: New page: Asset Save: L_One
+[2024.04.02-06.21.27:177][904]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/L_One.L_One
+[2024.04.02-06.25.07:728][978]LogDerivedDataCache: C:/Users/Cassandra/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:04.249 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 2407 files in 3316 folders with total size 118 MiB.
+[2024.04.02-06.31.27:110][795]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2024.04.02-06.31.27:112][795]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Levels/L_One' took 0.032
+[2024.04.02-06.31.27:113][795]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BP/Interfaces/CassInteract] ([2] browsable assets)...
+[2024.04.02-06.31.27:113][795]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP/Interfaces/CassInteract]
+[2024.04.02-06.31.27:116][795]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/BP/Interfaces/CassInteract_Auto5
+[2024.04.02-06.31.27:116][795]LogSavePackage: Moving '../../../../../../Users/Cassandra/Documents/GitHub/lost-in-transit/lost-in-transit/Saved/CassInteract_Auto52754A67A46DD852EE1F7528E8410FADB.tmp' to '../../../../../../Users/Cassandra/Documents/GitHub/lost-in-transit/lost-in-transit/Saved/Autosaves/Game/BP/Interfaces/CassInteract_Auto5.uasset'
+[2024.04.02-06.31.27:117][795]LogFileHelpers: Auto-saving content packages took 0.006
+[2024.04.02-07.25.07:884][ 64]LogDerivedDataCache: C:/Users/Cassandra/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:04.403 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 2407 files in 3316 folders with total size 118 MiB.
+[2024.04.02-07.29.54:671][559]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.04.02-07.29.54:704][559]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.04.02-07.29.54:704][559]PIE: New page: PIE session: L_One (3/04/2024, 9:29:54 am)
+[2024.04.02-07.29.54:704][559]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_L_One
+[2024.04.02-07.29.54:715][559]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011005s)
+[2024.04.02-07.29.54:715][559]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/L_One.L_One to /Game/Levels/UEDPIE_0_L_One.L_One (0.011129s)
+[2024.04.02-07.29.54:766][559]LogUObjectHash: Compacting FUObjectHashTables data took   6.00ms
+[2024.04.02-07.29.54:769][559]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.02-07.29.54:769][559]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.02-07.29.54:770][559]LogAIModule: Creating AISystem for world L_One
+[2024.04.02-07.29.54:772][559]LogPlayLevel: PIE: World Init took: (0.002866s)
+[2024.04.02-07.29.54:772][559]LogAudio: Display: Creating Audio Device:                 Id: 14, Scope: Unique, Realtime: True
+[2024.04.02-07.29.54:772][559]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.04.02-07.29.54:772][559]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.04.02-07.29.54:772][559]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.04.02-07.29.54:772][559]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.04.02-07.29.54:772][559]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.04.02-07.29.54:772][559]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.04.02-07.29.54:772][559]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.04.02-07.29.54:772][559]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.04.02-07.29.54:773][559]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.04.02-07.29.54:773][559]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.04.02-07.29.54:773][559]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.04.02-07.29.54:778][559]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.04.02-07.29.54:876][559]LogAudioMixer: Display: Using Audio Hardware Device Speakers/Headphones (Realtek(R) Audio)
+[2024.04.02-07.29.54:877][559]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.04.02-07.29.54:877][559]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.04.02-07.29.54:877][559]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.04.02-07.29.54:882][559]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=14
+[2024.04.02-07.29.54:882][559]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=14
+[2024.04.02-07.29.54:886][559]LogInit: FAudioDevice initialized with ID 14.
+[2024.04.02-07.29.54:886][559]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=14
+[2024.04.02-07.29.54:886][559]LogAudio: Display: Audio Device (ID: 14) registered with world 'L_One'.
+[2024.04.02-07.29.54:887][559]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=14
+[2024.04.02-07.29.54:887][559]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 14
+[2024.04.02-07.29.54:894][559]LogLoad: Game class is 'GameMode_C'
+[2024.04.02-07.29.54:897][559]LogWorld: Bringing World /Game/Levels/UEDPIE_0_L_One.L_One up for play (max tick rate 60) at 2024.04.02-20.29.54
+[2024.04.02-07.29.54:897][559]LogWorld: Bringing up level for play took: 0.003195
+[2024.04.02-07.29.54:904][559]LogOnline: OSS: Created online subsystem instance for: :Context_25
+[2024.04.02-07.29.54:907][559]LogBlueprintUserMessages: [BP_Parcel_C_1] Created Parcel
+[2024.04.02-07.29.54:907][559]LogBlueprintUserMessages: [BP_Parcel_C_1] true
+[2024.04.02-07.29.54:908][559]PIE: Server logged in
+[2024.04.02-07.29.54:910][559]PIE: Play in editor total start time 0.207 seconds.
+[2024.04.02-07.29.58:200][633]LogBlueprintUserMessages: [Datapad_C_1] Authorised
+[2024.04.02-07.30.00:444][702]LogBlueprintUserMessages: [Datapad_C_1] Rejected
+[2024.04.02-07.30.02:531][750]LogBlueprintUserMessages: [Datapad_C_1] Rejected
+[2024.04.02-07.30.03:846][779]LogBlueprintUserMessages: [Datapad_C_1] Rejected
+[2024.04.02-07.30.04:802][800]LogBlueprintUserMessages: [Datapad_C_1] Rejected
+[2024.04.02-07.30.05:945][825]LogBlueprintUserMessages: [Datapad_C_1] Authorised
+[2024.04.02-07.30.07:285][852]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.02-07.30.07:285][852]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_L_One
+[2024.04.02-07.30.07:286][852]LogWorld: UWorld::CleanupWorld for L_One, bSessionEnded=true, bCleanupResources=true
+[2024.04.02-07.30.07:286][852]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.02-07.30.07:308][852]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.04.02-07.30.07:318][852]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.02-07.30.07:345][852]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.02-07.30.07:346][852]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 14
+[2024.04.02-07.30.07:346][852]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2024.04.02-07.30.07:349][852]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2024.04.02-07.30.07:360][852]LogUObjectHash: Compacting FUObjectHashTables data took   2.54ms
+[2024.04.02-07.30.07:444][853]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2024.04.02-07.30.08:144][857]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.04.02-07.30.08:157][857]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.04.02-07.30.08:157][857]PIE: New page: PIE session: L_One (3/04/2024, 9:30:08 am)
+[2024.04.02-07.30.08:157][857]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_L_One
+[2024.04.02-07.30.08:163][857]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005335s)
+[2024.04.02-07.30.08:163][857]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/L_One.L_One to /Game/Levels/UEDPIE_0_L_One.L_One (0.005392s)
+[2024.04.02-07.30.08:184][857]LogUObjectHash: Compacting FUObjectHashTables data took   2.39ms
+[2024.04.02-07.30.08:186][857]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.02-07.30.08:186][857]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.02-07.30.08:187][857]LogAIModule: Creating AISystem for world L_One
+[2024.04.02-07.30.08:187][857]LogPlayLevel: PIE: World Init took: (0.001260s)
+[2024.04.02-07.30.08:187][857]LogAudio: Display: Creating Audio Device:                 Id: 15, Scope: Unique, Realtime: True
+[2024.04.02-07.30.08:187][857]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.04.02-07.30.08:187][857]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.04.02-07.30.08:187][857]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.04.02-07.30.08:187][857]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.04.02-07.30.08:187][857]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.04.02-07.30.08:187][857]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.04.02-07.30.08:187][857]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.04.02-07.30.08:187][857]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.04.02-07.30.08:188][857]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.04.02-07.30.08:188][857]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.04.02-07.30.08:188][857]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.04.02-07.30.08:191][857]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.04.02-07.30.08:236][857]LogAudioMixer: Display: Using Audio Hardware Device Speakers/Headphones (Realtek(R) Audio)
+[2024.04.02-07.30.08:236][857]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.04.02-07.30.08:236][857]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.04.02-07.30.08:236][857]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.04.02-07.30.08:238][857]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=15
+[2024.04.02-07.30.08:238][857]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=15
+[2024.04.02-07.30.08:241][857]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=15
+[2024.04.02-07.30.08:241][857]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=15
+[2024.04.02-07.30.08:241][857]LogInit: FAudioDevice initialized with ID 15.
+[2024.04.02-07.30.08:241][857]LogAudio: Display: Audio Device (ID: 15) registered with world 'L_One'.
+[2024.04.02-07.30.08:241][857]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 15
+[2024.04.02-07.30.08:245][857]LogLoad: Game class is 'GameMode_C'
+[2024.04.02-07.30.08:247][857]LogWorld: Bringing World /Game/Levels/UEDPIE_0_L_One.L_One up for play (max tick rate 60) at 2024.04.02-20.30.08
+[2024.04.02-07.30.08:247][857]LogWorld: Bringing up level for play took: 0.001619
+[2024.04.02-07.30.08:250][857]LogOnline: OSS: Created online subsystem instance for: :Context_26
+[2024.04.02-07.30.08:252][857]LogBlueprintUserMessages: [BP_Parcel_C_1] Created Parcel
+[2024.04.02-07.30.08:252][857]LogBlueprintUserMessages: [BP_Parcel_C_1] true
+[2024.04.02-07.30.08:252][857]PIE: Server logged in
+[2024.04.02-07.30.08:254][857]PIE: Play in editor total start time 0.097 seconds.
+[2024.04.02-07.30.09:271][879]LogBlueprintUserMessages: [Datapad_C_1] Rejected
+[2024.04.02-07.30.11:522][945]LogBlueprintUserMessages: [Datapad_C_1] Authorised
+[2024.04.02-07.30.14:386][ 18]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.02-07.30.14:386][ 18]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_L_One
+[2024.04.02-07.30.14:386][ 18]LogWorld: UWorld::CleanupWorld for L_One, bSessionEnded=true, bCleanupResources=true
+[2024.04.02-07.30.14:386][ 18]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.02-07.30.14:410][ 18]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.04.02-07.30.14:419][ 18]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.02-07.30.14:449][ 18]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.02-07.30.14:449][ 18]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 15
+[2024.04.02-07.30.14:449][ 18]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2024.04.02-07.30.14:453][ 18]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2024.04.02-07.30.14:464][ 18]LogUObjectHash: Compacting FUObjectHashTables data took   2.87ms
+[2024.04.02-07.30.14:550][ 19]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2024.04.02-07.30.17:638][ 87]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.02-07.30.17:956][ 87]LogUObjectHash: Compacting FUObjectHashTables data took   2.84ms
+[2024.04.02-07.30.17:992][ 87]LogSavePackage: Moving output files for package: /Game/Levels/L_One
+[2024.04.02-07.30.17:994][ 87]LogSavePackage: Moving '../../../../../../Users/Cassandra/Documents/GitHub/lost-in-transit/lost-in-transit/Saved/L_OneA1DD61E44E8BAF2A5A46ACAD5BE6D422.tmp' to '../../../../../../Users/Cassandra/Documents/GitHub/lost-in-transit/lost-in-transit/Content/Levels/L_One.umap'
+[2024.04.02-07.30.18:011][ 87]LogFileHelpers: Saving map 'L_One' took 0.146
+[2024.04.02-07.30.18:029][ 87]LogFileHelpers: InternalPromptForCheckoutAndSave took 390 ms (total: 18.5 sec)
+[2024.04.02-07.30.18:033][ 87]AssetCheck: New page: Asset Save: L_One
+[2024.04.02-07.30.18:033][ 87]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/L_One.L_One
+[2024.04.02-07.30.25:676][353]LogViewport: Scene viewport resized to 2406x762, mode Windowed.
+[2024.04.02-07.30.25:747][354]LogViewport: Scene viewport resized to 2406x913, mode Windowed.
+[2024.04.02-07.30.25:799][355]LogViewport: Scene viewport resized to 2406x1052, mode Windowed.
+[2024.04.02-07.30.25:884][356]LogViewport: Scene viewport resized to 2406x1136, mode Windowed.
+[2024.04.02-07.30.25:961][357]LogViewport: Scene viewport resized to 2406x1161, mode Windowed.
+[2024.04.02-07.30.26:032][358]LogViewport: Scene viewport resized to 2406x1168, mode Windowed.
+[2024.04.02-07.30.26:126][359]LogViewport: Scene viewport resized to 2406x1200, mode Windowed.
+[2024.04.02-07.30.26:210][360]LogViewport: Scene viewport resized to 2406x1250, mode Windowed.
+[2024.04.02-07.30.26:421][366]LogViewport: Scene viewport resized to 2406x1252, mode Windowed.
+[2024.04.02-07.30.26:447][367]LogViewport: Scene viewport resized to 2406x1259, mode Windowed.
+[2024.04.02-07.30.26:501][368]LogViewport: Scene viewport resized to 2406x1290, mode Windowed.
+[2024.04.02-07.30.26:577][369]LogViewport: Scene viewport resized to 2406x1325, mode Windowed.
+[2024.04.02-07.30.26:666][370]LogViewport: Scene viewport resized to 2406x1329, mode Windowed.
+[2024.04.02-07.30.26:743][371]LogViewport: Scene viewport resized to 2406x1328, mode Windowed.
+[2024.04.02-07.30.26:824][372]LogViewport: Scene viewport resized to 2406x1340, mode Windowed.
+[2024.04.02-07.30.26:900][373]LogViewport: Scene viewport resized to 2406x1341, mode Windowed.
+[2024.04.02-07.30.26:984][374]LogViewport: Scene viewport resized to 2406x1340, mode Windowed.
+[2024.04.02-07.30.33:579][513]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.04.02-07.30.33:595][513]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.04.02-07.30.33:595][513]PIE: New page: PIE session: L_One (3/04/2024, 9:30:33 am)
+[2024.04.02-07.30.33:595][513]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_L_One
+[2024.04.02-07.30.33:600][513]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004797s)
+[2024.04.02-07.30.33:600][513]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/L_One.L_One to /Game/Levels/UEDPIE_0_L_One.L_One (0.004847s)
+[2024.04.02-07.30.33:624][513]LogUObjectHash: Compacting FUObjectHashTables data took   3.14ms
+[2024.04.02-07.30.33:626][513]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.02-07.30.33:627][513]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.02-07.30.33:627][513]LogAIModule: Creating AISystem for world L_One
+[2024.04.02-07.30.33:628][513]LogPlayLevel: PIE: World Init took: (0.001464s)
+[2024.04.02-07.30.33:628][513]LogAudio: Display: Creating Audio Device:                 Id: 16, Scope: Unique, Realtime: True
+[2024.04.02-07.30.33:628][513]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.04.02-07.30.33:628][513]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.04.02-07.30.33:628][513]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.04.02-07.30.33:628][513]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.04.02-07.30.33:628][513]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.04.02-07.30.33:628][513]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.04.02-07.30.33:628][513]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.04.02-07.30.33:628][513]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.04.02-07.30.33:629][513]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.04.02-07.30.33:629][513]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.04.02-07.30.33:629][513]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.04.02-07.30.33:633][513]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.04.02-07.30.33:680][513]LogAudioMixer: Display: Using Audio Hardware Device Speakers/Headphones (Realtek(R) Audio)
+[2024.04.02-07.30.33:681][513]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.04.02-07.30.33:681][513]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.04.02-07.30.33:681][513]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.04.02-07.30.33:682][513]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=16
+[2024.04.02-07.30.33:682][513]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=16
+[2024.04.02-07.30.33:685][513]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=16
+[2024.04.02-07.30.33:685][513]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=16
+[2024.04.02-07.30.33:685][513]LogInit: FAudioDevice initialized with ID 16.
+[2024.04.02-07.30.33:685][513]LogAudio: Display: Audio Device (ID: 16) registered with world 'L_One'.
+[2024.04.02-07.30.33:685][513]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 16
+[2024.04.02-07.30.33:689][513]LogLoad: Game class is 'GameMode_C'
+[2024.04.02-07.30.33:691][513]LogWorld: Bringing World /Game/Levels/UEDPIE_0_L_One.L_One up for play (max tick rate 60) at 2024.04.02-20.30.33
+[2024.04.02-07.30.33:692][513]LogWorld: Bringing up level for play took: 0.002108
+[2024.04.02-07.30.33:696][513]LogOnline: OSS: Created online subsystem instance for: :Context_27
+[2024.04.02-07.30.33:698][513]LogBlueprintUserMessages: [BP_Parcel_C_1] Created Parcel
+[2024.04.02-07.30.33:698][513]LogBlueprintUserMessages: [BP_Parcel_C_1] true
+[2024.04.02-07.30.33:698][513]PIE: Server logged in
+[2024.04.02-07.30.33:700][513]PIE: Play in editor total start time 0.105 seconds.
+[2024.04.02-07.30.44:125][635]LogBlueprintUserMessages: [Datapad_C_1] Authorised
+[2024.04.02-07.30.48:714][689]LogBlueprintUserMessages: [Datapad_C_1] Rejected
+[2024.04.02-07.30.49:992][704]LogBlueprintUserMessages: [Datapad_C_1] Rejected
+[2024.04.02-07.30.50:410][709]LogBlueprintUserMessages: [Datapad_C_1] Rejected
+[2024.04.02-07.30.50:670][712]LogBlueprintUserMessages: [Datapad_C_1] Rejected
+[2024.04.02-07.30.51:845][722]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.02-07.30.51:845][722]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_L_One
+[2024.04.02-07.30.51:845][722]LogWorld: UWorld::CleanupWorld for L_One, bSessionEnded=true, bCleanupResources=true
+[2024.04.02-07.30.51:846][722]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.02-07.30.51:868][722]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.04.02-07.30.51:877][722]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.02-07.30.51:893][722]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.04.02-07.30.51:894][722]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 16
+[2024.04.02-07.30.51:894][722]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2024.04.02-07.30.51:895][722]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2024.04.02-07.30.51:901][722]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.02-07.30.51:905][722]LogUObjectHash: Compacting FUObjectHashTables data took   2.60ms
+[2024.04.02-07.30.51:970][723]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2024.04.02-07.30.52:947][738]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.04.02-07.30.52:963][738]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.04.02-07.30.52:963][738]PIE: New page: PIE session: L_One (3/04/2024, 9:30:52 am)
+[2024.04.02-07.30.52:995][738]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_L_One
+[2024.04.02-07.30.53:000][738]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005166s)
+[2024.04.02-07.30.53:000][738]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/L_One.L_One to /Game/Levels/UEDPIE_0_L_One.L_One (0.005227s)
+[2024.04.02-07.30.53:022][738]LogUObjectHash: Compacting FUObjectHashTables data took   2.50ms
+[2024.04.02-07.30.53:024][738]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.02-07.30.53:025][738]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.02-07.30.53:025][738]LogAIModule: Creating AISystem for world L_One
+[2024.04.02-07.30.53:026][738]LogPlayLevel: PIE: World Init took: (0.001413s)
+[2024.04.02-07.30.53:026][738]LogAudio: Display: Creating Audio Device:                 Id: 17, Scope: Unique, Realtime: True
+[2024.04.02-07.30.53:026][738]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.04.02-07.30.53:026][738]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.04.02-07.30.53:026][738]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.04.02-07.30.53:026][738]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.04.02-07.30.53:026][738]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.04.02-07.30.53:026][738]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.04.02-07.30.53:026][738]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.04.02-07.30.53:026][738]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.04.02-07.30.53:027][738]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.04.02-07.30.53:027][738]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.04.02-07.30.53:027][738]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.04.02-07.30.53:031][738]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.04.02-07.30.53:079][738]LogAudioMixer: Display: Using Audio Hardware Device Speakers/Headphones (Realtek(R) Audio)
+[2024.04.02-07.30.53:079][738]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.04.02-07.30.53:079][738]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.04.02-07.30.53:079][738]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.04.02-07.30.53:080][738]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=17
+[2024.04.02-07.30.53:080][738]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=17
+[2024.04.02-07.30.53:083][738]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=17
+[2024.04.02-07.30.53:083][738]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=17
+[2024.04.02-07.30.53:083][738]LogInit: FAudioDevice initialized with ID 17.
+[2024.04.02-07.30.53:083][738]LogAudio: Display: Audio Device (ID: 17) registered with world 'L_One'.
+[2024.04.02-07.30.53:083][738]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 17
+[2024.04.02-07.30.53:088][738]LogLoad: Game class is 'GameMode_C'
+[2024.04.02-07.30.53:090][738]LogWorld: Bringing World /Game/Levels/UEDPIE_0_L_One.L_One up for play (max tick rate 60) at 2024.04.02-20.30.53
+[2024.04.02-07.30.53:090][738]LogWorld: Bringing up level for play took: 0.001626
+[2024.04.02-07.30.53:093][738]LogOnline: OSS: Created online subsystem instance for: :Context_28
+[2024.04.02-07.30.53:096][738]LogBlueprintUserMessages: [BP_Parcel_C_1] Created Parcel
+[2024.04.02-07.30.53:096][738]LogBlueprintUserMessages: [BP_Parcel_C_1] true
+[2024.04.02-07.30.53:096][738]PIE: Server logged in
+[2024.04.02-07.30.53:097][738]PIE: Play in editor total start time 0.134 seconds.
+[2024.04.02-07.30.54:369][752]LogBlueprintUserMessages: [Datapad_C_1] Rejected
+[2024.04.02-07.30.59:585][828]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.02-07.30.59:585][828]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_L_One
+[2024.04.02-07.30.59:585][828]LogWorld: UWorld::CleanupWorld for L_One, bSessionEnded=true, bCleanupResources=true
+[2024.04.02-07.30.59:585][828]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.02-07.30.59:630][828]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.04.02-07.30.59:637][828]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.02-07.30.59:660][828]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.02-07.30.59:661][828]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 17
+[2024.04.02-07.30.59:661][828]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17
+[2024.04.02-07.30.59:662][828]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17
+[2024.04.02-07.30.59:670][828]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
+[2024.04.02-07.30.59:794][829]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2024.04.02-07.31.03:377][897]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.04.02-07.31.03:399][897]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.04.02-07.31.03:399][897]PIE: New page: PIE session: L_One (3/04/2024, 9:31:03 am)
+[2024.04.02-07.31.03:399][897]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_L_One
+[2024.04.02-07.31.03:412][897]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012212s)
+[2024.04.02-07.31.03:412][897]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/L_One.L_One to /Game/Levels/UEDPIE_0_L_One.L_One (0.012308s)
+[2024.04.02-07.31.03:450][897]LogUObjectHash: Compacting FUObjectHashTables data took   3.06ms
+[2024.04.02-07.31.03:454][897]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.02-07.31.03:454][897]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.02-07.31.03:455][897]LogAIModule: Creating AISystem for world L_One
+[2024.04.02-07.31.03:455][897]LogPlayLevel: PIE: World Init took: (0.001938s)
+[2024.04.02-07.31.03:455][897]LogAudio: Display: Creating Audio Device:                 Id: 18, Scope: Unique, Realtime: True
+[2024.04.02-07.31.03:455][897]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.04.02-07.31.03:455][897]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.04.02-07.31.03:455][897]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.04.02-07.31.03:455][897]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.04.02-07.31.03:455][897]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.04.02-07.31.03:455][897]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.04.02-07.31.03:455][897]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.04.02-07.31.03:456][897]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.04.02-07.31.03:456][897]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.04.02-07.31.03:456][897]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.04.02-07.31.03:456][897]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.04.02-07.31.03:461][897]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.04.02-07.31.03:524][897]LogAudioMixer: Display: Using Audio Hardware Device Speakers/Headphones (Realtek(R) Audio)
+[2024.04.02-07.31.03:524][897]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.04.02-07.31.03:524][897]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.04.02-07.31.03:524][897]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.04.02-07.31.03:527][897]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=18
+[2024.04.02-07.31.03:527][897]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=18
+[2024.04.02-07.31.03:531][897]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=18
+[2024.04.02-07.31.03:531][897]LogInit: FAudioDevice initialized with ID 18.
+[2024.04.02-07.31.03:531][897]LogAudio: Display: Audio Device (ID: 18) registered with world 'L_One'.
+[2024.04.02-07.31.03:531][897]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=18
+[2024.04.02-07.31.03:531][897]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 18
+[2024.04.02-07.31.03:538][897]LogLoad: Game class is 'GameMode_C'
+[2024.04.02-07.31.03:540][897]LogWorld: Bringing World /Game/Levels/UEDPIE_0_L_One.L_One up for play (max tick rate 60) at 2024.04.02-20.31.03
+[2024.04.02-07.31.03:541][897]LogWorld: Bringing up level for play took: 0.002416
+[2024.04.02-07.31.03:545][897]LogOnline: OSS: Created online subsystem instance for: :Context_29
+[2024.04.02-07.31.03:548][897]LogBlueprintUserMessages: [BP_Parcel_C_1] Created Parcel
+[2024.04.02-07.31.03:548][897]LogBlueprintUserMessages: [BP_Parcel_C_1] true
+[2024.04.02-07.31.03:549][897]PIE: Server logged in
+[2024.04.02-07.31.03:550][897]PIE: Play in editor total start time 0.152 seconds.
+[2024.04.02-07.31.22:365][132]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.02-07.31.22:365][132]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_L_One
+[2024.04.02-07.31.22:365][132]LogWorld: UWorld::CleanupWorld for L_One, bSessionEnded=true, bCleanupResources=true
+[2024.04.02-07.31.22:366][132]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.02-07.31.22:435][132]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.04.02-07.31.22:444][132]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.02-07.31.22:462][132]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.02-07.31.22:462][132]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 18
+[2024.04.02-07.31.22:462][132]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18
+[2024.04.02-07.31.22:465][132]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18
+[2024.04.02-07.31.22:475][132]LogUObjectHash: Compacting FUObjectHashTables data took   2.15ms
+[2024.04.02-07.31.22:609][133]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2024.04.02-07.31.26:914][216]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.02-07.31.27:241][216]LogUObjectHash: Compacting FUObjectHashTables data took   2.49ms
+[2024.04.02-07.31.27:275][216]LogSavePackage: Moving output files for package: /Game/Levels/L_One
+[2024.04.02-07.31.27:276][216]LogSavePackage: Moving '../../../../../../Users/Cassandra/Documents/GitHub/lost-in-transit/lost-in-transit/Saved/L_OneF3F446214DEECCE2DE8C0CAA417FF123.tmp' to '../../../../../../Users/Cassandra/Documents/GitHub/lost-in-transit/lost-in-transit/Content/Levels/L_One.umap'
+[2024.04.02-07.31.27:290][216]LogFileHelpers: Saving map 'L_One' took 0.132
+[2024.04.02-07.31.27:308][216]LogFileHelpers: InternalPromptForCheckoutAndSave took 394 ms (total: 18.9 sec)
+[2024.04.02-07.31.27:312][216]AssetCheck: New page: Asset Save: L_One
+[2024.04.02-07.31.27:312][216]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/L_One.L_One
