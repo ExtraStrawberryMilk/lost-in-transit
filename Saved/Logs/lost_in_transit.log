@@ -2173,3 +2173,506 @@ LogConfig: Set CVar [[r.setres:1280x720]]
 [2024.04.15-07.32.10:268][465]AssetCheck: New page: Asset Save: BP_Parcel
 [2024.04.15-07.32.10:268][465]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/BP/Parcel/BP_Parcel.BP_Parcel
 [2024.04.15-07.34.33:755][406]LogDerivedDataCache: C:/Users/OEM/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:01.064 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 1027 files in 1770 folders with total size 78 MiB.
+[2024.04.15-07.39.03:448][629]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.15-07.39.03:498][629]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/L_One" FILE="../../../../../../Users/OEM/Documents/University/GAME 201/lost-in-transit/Content/Levels/L_One.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.04.15-07.39.03:517][629]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2024.04.15-07.39.03:535][629]LogSavePackage: Moving output files for package: /Game/Levels/L_One
+[2024.04.15-07.39.03:535][629]LogSavePackage: Moving '../../../../../../Users/OEM/Documents/University/GAME 201/lost-in-transit/Saved/L_One9A8F932B4B971902011B2586DDB2418E.tmp' to '../../../../../../Users/OEM/Documents/University/GAME 201/lost-in-transit/Content/Levels/L_One.umap'
+[2024.04.15-07.39.03:540][629]LogFileHelpers: Saving map 'L_One' took 0.043
+[2024.04.15-07.39.03:546][629]LogFileHelpers: InternalPromptForCheckoutAndSave took 97 ms (total: 915 ms)
+[2024.04.15-07.39.03:548][629]AssetCheck: New page: Asset Save: L_One
+[2024.04.15-07.39.03:548][629]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/L_One.L_One
+[2024.04.15-07.39.08:402][198]LogUObjectHash: Compacting FUObjectHashTables data took   0.31ms
+[2024.04.15-07.39.09:755][198]LogSlate: Window 'Save Content' being destroyed
+[2024.04.15-07.39.09:764][198]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.15-07.39.09:814][198]LogSavePackage: Moving output files for package: /Game/BP/UI/Briefings/Briefings/Briefing2
+[2024.04.15-07.39.09:814][198]LogSavePackage: Moving '../../../../../../Users/OEM/Documents/University/GAME 201/lost-in-transit/Saved/Briefing22FDB0A21427F63E0182D61BA1A4B4DF8.tmp' to '../../../../../../Users/OEM/Documents/University/GAME 201/lost-in-transit/Content/BP/UI/Briefings/Briefings/Briefing2.uasset'
+[2024.04.15-07.39.09:814][198]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/gameInstance" FILE="../../../../../../Users/OEM/Documents/University/GAME 201/lost-in-transit/Content/Player/gameInstance.uasset" SILENT=true
+[2024.04.15-07.39.09:821][198]LogSavePackage: Moving output files for package: /Game/Player/gameInstance
+[2024.04.15-07.39.09:821][198]LogSavePackage: Moving '../../../../../../Users/OEM/Documents/University/GAME 201/lost-in-transit/Saved/gameInstance640059BA44BE59675864C2A6BBE1945E.tmp' to '../../../../../../Users/OEM/Documents/University/GAME 201/lost-in-transit/Content/Player/gameInstance.uasset'
+[2024.04.15-07.39.09:822][198]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/UI/Payslip" FILE="../../../../../../Users/OEM/Documents/University/GAME 201/lost-in-transit/Content/BP/UI/Payslip.uasset" SILENT=true
+[2024.04.15-07.39.09:835][198]LogSavePackage: Moving output files for package: /Game/BP/UI/Payslip
+[2024.04.15-07.39.09:836][198]LogSavePackage: Moving '../../../../../../Users/OEM/Documents/University/GAME 201/lost-in-transit/Saved/PayslipEA088AF34B4CE1A3D63218A5EFB95B87.tmp' to '../../../../../../Users/OEM/Documents/University/GAME 201/lost-in-transit/Content/BP/UI/Payslip.uasset'
+[2024.04.15-07.39.09:841][198]LogFileHelpers: InternalPromptForCheckoutAndSave took 77 ms (total: 993 ms)
+[2024.04.15-07.39.09:887][198]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.15-07.39.09:891][198]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Levels/L_Two.L_Two
+[2024.04.15-07.39.09:891][198]Cmd: MAP LOAD FILE="../../../../../../Users/OEM/Documents/University/GAME 201/lost-in-transit/Content/Levels/L_Two.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2024.04.15-07.39.09:891][198]LightingResults: New page: Lighting Build
+[2024.04.15-07.39.09:891][198]LoadErrors: New page: Loading map: L_Two.umap
+[2024.04.15-07.39.09:904][198]LogWorld: UWorld::CleanupWorld for L_One, bSessionEnded=true, bCleanupResources=true
+[2024.04.15-07.39.09:904][198]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.15-07.39.09:904][198]MapCheck: New page: Map Check
+[2024.04.15-07.39.09:904][198]LightingResults: New page: Lighting Build
+[2024.04.15-07.39.09:911][198]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.04.15-07.39.09:914][198]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2024.04.15-07.39.09:915][198]LogWorld: UWorld::CleanupWorld for L_Two, bSessionEnded=true, bCleanupResources=true
+[2024.04.15-07.39.09:916][198]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.15-07.39.09:924][198]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2024.04.15-07.39.09:934][198]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2024.04.15-07.39.09:944][198]LogAudio: Display: Audio Device (ID: 1) registered with world 'L_Two'.
+[2024.04.15-07.39.09:945][198]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.15-07.39.09:945][198]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.15-07.39.09:945][198]LogAIModule: Creating AISystem for world L_Two
+[2024.04.15-07.39.09:959][198]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.04.15-07.39.09:966][198]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2024.04.15-07.39.09:970][198]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.04.15-07.39.09:970][198]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.068ms to complete.
+[2024.04.15-07.39.09:979][198]AssetCheck: New page: Asset Save: multiple assets
+[2024.04.15-07.39.09:979][198]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/BP/UI/Briefings/Briefings/Briefing2.Briefing2
+[2024.04.15-07.39.09:979][198]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Player/gameInstance.gameInstance
+[2024.04.15-07.39.09:979][198]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/BP/UI/Payslip.Payslip
+[2024.04.15-07.39.09:980][198]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Arrow': BP_Customer_C /Game/Levels/L_Two.L_Two:PersistentLevel.BP_Customer_C_1
+[2024.04.15-07.39.09:980][198]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'CollisionCylinder': BP_Customer_C /Game/Levels/L_Two.L_Two:PersistentLevel.BP_Customer_C_1
+[2024.04.15-07.39.09:980][198]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'CharMoveComp': BP_Customer_C /Game/Levels/L_Two.L_Two:PersistentLevel.BP_Customer_C_1
+[2024.04.15-07.39.09:980][198]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Sprite0': BP_Customer_C /Game/Levels/L_Two.L_Two:PersistentLevel.BP_Customer_C_1
+[2024.04.15-07.39.09:980][198]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'PaperSprite': BP_Customer_C /Game/Levels/L_Two.L_Two:PersistentLevel.BP_Customer_C_1
+[2024.04.15-07.41.08:046][290]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Player/FirstPersonPlayer.FirstPersonPlayer
+[2024.04.15-07.41.08:046][290]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.15-07.41.08:046][290]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.15-07.44.43:091][ 28]LogViewport: Scene viewport resized to 1526x594, mode Windowed.
+[2024.04.15-07.44.43:116][ 31]LogViewport: Scene viewport resized to 1526x592, mode Windowed.
+[2024.04.15-07.44.43:125][ 32]LogViewport: Scene viewport resized to 1526x590, mode Windowed.
+[2024.04.15-07.44.43:140][ 33]LogViewport: Scene viewport resized to 1526x588, mode Windowed.
+[2024.04.15-07.44.43:151][ 34]LogViewport: Scene viewport resized to 1526x586, mode Windowed.
+[2024.04.15-07.44.43:163][ 35]LogViewport: Scene viewport resized to 1526x582, mode Windowed.
+[2024.04.15-07.44.43:175][ 36]LogViewport: Scene viewport resized to 1526x577, mode Windowed.
+[2024.04.15-07.44.43:185][ 37]LogViewport: Scene viewport resized to 1526x573, mode Windowed.
+[2024.04.15-07.44.43:197][ 38]LogViewport: Scene viewport resized to 1526x561, mode Windowed.
+[2024.04.15-07.44.43:208][ 39]LogViewport: Scene viewport resized to 1526x557, mode Windowed.
+[2024.04.15-07.44.43:218][ 40]LogViewport: Scene viewport resized to 1526x554, mode Windowed.
+[2024.04.15-07.44.43:230][ 41]LogViewport: Scene viewport resized to 1526x545, mode Windowed.
+[2024.04.15-07.44.43:243][ 42]LogViewport: Scene viewport resized to 1526x541, mode Windowed.
+[2024.04.15-07.44.43:253][ 43]LogViewport: Scene viewport resized to 1526x535, mode Windowed.
+[2024.04.15-07.44.43:265][ 44]LogViewport: Scene viewport resized to 1526x532, mode Windowed.
+[2024.04.15-07.44.43:276][ 45]LogViewport: Scene viewport resized to 1526x525, mode Windowed.
+[2024.04.15-07.44.43:286][ 46]LogViewport: Scene viewport resized to 1526x523, mode Windowed.
+[2024.04.15-07.44.43:297][ 47]LogViewport: Scene viewport resized to 1526x520, mode Windowed.
+[2024.04.15-07.44.43:309][ 48]LogViewport: Scene viewport resized to 1526x513, mode Windowed.
+[2024.04.15-07.44.43:320][ 49]LogViewport: Scene viewport resized to 1526x511, mode Windowed.
+[2024.04.15-07.44.43:330][ 50]LogViewport: Scene viewport resized to 1526x509, mode Windowed.
+[2024.04.15-07.44.43:343][ 51]LogViewport: Scene viewport resized to 1526x504, mode Windowed.
+[2024.04.15-07.44.43:354][ 52]LogViewport: Scene viewport resized to 1526x502, mode Windowed.
+[2024.04.15-07.44.43:365][ 53]LogViewport: Scene viewport resized to 1526x499, mode Windowed.
+[2024.04.15-07.44.43:376][ 54]LogViewport: Scene viewport resized to 1526x497, mode Windowed.
+[2024.04.15-07.44.43:387][ 55]LogViewport: Scene viewport resized to 1526x493, mode Windowed.
+[2024.04.15-07.44.43:397][ 56]LogViewport: Scene viewport resized to 1526x492, mode Windowed.
+[2024.04.15-07.44.43:409][ 57]LogViewport: Scene viewport resized to 1526x491, mode Windowed.
+[2024.04.15-07.45.02:761][348]BlueprintLog: New page: Compile ParcelWeight
+[2024.04.15-07.45.02:779][348]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2024.04.15-07.45.03:321][402]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.15-07.45.03:360][402]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/UI/ParcelWeight" FILE="../../../../../../Users/OEM/Documents/University/GAME 201/lost-in-transit/Content/BP/UI/ParcelWeight.uasset" SILENT=true
+[2024.04.15-07.45.03:369][402]LogSavePackage: Moving output files for package: /Game/BP/UI/ParcelWeight
+[2024.04.15-07.45.03:369][402]LogSavePackage: Moving '../../../../../../Users/OEM/Documents/University/GAME 201/lost-in-transit/Saved/ParcelWeightA04947BF4EF65107C5A8F3B317B68F1B.tmp' to '../../../../../../Users/OEM/Documents/University/GAME 201/lost-in-transit/Content/BP/UI/ParcelWeight.uasset'
+[2024.04.15-07.45.03:373][402]LogFileHelpers: InternalPromptForCheckoutAndSave took 50 ms (total: 1.04 sec)
+[2024.04.15-07.45.03:374][402]AssetCheck: New page: Asset Save: ParcelWeight
+[2024.04.15-07.45.03:374][402]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/BP/UI/ParcelWeight.ParcelWeight
+[2024.04.15-07.45.19:005][228]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/BP/UI/Menus/MainMenu.MainMenu
+[2024.04.15-07.45.19:005][228]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.15-07.45.19:005][228]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.15-07.45.19:010][228]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.15-07.45.19:010][228]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.15-07.46.30:149][732]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2024.04.15-07.46.30:149][732]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.15-07.46.30:155][732]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2024.04.15-07.46.30:155][732]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.15-07.46.31:841][929]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2024.04.15-07.46.31:841][929]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.15-07.46.33:617][137]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2024.04.15-07.46.33:617][137]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.15-07.46.34:392][224]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2024.04.15-07.46.34:392][224]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.15-07.46.35:765][384]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2024.04.15-07.46.35:765][384]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2024.04.15-07.46.35:765][384]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.15-07.46.36:767][497]LogWorld: UWorld::CleanupWorld for World_19, bSessionEnded=true, bCleanupResources=true
+[2024.04.15-07.46.36:767][497]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.15-07.46.36:771][497]LogWorld: UWorld::CleanupWorld for World_18, bSessionEnded=true, bCleanupResources=true
+[2024.04.15-07.46.36:771][497]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.15-07.46.37:884][623]LogWorld: UWorld::CleanupWorld for World_24, bSessionEnded=true, bCleanupResources=true
+[2024.04.15-07.46.37:884][623]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.15-07.46.37:888][623]LogWorld: UWorld::CleanupWorld for World_23, bSessionEnded=true, bCleanupResources=true
+[2024.04.15-07.46.37:888][623]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.15-07.46.38:422][681]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2024.04.15-07.46.38:422][681]LogWorld: UWorld::CleanupWorld for World_27, bSessionEnded=true, bCleanupResources=true
+[2024.04.15-07.46.38:422][681]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.15-07.47.28:974][696]LogWorld: UWorld::CleanupWorld for World_32, bSessionEnded=true, bCleanupResources=true
+[2024.04.15-07.47.28:974][696]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.15-07.47.28:979][696]LogWorld: UWorld::CleanupWorld for World_31, bSessionEnded=true, bCleanupResources=true
+[2024.04.15-07.47.28:979][696]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.15-07.48.01:629][566]BlueprintLog: New page: Compile FirstPersonPlayer
+[2024.04.15-07.48.01:674][566]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2024.04.15-07.48.02:189][610]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.15-07.48.02:244][610]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/FirstPersonPlayer" FILE="../../../../../../Users/OEM/Documents/University/GAME 201/lost-in-transit/Content/Player/FirstPersonPlayer.uasset" SILENT=true
+[2024.04.15-07.48.02:261][610]LogSavePackage: Moving output files for package: /Game/Player/FirstPersonPlayer
+[2024.04.15-07.48.02:261][610]LogSavePackage: Moving '../../../../../../Users/OEM/Documents/University/GAME 201/lost-in-transit/Saved/FirstPersonPlayer749E73134C7ACD883B5EB2A281EDD4CB.tmp' to '../../../../../../Users/OEM/Documents/University/GAME 201/lost-in-transit/Content/Player/FirstPersonPlayer.uasset'
+[2024.04.15-07.48.02:264][610]LogFileHelpers: InternalPromptForCheckoutAndSave took 75 ms (total: 1.11 sec)
+[2024.04.15-07.48.02:271][610]AssetCheck: New page: Asset Save: FirstPersonPlayer
+[2024.04.15-07.48.02:271][610]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Player/FirstPersonPlayer.FirstPersonPlayer
+[2024.04.15-07.48.08:614][332]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2024.04.15-07.48.09:764][332]LogSlate: Window 'Save Content' being destroyed
+[2024.04.15-07.48.09:773][332]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.15-07.48.09:808][332]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/UI/Menus/MainMenu" FILE="../../../../../../Users/OEM/Documents/University/GAME 201/lost-in-transit/Content/BP/UI/Menus/MainMenu.uasset" SILENT=true
+[2024.04.15-07.48.09:815][332]LogSavePackage: Moving output files for package: /Game/BP/UI/Menus/MainMenu
+[2024.04.15-07.48.09:815][332]LogSavePackage: Moving '../../../../../../Users/OEM/Documents/University/GAME 201/lost-in-transit/Saved/MainMenu0CCE78D14E82B20BB805BDAB36E3FC4A.tmp' to '../../../../../../Users/OEM/Documents/University/GAME 201/lost-in-transit/Content/BP/UI/Menus/MainMenu.uasset'
+[2024.04.15-07.48.09:819][332]LogFileHelpers: InternalPromptForCheckoutAndSave took 46 ms (total: 1.16 sec)
+[2024.04.15-07.48.09:882][332]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.15-07.48.09:883][332]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Levels/MainMenuLevel.MainMenuLevel
+[2024.04.15-07.48.09:883][332]Cmd: MAP LOAD FILE="../../../../../../Users/OEM/Documents/University/GAME 201/lost-in-transit/Content/Levels/MainMenuLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2024.04.15-07.48.09:883][332]LightingResults: New page: Lighting Build
+[2024.04.15-07.48.09:883][332]LoadErrors: New page: Loading map: MainMenuLevel.umap
+[2024.04.15-07.48.09:923][332]LogWorld: UWorld::CleanupWorld for L_Two, bSessionEnded=true, bCleanupResources=true
+[2024.04.15-07.48.09:923][332]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.15-07.48.09:923][332]MapCheck: New page: Map Check
+[2024.04.15-07.48.09:923][332]LightingResults: New page: Lighting Build
+[2024.04.15-07.48.09:931][332]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.04.15-07.48.09:934][332]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2024.04.15-07.48.09:935][332]LogWorld: UWorld::CleanupWorld for MainMenuLevel, bSessionEnded=true, bCleanupResources=true
+[2024.04.15-07.48.09:935][332]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.15-07.48.09:947][332]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2024.04.15-07.48.09:958][332]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2024.04.15-07.48.09:961][332]LogAudio: Display: Audio Device (ID: 1) registered with world 'MainMenuLevel'.
+[2024.04.15-07.48.09:961][332]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.15-07.48.09:961][332]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.15-07.48.09:961][332]LogAIModule: Creating AISystem for world MainMenuLevel
+[2024.04.15-07.48.09:974][332]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.04.15-07.48.09:981][332]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2024.04.15-07.48.09:984][332]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.04.15-07.48.09:984][332]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.069ms to complete.
+[2024.04.15-07.48.09:993][332]AssetCheck: New page: Asset Save: MainMenu
+[2024.04.15-07.48.09:993][332]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/BP/UI/Menus/MainMenu.MainMenu
+[2024.04.15-07.48.11:369][492]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2024.04.15-07.48.11:374][492]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.04.15-07.48.11:374][492]PIE: New page: PIE session: MainMenuLevel (16/04/2024, 7:48:11 am)
+[2024.04.15-07.48.11:374][492]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainMenuLevel
+[2024.04.15-07.48.11:374][492]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000698s)
+[2024.04.15-07.48.11:374][492]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainMenuLevel.MainMenuLevel to /Game/Levels/UEDPIE_0_MainMenuLevel.MainMenuLevel (0.000742s)
+[2024.04.15-07.48.11:381][492]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2024.04.15-07.48.11:382][492]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.15-07.48.11:382][492]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.15-07.48.11:382][492]LogAIModule: Creating AISystem for world MainMenuLevel
+[2024.04.15-07.48.11:382][492]LogPlayLevel: PIE: World Init took: (0.000650s)
+[2024.04.15-07.48.11:382][492]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2024.04.15-07.48.11:382][492]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.04.15-07.48.11:382][492]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.04.15-07.48.11:382][492]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.04.15-07.48.11:382][492]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.04.15-07.48.11:382][492]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.04.15-07.48.11:382][492]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.04.15-07.48.11:382][492]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.04.15-07.48.11:382][492]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.04.15-07.48.11:383][492]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.04.15-07.48.11:383][492]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.04.15-07.48.11:383][492]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.04.15-07.48.11:384][492]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.04.15-07.48.11:400][492]LogAudioMixer: Display: Using Audio Hardware Device Digital Audio (S/PDIF) (High Definition Audio Device)
+[2024.04.15-07.48.11:400][492]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.04.15-07.48.11:400][492]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.04.15-07.48.11:400][492]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.04.15-07.48.11:401][492]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=10
+[2024.04.15-07.48.11:401][492]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=10
+[2024.04.15-07.48.11:402][492]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=10
+[2024.04.15-07.48.11:402][492]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=10
+[2024.04.15-07.48.11:402][492]LogInit: FAudioDevice initialized with ID 10.
+[2024.04.15-07.48.11:402][492]LogAudio: Display: Audio Device (ID: 10) registered with world 'MainMenuLevel'.
+[2024.04.15-07.48.11:402][492]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 10
+[2024.04.15-07.48.11:462][492]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.15-07.48.11:463][492]LogLoad: Game class is 'MenuGameMode_C'
+[2024.04.15-07.48.11:463][492]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainMenuLevel.MainMenuLevel up for play (max tick rate 0) at 2024.04.15-19.48.11
+[2024.04.15-07.48.11:463][492]LogWorld: Bringing up level for play took: 0.000377
+[2024.04.15-07.48.11:465][492]LogOnline: OSS: Created online subsystem instance for: :Context_28
+[2024.04.15-07.48.11:466][492]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.04.15-07.48.11:466][492]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2024.04.15-07.48.11:468][492]PIE: Server logged in
+[2024.04.15-07.48.11:469][492]PIE: Play in editor total start time 0.095 seconds.
+[2024.04.15-07.48.11:477][492]LogViewport: Scene viewport resized to 1914x992, mode Windowed.
+[2024.04.15-07.48.24:279][ 23]LogNet: Browse: /Game/Levels/L_One
+[2024.04.15-07.48.24:279][ 23]LogLoad: LoadMap: /Game/Levels/L_One
+[2024.04.15-07.48.24:279][ 23]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_MainMenuLevel
+[2024.04.15-07.48.24:281][ 23]LogWorld: UWorld::CleanupWorld for MainMenuLevel, bSessionEnded=true, bCleanupResources=true
+[2024.04.15-07.48.24:281][ 23]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.15-07.48.24:314][ 23]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.04.15-07.48.24:314][ 23]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2024.04.15-07.48.24:326][ 23]LogAudio: Display: Audio Device (ID: 10) registered with world 'L_One'.
+[2024.04.15-07.48.24:327][ 23]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.15-07.48.24:327][ 23]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.15-07.48.24:327][ 23]LogAIModule: Creating AISystem for world L_One
+[2024.04.15-07.48.24:327][ 23]LogPlayLevel: PIE: World Init took: (0.000577s)
+[2024.04.15-07.48.24:327][ 23]LogLoad: Game class is 'GameMode_C'
+[2024.04.15-07.48.24:331][ 23]LogWorld: Bringing World /Game/Levels/UEDPIE_0_L_One.L_One up for play (max tick rate 0) at 2024.04.15-19.48.24
+[2024.04.15-07.48.24:331][ 23]LogWorld: Bringing up level for play took: 0.003091
+[2024.04.15-07.48.24:331][ 23]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CaptureDuringMouseDown
+[2024.04.15-07.48.24:332][ 23]LogLoad: Took 0.051708 seconds to LoadMap(/Game/Levels/L_One)
+[2024.04.15-07.48.24:332][ 23]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/Levels/UEDPIE_0_L_One.L_One_C:ExecuteUbergraph_L_One'!
+[2024.04.15-07.48.24:332][ 23]LogScript: Warning: Script Msg called by: L_One_C /Game/Levels/UEDPIE_0_L_One.L_One:PersistentLevel.L_One_C_2
+[2024.04.15-07.48.24:332][ 23]LogBlueprintUserMessages: [BP_Parcel_C_0] true
+[2024.04.15-07.48.31:172][837]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.15-07.48.31:172][837]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_L_One
+[2024.04.15-07.48.31:172][837]LogSlate: Window 'lost_in_transit Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2024.04.15-07.48.31:175][837]LogWorld: UWorld::CleanupWorld for L_One, bSessionEnded=true, bCleanupResources=true
+[2024.04.15-07.48.31:176][837]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.15-07.48.31:177][837]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.04.15-07.48.31:180][837]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.15-07.48.31:188][837]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 10
+[2024.04.15-07.48.31:188][837]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2024.04.15-07.48.31:189][837]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2024.04.15-07.48.31:193][837]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2024.04.15-07.48.31:237][842]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2024.04.15-07.48.34:661][246]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2024.04.15-07.48.34:701][246]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.15-07.48.34:704][246]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Levels/L_One.L_One
+[2024.04.15-07.48.34:704][246]Cmd: MAP LOAD FILE="../../../../../../Users/OEM/Documents/University/GAME 201/lost-in-transit/Content/Levels/L_One.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2024.04.15-07.48.34:704][246]LightingResults: New page: Lighting Build
+[2024.04.15-07.48.34:704][246]LoadErrors: New page: Loading map: L_One.umap
+[2024.04.15-07.48.34:763][246]LogWorld: UWorld::CleanupWorld for MainMenuLevel, bSessionEnded=true, bCleanupResources=true
+[2024.04.15-07.48.34:763][246]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.15-07.48.34:763][246]MapCheck: New page: Map Check
+[2024.04.15-07.48.34:763][246]LightingResults: New page: Lighting Build
+[2024.04.15-07.48.34:772][246]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.04.15-07.48.34:773][246]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2024.04.15-07.48.34:775][246]LogWorld: UWorld::CleanupWorld for L_One, bSessionEnded=true, bCleanupResources=true
+[2024.04.15-07.48.34:775][246]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.15-07.48.34:789][246]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2024.04.15-07.48.34:795][246]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2024.04.15-07.48.34:805][246]LogAudio: Display: Audio Device (ID: 1) registered with world 'L_One'.
+[2024.04.15-07.48.34:805][246]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.15-07.48.34:805][246]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.15-07.48.34:806][246]LogAIModule: Creating AISystem for world L_One
+[2024.04.15-07.48.34:817][246]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.04.15-07.48.34:823][246]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2024.04.15-07.48.34:827][246]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.04.15-07.48.34:827][246]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.069ms to complete.
+[2024.04.15-07.48.55:911][729]BlueprintLog: New page: Compile FirstPersonPlayer
+[2024.04.15-07.48.55:944][729]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2024.04.15-07.48.56:465][774]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.15-07.48.56:509][774]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/FirstPersonPlayer" FILE="../../../../../../Users/OEM/Documents/University/GAME 201/lost-in-transit/Content/Player/FirstPersonPlayer.uasset" SILENT=true
+[2024.04.15-07.48.56:528][774]LogSavePackage: Moving output files for package: /Game/Player/FirstPersonPlayer
+[2024.04.15-07.48.56:528][774]LogSavePackage: Moving '../../../../../../Users/OEM/Documents/University/GAME 201/lost-in-transit/Saved/FirstPersonPlayerA919D3224760A990E7D14BA391F99632.tmp' to '../../../../../../Users/OEM/Documents/University/GAME 201/lost-in-transit/Content/Player/FirstPersonPlayer.uasset'
+[2024.04.15-07.48.56:533][774]LogFileHelpers: InternalPromptForCheckoutAndSave took 68 ms (total: 1.23 sec)
+[2024.04.15-07.48.56:537][774]AssetCheck: New page: Asset Save: FirstPersonPlayer
+[2024.04.15-07.48.56:537][774]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Player/FirstPersonPlayer.FirstPersonPlayer
+[2024.04.15-07.49.11:187][388]BlueprintLog: New page: Compile Intermisson
+[2024.04.15-07.49.11:208][388]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2024.04.15-07.49.11:736][437]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.15-07.49.11:797][437]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/UI/Intermisson" FILE="../../../../../../Users/OEM/Documents/University/GAME 201/lost-in-transit/Content/BP/UI/Intermisson.uasset" SILENT=true
+[2024.04.15-07.49.11:807][437]LogSavePackage: Moving output files for package: /Game/BP/UI/Intermisson
+[2024.04.15-07.49.11:807][437]LogSavePackage: Moving '../../../../../../Users/OEM/Documents/University/GAME 201/lost-in-transit/Saved/Intermisson385FBF4347D77BBBEA3E54B6A1A7D302.tmp' to '../../../../../../Users/OEM/Documents/University/GAME 201/lost-in-transit/Content/BP/UI/Intermisson.uasset'
+[2024.04.15-07.49.11:811][437]LogFileHelpers: InternalPromptForCheckoutAndSave took 73 ms (total: 1.30 sec)
+[2024.04.15-07.49.11:812][437]AssetCheck: New page: Asset Save: Intermisson
+[2024.04.15-07.49.11:812][437]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/BP/UI/Intermisson.Intermisson
+[2024.04.15-07.49.18:325][168]LogAssetEditorSubsystem: Opening Asset editor for LevelScriptBlueprint /Game/Levels/L_One.L_One:PersistentLevel.L_One
+[2024.04.15-07.49.18:325][168]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.15-07.49.18:325][168]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.15-07.49.30:746][595]BlueprintLog: New page: Compile L_One
+[2024.04.15-07.49.30:763][595]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2024.04.15-07.49.31:163][628]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.15-07.49.31:192][628]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/L_One" FILE="../../../../../../Users/OEM/Documents/University/GAME 201/lost-in-transit/Content/Levels/L_One.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.04.15-07.49.31:208][628]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2024.04.15-07.49.31:225][628]LogSavePackage: Moving output files for package: /Game/Levels/L_One
+[2024.04.15-07.49.31:225][628]LogSavePackage: Moving '../../../../../../Users/OEM/Documents/University/GAME 201/lost-in-transit/Saved/L_One68387B324A930E6F4FA7088472BDD39A.tmp' to '../../../../../../Users/OEM/Documents/University/GAME 201/lost-in-transit/Content/Levels/L_One.umap'
+[2024.04.15-07.49.31:231][628]LogFileHelpers: Saving map 'L_One' took 0.039
+[2024.04.15-07.49.31:235][628]LogFileHelpers: InternalPromptForCheckoutAndSave took 72 ms (total: 1.38 sec)
+[2024.04.15-07.49.31:236][628]AssetCheck: New page: Asset Save: L_One
+[2024.04.15-07.49.31:236][628]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/L_One.L_One
+[2024.04.15-07.49.32:245][732]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2024.04.15-07.49.32:249][732]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.04.15-07.49.32:249][732]PIE: New page: PIE session: L_One (16/04/2024, 7:49:32 am)
+[2024.04.15-07.49.32:249][732]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_L_One
+[2024.04.15-07.49.32:252][732]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002602s)
+[2024.04.15-07.49.32:252][732]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/L_One.L_One to /Game/Levels/UEDPIE_0_L_One.L_One (0.002626s)
+[2024.04.15-07.49.32:257][732]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2024.04.15-07.49.32:258][732]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.15-07.49.32:258][732]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.15-07.49.32:258][732]LogAIModule: Creating AISystem for world L_One
+[2024.04.15-07.49.32:258][732]LogPlayLevel: PIE: World Init took: (0.000758s)
+[2024.04.15-07.49.32:258][732]LogAudio: Display: Creating Audio Device:                 Id: 11, Scope: Unique, Realtime: True
+[2024.04.15-07.49.32:258][732]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.04.15-07.49.32:258][732]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.04.15-07.49.32:258][732]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.04.15-07.49.32:258][732]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.04.15-07.49.32:258][732]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.04.15-07.49.32:258][732]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.04.15-07.49.32:258][732]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.04.15-07.49.32:258][732]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.04.15-07.49.32:259][732]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.04.15-07.49.32:259][732]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.04.15-07.49.32:259][732]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.04.15-07.49.32:260][732]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.04.15-07.49.32:276][732]LogAudioMixer: Display: Using Audio Hardware Device Digital Audio (S/PDIF) (High Definition Audio Device)
+[2024.04.15-07.49.32:276][732]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.04.15-07.49.32:276][732]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.04.15-07.49.32:276][732]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.04.15-07.49.32:276][732]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=11
+[2024.04.15-07.49.32:276][732]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=11
+[2024.04.15-07.49.32:277][732]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=11
+[2024.04.15-07.49.32:277][732]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=11
+[2024.04.15-07.49.32:277][732]LogInit: FAudioDevice initialized with ID 11.
+[2024.04.15-07.49.32:277][732]LogAudio: Display: Audio Device (ID: 11) registered with world 'L_One'.
+[2024.04.15-07.49.32:277][732]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 11
+[2024.04.15-07.49.32:308][732]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.15-07.49.32:308][732]LogLoad: Game class is 'GameMode_C'
+[2024.04.15-07.49.32:309][732]LogWorld: Bringing World /Game/Levels/UEDPIE_0_L_One.L_One up for play (max tick rate 0) at 2024.04.15-19.49.32
+[2024.04.15-07.49.32:309][732]LogWorld: Bringing up level for play took: 0.000884
+[2024.04.15-07.49.32:311][732]LogOnline: OSS: Created online subsystem instance for: :Context_30
+[2024.04.15-07.49.32:312][732]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.04.15-07.49.32:312][732]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2024.04.15-07.49.32:313][732]PIE: Server logged in
+[2024.04.15-07.49.32:314][732]PIE: Play in editor total start time 0.066 seconds.
+[2024.04.15-07.49.32:315][732]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/Levels/L_One.L_One_C:ExecuteUbergraph_L_One'!
+[2024.04.15-07.49.32:315][732]LogScript: Warning: Script Msg called by: L_One_C /Game/Levels/UEDPIE_0_L_One.L_One:PersistentLevel.L_One_C_0
+[2024.04.15-07.49.32:316][732]LogBlueprintUserMessages: [BP_Parcel_C_0] false
+[2024.04.15-07.49.32:331][732]LogViewport: Scene viewport resized to 1914x992, mode Windowed.
+[2024.04.15-07.49.34:192][946]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.15-07.49.34:192][946]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_L_One
+[2024.04.15-07.49.34:192][946]LogSlate: Window 'lost_in_transit Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2024.04.15-07.49.34:194][946]LogWorld: UWorld::CleanupWorld for L_One, bSessionEnded=true, bCleanupResources=true
+[2024.04.15-07.49.34:194][946]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.15-07.49.34:196][946]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.04.15-07.49.34:198][946]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.15-07.49.34:207][946]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 11
+[2024.04.15-07.49.34:207][946]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2024.04.15-07.49.34:209][946]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2024.04.15-07.49.34:212][946]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2024.04.15-07.49.34:273][951]LogPlayLevel: Display: Destroying online subsystem :Context_30
+[2024.04.15-07.49.40:703][683]BlueprintLog: New page: Compile L_One
+[2024.04.15-07.49.40:720][683]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2024.04.15-07.49.41:423][752]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.15-07.49.41:482][752]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/L_One" FILE="../../../../../../Users/OEM/Documents/University/GAME 201/lost-in-transit/Content/Levels/L_One.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.04.15-07.49.41:498][752]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2024.04.15-07.49.41:516][752]LogSavePackage: Moving output files for package: /Game/Levels/L_One
+[2024.04.15-07.49.41:516][752]LogSavePackage: Moving '../../../../../../Users/OEM/Documents/University/GAME 201/lost-in-transit/Saved/L_One86505EA341258EA883931890D3137367.tmp' to '../../../../../../Users/OEM/Documents/University/GAME 201/lost-in-transit/Content/Levels/L_One.umap'
+[2024.04.15-07.49.41:526][752]LogFileHelpers: Saving map 'L_One' took 0.045
+[2024.04.15-07.49.41:532][752]LogFileHelpers: InternalPromptForCheckoutAndSave took 108 ms (total: 1.48 sec)
+[2024.04.15-07.49.41:533][752]AssetCheck: New page: Asset Save: L_One
+[2024.04.15-07.49.41:533][752]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/L_One.L_One
+[2024.04.15-07.50.22:613][585]BlueprintLog: New page: Compile FirstPersonPlayer
+[2024.04.15-07.50.22:650][585]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2024.04.15-07.50.23:014][610]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.15-07.50.23:062][610]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/FirstPersonPlayer" FILE="../../../../../../Users/OEM/Documents/University/GAME 201/lost-in-transit/Content/Player/FirstPersonPlayer.uasset" SILENT=true
+[2024.04.15-07.50.23:080][610]LogSavePackage: Moving output files for package: /Game/Player/FirstPersonPlayer
+[2024.04.15-07.50.23:081][610]LogSavePackage: Moving '../../../../../../Users/OEM/Documents/University/GAME 201/lost-in-transit/Saved/FirstPersonPlayerD034D07746DD613BD299ECAA5FE30738.tmp' to '../../../../../../Users/OEM/Documents/University/GAME 201/lost-in-transit/Content/Player/FirstPersonPlayer.uasset'
+[2024.04.15-07.50.23:085][610]LogFileHelpers: InternalPromptForCheckoutAndSave took 70 ms (total: 1.55 sec)
+[2024.04.15-07.50.23:087][610]AssetCheck: New page: Asset Save: FirstPersonPlayer
+[2024.04.15-07.50.23:087][610]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Player/FirstPersonPlayer.FirstPersonPlayer
+[2024.04.15-07.50.23:864][676]LogViewport: Scene viewport resized to 276x155, mode Windowed.
+[2024.04.15-07.50.24:952][793]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2024.04.15-07.50.24:957][793]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.04.15-07.50.24:957][793]PIE: New page: PIE session: L_One (16/04/2024, 7:50:24 am)
+[2024.04.15-07.50.24:957][793]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_L_One
+[2024.04.15-07.50.24:959][793]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002581s)
+[2024.04.15-07.50.24:959][793]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/L_One.L_One to /Game/Levels/UEDPIE_0_L_One.L_One (0.002601s)
+[2024.04.15-07.50.24:965][793]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2024.04.15-07.50.24:974][793]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.15-07.50.24:974][793]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.15-07.50.24:974][793]LogAIModule: Creating AISystem for world L_One
+[2024.04.15-07.50.24:974][793]LogPlayLevel: PIE: World Init took: (0.000709s)
+[2024.04.15-07.50.24:974][793]LogAudio: Display: Creating Audio Device:                 Id: 12, Scope: Unique, Realtime: True
+[2024.04.15-07.50.24:974][793]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.04.15-07.50.24:974][793]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.04.15-07.50.24:974][793]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.04.15-07.50.24:974][793]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.04.15-07.50.24:974][793]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.04.15-07.50.24:974][793]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.04.15-07.50.24:975][793]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.04.15-07.50.24:975][793]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.04.15-07.50.24:975][793]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.04.15-07.50.24:975][793]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.04.15-07.50.24:975][793]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.04.15-07.50.24:977][793]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.04.15-07.50.24:990][793]LogAudioMixer: Display: Using Audio Hardware Device Digital Audio (S/PDIF) (High Definition Audio Device)
+[2024.04.15-07.50.24:990][793]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.04.15-07.50.24:990][793]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.04.15-07.50.24:990][793]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.04.15-07.50.24:992][793]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=12
+[2024.04.15-07.50.24:992][793]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=12
+[2024.04.15-07.50.24:993][793]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=12
+[2024.04.15-07.50.24:993][793]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=12
+[2024.04.15-07.50.24:993][793]LogInit: FAudioDevice initialized with ID 12.
+[2024.04.15-07.50.24:993][793]LogAudio: Display: Audio Device (ID: 12) registered with world 'L_One'.
+[2024.04.15-07.50.24:993][793]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 12
+[2024.04.15-07.50.25:047][793]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.15-07.50.25:048][793]LogLoad: Game class is 'GameMode_C'
+[2024.04.15-07.50.25:049][793]LogWorld: Bringing World /Game/Levels/UEDPIE_0_L_One.L_One up for play (max tick rate 0) at 2024.04.15-19.50.25
+[2024.04.15-07.50.25:049][793]LogWorld: Bringing up level for play took: 0.001149
+[2024.04.15-07.50.25:052][793]LogOnline: OSS: Created online subsystem instance for: :Context_31
+[2024.04.15-07.50.25:053][793]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.04.15-07.50.25:053][793]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2024.04.15-07.50.25:055][793]PIE: Server logged in
+[2024.04.15-07.50.25:056][793]PIE: Play in editor total start time 0.1 seconds.
+[2024.04.15-07.50.25:057][793]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/Levels/L_One.L_One_C:ExecuteUbergraph_L_One'!
+[2024.04.15-07.50.25:057][793]LogScript: Warning: Script Msg called by: L_One_C /Game/Levels/UEDPIE_0_L_One.L_One:PersistentLevel.L_One_C_1
+[2024.04.15-07.50.25:057][793]LogBlueprintUserMessages: [BP_Parcel_C_0] true
+[2024.04.15-07.50.25:080][793]LogViewport: Scene viewport resized to 1914x992, mode Windowed.
+[2024.04.15-07.50.29:949][373]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.15-07.50.38:483][397]LogNet: Browse: /Game/Levels/L_Two
+[2024.04.15-07.50.38:483][397]LogLoad: LoadMap: /Game/Levels/L_Two
+[2024.04.15-07.50.38:483][397]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_L_One
+[2024.04.15-07.50.38:483][397]LogWorld: UWorld::CleanupWorld for L_One, bSessionEnded=true, bCleanupResources=true
+[2024.04.15-07.50.38:483][397]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.15-07.50.38:534][397]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.04.15-07.50.38:536][397]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2024.04.15-07.50.38:549][397]LogAudio: Display: Audio Device (ID: 12) registered with world 'L_Two'.
+[2024.04.15-07.50.38:549][397]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.15-07.50.38:549][397]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.15-07.50.38:549][397]LogAIModule: Creating AISystem for world L_Two
+[2024.04.15-07.50.38:550][397]LogPlayLevel: PIE: World Init took: (0.000570s)
+[2024.04.15-07.50.38:550][397]LogLoad: Game class is 'GameMode_C'
+[2024.04.15-07.50.38:552][397]LogWorld: Bringing World /Game/Levels/UEDPIE_0_L_Two.L_Two up for play (max tick rate 0) at 2024.04.15-19.50.38
+[2024.04.15-07.50.38:552][397]LogWorld: Bringing up level for play took: 0.002973
+[2024.04.15-07.50.38:553][397]LogLoad: Took 0.071482 seconds to LoadMap(/Game/Levels/L_Two)
+[2024.04.15-07.50.38:554][397]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/Levels/UEDPIE_0_L_Two.L_Two_C:ExecuteUbergraph_L_Two'!
+[2024.04.15-07.50.38:554][397]LogScript: Warning: Script Msg called by: L_Two_C /Game/Levels/UEDPIE_0_L_Two.L_Two:PersistentLevel.L_Two_C_4
+[2024.04.15-07.50.38:554][397]LogBlueprintUserMessages: [BP_Parcel_C_0] false
+[2024.04.15-07.50.38:571][398]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Arrow': BP_Customer_C /Game/Levels/L_Two.L_Two:PersistentLevel.BP_Customer_C_1
+[2024.04.15-07.50.38:571][398]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'CollisionCylinder': BP_Customer_C /Game/Levels/L_Two.L_Two:PersistentLevel.BP_Customer_C_1
+[2024.04.15-07.50.38:571][398]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'CharMoveComp': BP_Customer_C /Game/Levels/L_Two.L_Two:PersistentLevel.BP_Customer_C_1
+[2024.04.15-07.50.38:571][398]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Sprite0': BP_Customer_C /Game/Levels/L_Two.L_Two:PersistentLevel.BP_Customer_C_1
+[2024.04.15-07.50.38:571][398]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'PaperSprite': BP_Customer_C /Game/Levels/L_Two.L_Two:PersistentLevel.BP_Customer_C_1
+[2024.04.15-07.50.42:911][915]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.15-07.50.42:911][915]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_L_Two
+[2024.04.15-07.50.42:911][915]LogSlate: Window 'lost_in_transit Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2024.04.15-07.50.42:915][915]LogWorld: UWorld::CleanupWorld for L_Two, bSessionEnded=true, bCleanupResources=true
+[2024.04.15-07.50.42:916][915]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.15-07.50.42:918][915]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.04.15-07.50.42:920][915]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.15-07.50.42:930][915]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 12
+[2024.04.15-07.50.42:930][915]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2024.04.15-07.50.42:933][915]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2024.04.15-07.50.42:937][915]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2024.04.15-07.50.43:015][916]LogPlayLevel: Display: Destroying online subsystem :Context_31
+[2024.04.15-07.50.43:018][916]LogViewport: Scene viewport resized to 276x155, mode Windowed.
+[2024.04.15-07.50.53:755][150]BlueprintLog: New page: Compile FirstPersonPlayer
+[2024.04.15-07.50.53:790][150]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2024.04.15-07.50.54:372][201]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.15-07.50.54:427][201]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/FirstPersonPlayer" FILE="../../../../../../Users/OEM/Documents/University/GAME 201/lost-in-transit/Content/Player/FirstPersonPlayer.uasset" SILENT=true
+[2024.04.15-07.50.54:447][201]LogSavePackage: Moving output files for package: /Game/Player/FirstPersonPlayer
+[2024.04.15-07.50.54:447][201]LogSavePackage: Moving '../../../../../../Users/OEM/Documents/University/GAME 201/lost-in-transit/Saved/FirstPersonPlayer3C8375484F3ED1A3059A089FDAE7E6F7.tmp' to '../../../../../../Users/OEM/Documents/University/GAME 201/lost-in-transit/Content/Player/FirstPersonPlayer.uasset'
+[2024.04.15-07.50.54:452][201]LogFileHelpers: InternalPromptForCheckoutAndSave took 79 ms (total: 1.63 sec)
+[2024.04.15-07.50.54:453][201]AssetCheck: New page: Asset Save: FirstPersonPlayer
+[2024.04.15-07.50.54:453][201]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Player/FirstPersonPlayer.FirstPersonPlayer
+[2024.04.15-07.52.15:685][222]BlueprintLog: New page: Compile Intermisson
+[2024.04.15-07.52.15:709][222]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2024.04.15-07.52.16:379][288]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.15-07.52.16:426][288]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/UI/Intermisson" FILE="../../../../../../Users/OEM/Documents/University/GAME 201/lost-in-transit/Content/BP/UI/Intermisson.uasset" SILENT=true
+[2024.04.15-07.52.16:435][288]LogSavePackage: Moving output files for package: /Game/BP/UI/Intermisson
+[2024.04.15-07.52.16:436][288]LogSavePackage: Moving '../../../../../../Users/OEM/Documents/University/GAME 201/lost-in-transit/Saved/Intermisson43B526D941F8BF5FF8CC2286F17BE28C.tmp' to '../../../../../../Users/OEM/Documents/University/GAME 201/lost-in-transit/Content/BP/UI/Intermisson.uasset'
+[2024.04.15-07.52.16:439][288]LogFileHelpers: InternalPromptForCheckoutAndSave took 59 ms (total: 1.69 sec)
+[2024.04.15-07.52.16:441][288]AssetCheck: New page: Asset Save: Intermisson
+[2024.04.15-07.52.16:441][288]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/BP/UI/Intermisson.Intermisson
+[2024.04.15-07.52.27:962][604]BlueprintLog: New page: Compile Intermisson
+[2024.04.15-07.52.27:988][604]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2024.04.15-07.52.28:385][636]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.15-07.52.28:455][636]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/UI/Intermisson" FILE="../../../../../../Users/OEM/Documents/University/GAME 201/lost-in-transit/Content/BP/UI/Intermisson.uasset" SILENT=true
+[2024.04.15-07.52.28:464][636]LogSavePackage: Moving output files for package: /Game/BP/UI/Intermisson
+[2024.04.15-07.52.28:465][636]LogSavePackage: Moving '../../../../../../Users/OEM/Documents/University/GAME 201/lost-in-transit/Saved/IntermissonA15FF277457763D89C7D2F80F6DF6757.tmp' to '../../../../../../Users/OEM/Documents/University/GAME 201/lost-in-transit/Content/BP/UI/Intermisson.uasset'
+[2024.04.15-07.52.28:468][636]LogFileHelpers: InternalPromptForCheckoutAndSave took 83 ms (total: 1.78 sec)
+[2024.04.15-07.52.28:470][636]AssetCheck: New page: Asset Save: Intermisson
+[2024.04.15-07.52.28:470][636]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/BP/UI/Intermisson.Intermisson
+[2024.04.15-07.53.16:278][297]BlueprintLog: New page: Compile FirstPersonPlayer
+[2024.04.15-07.53.16:312][297]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2024.04.15-07.53.16:896][347]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.15-07.53.16:944][347]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/FirstPersonPlayer" FILE="../../../../../../Users/OEM/Documents/University/GAME 201/lost-in-transit/Content/Player/FirstPersonPlayer.uasset" SILENT=true
+[2024.04.15-07.53.16:963][347]LogSavePackage: Moving output files for package: /Game/Player/FirstPersonPlayer
+[2024.04.15-07.53.16:963][347]LogSavePackage: Moving '../../../../../../Users/OEM/Documents/University/GAME 201/lost-in-transit/Saved/FirstPersonPlayer1F20C5A64911C4F56C2931ADA69E0D0A.tmp' to '../../../../../../Users/OEM/Documents/University/GAME 201/lost-in-transit/Content/Player/FirstPersonPlayer.uasset'
+[2024.04.15-07.53.16:968][347]LogFileHelpers: InternalPromptForCheckoutAndSave took 71 ms (total: 1.85 sec)
+[2024.04.15-07.53.16:970][347]AssetCheck: New page: Asset Save: FirstPersonPlayer
+[2024.04.15-07.53.16:970][347]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Player/FirstPersonPlayer.FirstPersonPlayer
