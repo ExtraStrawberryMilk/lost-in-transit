@@ -7,6 +7,12 @@
 			"files": [
 				"D:/OneDrive/2023 Uni Work/Github/lost-in-transit/Content/BP/Parcel/BP_Parcel.uasset",
 				"D:/OneDrive/2023 Uni Work/Github/lost-in-transit/Content/BP/Parcel/BPL_Rules.uasset",
+				"D:/OneDrive/2023 Uni Work/Github/lost-in-transit/Content/BP/UI/IncorrectStampError.uasset",
+				"D:/OneDrive/2023 Uni Work/Github/lost-in-transit/Content/BP/UI/Error.uasset",
+				"D:/OneDrive/2023 Uni Work/Github/lost-in-transit/Content/Structures/Customers.uasset",
+				"D:/OneDrive/2023 Uni Work/Github/lost-in-transit/Content/BP/UI/InvalidWeightError.uasset",
+				"D:/OneDrive/2023 Uni Work/Github/lost-in-transit/Content/BP/UI/MissingInformationError.uasset",
+				"D:/OneDrive/2023 Uni Work/Github/lost-in-transit/Content/BP/UI/WrongWeightClassError.uasset",
 				"H:/lost-in-transit/Content/Structures/F_Customer.uasset",
 				"H:/lost-in-transit/Content/Structures/Customers.uasset",
 				"H:/lost-in-transit/Content/BP/Parcel/BP_Parcel.uasset",
