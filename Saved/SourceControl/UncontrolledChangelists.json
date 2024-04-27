@@ -12,7 +12,19 @@
 				"H:/lost-in-transit/Content/Levels/L_Two.umap",
 				"H:/lost-in-transit/Content/Levels/L_One.umap",
 				"H:/lost-in-transit/Content/BP/UI/ParcelWeight.uasset",
-				"H:/lost-in-transit/Content/BP/UI/Intermisson.uasset"
+				"H:/lost-in-transit/Content/BP/UI/Intermisson.uasset",
+				"H:/lost-in-transit/Content/BP/UI/Old_Dialogue/Next_Please.uasset",
+				"H:/lost-in-transit/Content/BP/UI/Old_Dialogue/Customer_Greeting.uasset",
+				"H:/lost-in-transit/Content/BP/UI/Dialogue/Customer_Greeting.uasset",
+				"H:/lost-in-transit/Content/BP/UI/Dialogue/Next_Please.uasset",
+				"H:/lost-in-transit/Content/BP/UI/Briefings/BriefingScreen.uasset",
+				"H:/lost-in-transit/Content/BP/UI/Briefings/BriefingScreen2.uasset",
+				"H:/lost-in-transit/Content/BP/UI/Briefings/BriefingScreen3.uasset",
+				"H:/lost-in-transit/Content/BP/UI/Briefings/BriefingsImages/Briefing2.uasset",
+				"H:/lost-in-transit/Content/BP/UI/Briefings/BriefingsImages/Briefing_Day_3.uasset",
+				"H:/lost-in-transit/Content/BP/UI/Briefings/BriefingsImages/Briefing3.uasset",
+				"H:/lost-in-transit/Content/BP/UI/Briefings/Briefings/Briefing_Day_3.uasset",
+				"H:/lost-in-transit/Content/BP/UI/Briefings/Briefings/Briefing2.uasset"
 			]
 		}
 	]
