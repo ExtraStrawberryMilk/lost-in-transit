@@ -5,7 +5,11 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
-				"H:/lost-in-transit/Content/BP/Parcel/BP_Parcel.uasset"
+				"H:/lost-in-transit/Content/BP/Parcel/BP_Parcel.uasset",
+				"H:/lost-in-transit/Content/Player/FirstPersonPlayer.uasset",
+				"H:/lost-in-transit/Content/BP/UI/Dialouge/Widgets/Customer_Greeting.uasset",
+				"H:/lost-in-transit/Content/BP/UI/Payslip.uasset",
+				"H:/lost-in-transit/Content/Levels/L_Two.umap"
 			]
 		}
 	]
