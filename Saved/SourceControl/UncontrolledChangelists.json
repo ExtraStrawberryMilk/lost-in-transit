@@ -5,6 +5,10 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"D:/OneDrive/2023 Uni Work/Github/lost-in-transit/Content/BP/Enviroment/BP_ConveyorBelt.uasset",
+				"D:/OneDrive/2023 Uni Work/Github/lost-in-transit/Content/BP/Parcel/BP_Parcel.uasset",
+				"D:/OneDrive/2023 Uni Work/Github/lost-in-transit/Content/BP/Parcel/BPL_Rules.uasset",
+				"D:/OneDrive/2023 Uni Work/Github/lost-in-transit/Content/Player/FirstPersonPlayer.uasset",
 				"H:/lost-in-transit/Content/BP/Parcel/BP_Parcel.uasset",
 				"H:/lost-in-transit/Content/Player/FirstPersonPlayer.uasset",
 				"H:/lost-in-transit/Content/BP/UI/Dialouge/Widgets/Customer_Greeting.uasset",
