@@ -1720,3 +1720,1201 @@ LogConfig: Set CVar [[con.DebugEarlyDefault:1]]
 [2024.05.23-05.33.33:932][429]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/BP/UI/images/Customer.Customer
 [2024.05.23-05.33.33:932][429]LogContentValidation: Display: Validating /Script/Paper2D.PaperSprite /Game/BP/UI/images/Customer_Sprite.Customer_Sprite
 [2024.05.23-05.33.33:932][429]LogContentValidation: Display: Validating /Script/Paper2D.PaperSprite /Game/Sprites/Textures/The_Resistance_Logo_Sprite.The_Resistance_Logo_Sprite
+[2024.05.23-05.34.23:024][117]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BP/Enviroment/Permit_BP.Permit_BP
+[2024.05.23-05.34.23:024][117]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.05.23-05.34.23:024][117]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.05.23-05.34.33:342][131]LogSlate: Last resort fallback font was requested. Font: '<unknown>', Character: '<unknown>'
+[2024.05.23-05.34.33:352][131]LogSlate: Took 0.009705 seconds to synchronously load lazily loaded font '../../../Engine/Content/SlateDebug/Fonts/LastResort.ttf' (5269K)
+[2024.05.23-05.34.37:985][675]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/BP/UI/Information_Widgets/Permit.Permit
+[2024.05.23-05.34.37:985][675]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.05.23-05.34.37:985][675]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.05.23-05.34.37:991][675]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.05.23-05.34.37:991][675]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.05.23-05.35.32:322][ 47]LogEditorTransaction: Undo Move Node
+[2024.05.23-05.39.06:752][411]LogEditorTransaction: Undo Remove Components
+[2024.05.23-05.39.32:053][313]LogEditorTransaction: Undo Remove Components
+[2024.05.23-05.42.16:097][721]LogEditorTransaction: Undo Paste clipboard contents
+[2024.05.23-05.43.03:876][996]BlueprintLog: New page: Compile Customer
+[2024.05.23-05.43.03:959][996]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2024.05.23-05.43.04:757][ 52]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.05.23-05.43.04:812][ 52]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/Enviroment/Customer" FILE="H:/lost-in-transit/Content/BP/Enviroment/Customer.uasset" SILENT=true
+[2024.05.23-05.43.08:297][ 52]LogSavePackage: Moving output files for package: /Game/BP/Enviroment/Customer
+[2024.05.23-05.43.08:339][ 52]LogSavePackage: Moving 'H:/lost-in-transit/Saved/Customer50118CEC48CB40B166CFF0A04E381494.tmp' to 'H:/lost-in-transit/Content/BP/Enviroment/Customer.uasset'
+[2024.05.23-05.43.08:385][ 52]LogFileHelpers: InternalPromptForCheckoutAndSave took 3.62 sec (total: 13.9 sec)
+[2024.05.23-05.43.08:387][ 52]AssetCheck: New page: Asset Save: Customer
+[2024.05.23-05.43.08:387][ 52]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/BP/Enviroment/Customer.Customer
+[2024.05.23-05.43.10:606][283]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.05.23-05.43.10:652][283]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.05.23-05.43.10:652][283]PIE: New page: PIE session: L_One (24/05/2024, 5:43:10 am)
+[2024.05.23-05.43.10:652][283]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_L_One
+[2024.05.23-05.43.10:656][283]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004383s)
+[2024.05.23-05.43.10:656][283]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/L_One.L_One to /Game/Levels/UEDPIE_0_L_One.L_One (0.004423s)
+[2024.05.23-05.43.10:671][283]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2024.05.23-05.43.10:676][283]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.05.23-05.43.10:676][283]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.05.23-05.43.10:676][283]LogAIModule: Creating AISystem for world L_One
+[2024.05.23-05.43.10:676][283]LogPlayLevel: PIE: World Init took: (0.001055s)
+[2024.05.23-05.43.10:676][283]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2024.05.23-05.43.10:676][283]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.05.23-05.43.10:677][283]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.05.23-05.43.10:677][283]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.05.23-05.43.10:677][283]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.05.23-05.43.10:677][283]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.05.23-05.43.10:677][283]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.05.23-05.43.10:677][283]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.05.23-05.43.10:677][283]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.05.23-05.43.10:677][283]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.05.23-05.43.10:677][283]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.05.23-05.43.10:677][283]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.05.23-05.43.10:679][283]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.05.23-05.43.10:729][283]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.05.23-05.43.10:729][283]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.05.23-05.43.10:729][283]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.05.23-05.43.10:729][283]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.05.23-05.43.10:729][283]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=3
+[2024.05.23-05.43.10:729][283]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=3
+[2024.05.23-05.43.10:731][283]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=3
+[2024.05.23-05.43.10:731][283]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=3
+[2024.05.23-05.43.10:731][283]LogInit: FAudioDevice initialized with ID 3.
+[2024.05.23-05.43.10:731][283]LogAudio: Display: Audio Device (ID: 3) registered with world 'L_One'.
+[2024.05.23-05.43.10:731][283]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 3
+[2024.05.23-05.43.10:734][283]LogLoad: Game class is 'GameMode_C'
+[2024.05.23-05.43.10:737][283]LogWorld: Bringing World /Game/Levels/UEDPIE_0_L_One.L_One up for play (max tick rate 0) at 2024.05.23-17.43.10
+[2024.05.23-05.43.10:737][283]LogWorld: Bringing up level for play took: 0.001056
+[2024.05.23-05.43.10:739][283]LogOnline: OSS: Created online subsystem instance for: :Context_10
+[2024.05.23-05.43.10:740][283]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.05.23-05.43.10:740][283]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2024.05.23-05.43.10:741][283]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'CustomerBlockLengths' of length 0 in '/Game/BP/LevelManager.LevelManager_C'!
+[2024.05.23-05.43.10:741][283]LogScript: Warning: Script Msg called by: LevelManager_C /Game/Levels/UEDPIE_0_L_One.L_One:PersistentLevel.LevelManager_C_0
+[2024.05.23-05.43.10:741][283]PIE: Server logged in
+[2024.05.23-05.43.10:742][283]PIE: Play in editor total start time 0.091 seconds.
+[2024.05.23-05.43.11:026][308]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'nodes_35_86FC0DA44BA16826421D3F8834110971' of length 0 in '/Game/BP/NerdStuff/Tree/F_Storyline.F_Storyline'!
+[2024.05.23-05.43.11:026][308]LogScript: Warning: Script Msg called by: LevelManager_C /Game/Levels/UEDPIE_0_L_One.L_One:PersistentLevel.LevelManager_C_0
+[2024.05.23-05.43.11:026][308]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'CustomerInfomation_44_6ABD1AF047982DCC2FD04987BE5EF93E' of length 0 in '/Game/BP/NerdStuff/Tree/F_StoryInfoNode.F_StoryInfoNode'!
+[2024.05.23-05.43.11:026][308]LogScript: Warning: Script Msg called by: LevelManager_C /Game/Levels/UEDPIE_0_L_One.L_One:PersistentLevel.LevelManager_C_0
+[2024.05.23-05.43.16:426][946]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.05.23-05.43.16:428][946]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_L_One
+[2024.05.23-05.43.16:428][946]LogWorld: UWorld::CleanupWorld for L_One, bSessionEnded=true, bCleanupResources=true
+[2024.05.23-05.43.16:428][946]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.23-05.43.16:430][946]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.05.23-05.43.16:434][946]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.23-05.43.16:446][946]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.05.23-05.43.16:447][946]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 3
+[2024.05.23-05.43.16:447][946]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2024.05.23-05.43.16:448][946]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2024.05.23-05.43.16:453][946]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.05.23-05.43.16:455][946]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2024.05.23-05.43.16:633][959]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2024.05.23-05.43.26:263][ 45]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2024.05.23-05.43.26:325][ 45]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.05.23-05.43.26:330][ 45]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Levels/L_Four.L_Four
+[2024.05.23-05.43.26:331][ 45]Cmd: MAP LOAD FILE="H:/lost-in-transit/Content/Levels/L_Four.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2024.05.23-05.43.26:331][ 45]LightingResults: New page: Lighting Build
+[2024.05.23-05.43.26:331][ 45]LoadErrors: New page: Loading map: L_Four.umap
+[2024.05.23-05.43.26:530][ 45]LogWorld: UWorld::CleanupWorld for L_One, bSessionEnded=true, bCleanupResources=true
+[2024.05.23-05.43.26:530][ 45]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.23-05.43.26:530][ 45]MapCheck: New page: Map Check
+[2024.05.23-05.43.26:530][ 45]LightingResults: New page: Lighting Build
+[2024.05.23-05.43.26:541][ 45]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.05.23-05.43.26:544][ 45]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2024.05.23-05.43.26:548][ 45]LogWorld: UWorld::CleanupWorld for L_Four, bSessionEnded=true, bCleanupResources=true
+[2024.05.23-05.43.26:548][ 45]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.23-05.43.26:560][ 45]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2024.05.23-05.43.26:569][ 45]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2024.05.23-05.43.26:593][ 45]LogAudio: Display: Audio Device (ID: 1) registered with world 'L_Four'.
+[2024.05.23-05.43.26:593][ 45]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.05.23-05.43.26:593][ 45]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.05.23-05.43.26:593][ 45]LogAIModule: Creating AISystem for world L_Four
+[2024.05.23-05.43.26:609][ 45]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.05.23-05.43.26:620][ 45]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2024.05.23-05.43.26:658][ 45]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.05.23-05.43.26:658][ 45]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.774ms to complete.
+[2024.05.23-05.43.28:217][214]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.05.23-05.43.28:260][214]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.05.23-05.43.28:260][214]PIE: New page: PIE session: L_Four (24/05/2024, 5:43:28 am)
+[2024.05.23-05.43.28:260][214]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_L_Four
+[2024.05.23-05.43.28:267][214]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005857s)
+[2024.05.23-05.43.28:267][214]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/L_Four.L_Four to /Game/Levels/UEDPIE_0_L_Four.L_Four (0.005903s)
+[2024.05.23-05.43.28:281][214]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2024.05.23-05.43.28:282][214]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.05.23-05.43.28:282][214]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.05.23-05.43.28:282][214]LogAIModule: Creating AISystem for world L_Four
+[2024.05.23-05.43.28:282][214]LogPlayLevel: PIE: World Init took: (0.000738s)
+[2024.05.23-05.43.28:282][214]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2024.05.23-05.43.28:282][214]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.05.23-05.43.28:282][214]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.05.23-05.43.28:283][214]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.05.23-05.43.28:283][214]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.05.23-05.43.28:283][214]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.05.23-05.43.28:283][214]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.05.23-05.43.28:283][214]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.05.23-05.43.28:283][214]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.05.23-05.43.28:283][214]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.05.23-05.43.28:283][214]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.05.23-05.43.28:283][214]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.05.23-05.43.28:285][214]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.05.23-05.43.28:332][214]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.05.23-05.43.28:332][214]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.05.23-05.43.28:332][214]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.05.23-05.43.28:332][214]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.05.23-05.43.28:333][214]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=4
+[2024.05.23-05.43.28:333][214]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=4
+[2024.05.23-05.43.28:334][214]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=4
+[2024.05.23-05.43.28:335][214]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=4
+[2024.05.23-05.43.28:335][214]LogInit: FAudioDevice initialized with ID 4.
+[2024.05.23-05.43.28:335][214]LogAudio: Display: Audio Device (ID: 4) registered with world 'L_Four'.
+[2024.05.23-05.43.28:335][214]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 4
+[2024.05.23-05.43.28:336][214]LogLoad: Game class is 'GameMode_C'
+[2024.05.23-05.43.28:340][214]LogWorld: Bringing World /Game/Levels/UEDPIE_0_L_Four.L_Four up for play (max tick rate 0) at 2024.05.23-17.43.28
+[2024.05.23-05.43.28:340][214]LogWorld: Bringing up level for play took: 0.000978
+[2024.05.23-05.43.28:342][214]LogOnline: OSS: Created online subsystem instance for: :Context_11
+[2024.05.23-05.43.28:343][214]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.05.23-05.43.28:343][214]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2024.05.23-05.43.28:344][214]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'CustomerBlockLengths' of length 0 in '/Game/BP/LevelManager.LevelManager_C'!
+[2024.05.23-05.43.28:344][214]LogScript: Warning: Script Msg called by: LevelManager_C /Game/Levels/UEDPIE_0_L_Four.L_Four:PersistentLevel.LevelManager_C_0
+[2024.05.23-05.43.28:344][214]PIE: Server logged in
+[2024.05.23-05.43.28:345][214]PIE: Play in editor total start time 0.084 seconds.
+[2024.05.23-05.43.28:628][239]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'nodes_35_86FC0DA44BA16826421D3F8834110971' of length 0 in '/Game/BP/NerdStuff/Tree/F_Storyline.F_Storyline'!
+[2024.05.23-05.43.28:628][239]LogScript: Warning: Script Msg called by: LevelManager_C /Game/Levels/UEDPIE_0_L_Four.L_Four:PersistentLevel.LevelManager_C_0
+[2024.05.23-05.43.28:628][239]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'CustomerInfomation_44_6ABD1AF047982DCC2FD04987BE5EF93E' of length 0 in '/Game/BP/NerdStuff/Tree/F_StoryInfoNode.F_StoryInfoNode'!
+[2024.05.23-05.43.28:628][239]LogScript: Warning: Script Msg called by: LevelManager_C /Game/Levels/UEDPIE_0_L_Four.L_Four:PersistentLevel.LevelManager_C_0
+[2024.05.23-05.43.43:240][951]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2024.05.23-05.43.43:273][951]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.05.23-05.43.43:278][951]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Levels/L_Two.L_Two
+[2024.05.23-05.43.45:100][951]LogSlate: Window 'Message' being destroyed
+[2024.05.23-05.43.45:108][951]Message dialog closed, result: No, title: Message, text: This action will terminate your Play In Editor session.  Continue?
+[2024.05.23-05.43.46:938][144]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.05.23-05.43.46:938][144]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_L_Four
+[2024.05.23-05.43.46:938][144]LogWorld: UWorld::CleanupWorld for L_Four, bSessionEnded=true, bCleanupResources=true
+[2024.05.23-05.43.46:938][144]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.23-05.43.46:941][144]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.05.23-05.43.46:945][144]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.23-05.43.46:952][144]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.05.23-05.43.46:953][144]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 4
+[2024.05.23-05.43.46:953][144]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2024.05.23-05.43.46:954][144]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2024.05.23-05.43.46:961][144]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2024.05.23-05.43.47:169][157]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2024.05.23-05.43.47:836][219]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2024.05.23-05.43.47:838][219]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Levels/L_Two.L_Two
+[2024.05.23-05.43.47:838][219]Cmd: MAP LOAD FILE="H:/lost-in-transit/Content/Levels/L_Two.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2024.05.23-05.43.47:838][219]LightingResults: New page: Lighting Build
+[2024.05.23-05.43.47:838][219]LoadErrors: New page: Loading map: L_Two.umap
+[2024.05.23-05.43.48:006][219]LogWorld: UWorld::CleanupWorld for L_Four, bSessionEnded=true, bCleanupResources=true
+[2024.05.23-05.43.48:006][219]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.23-05.43.48:006][219]MapCheck: New page: Map Check
+[2024.05.23-05.43.48:006][219]LightingResults: New page: Lighting Build
+[2024.05.23-05.43.48:018][219]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.05.23-05.43.48:021][219]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2024.05.23-05.43.48:022][219]LogWorld: UWorld::CleanupWorld for L_Two, bSessionEnded=true, bCleanupResources=true
+[2024.05.23-05.43.48:022][219]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.23-05.43.48:055][219]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2024.05.23-05.43.48:065][219]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2024.05.23-05.43.48:076][219]LogAudio: Display: Audio Device (ID: 1) registered with world 'L_Two'.
+[2024.05.23-05.43.48:076][219]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.05.23-05.43.48:076][219]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.05.23-05.43.48:077][219]LogAIModule: Creating AISystem for world L_Two
+[2024.05.23-05.43.48:094][219]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.05.23-05.43.48:104][219]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2024.05.23-05.43.48:142][219]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.05.23-05.43.48:143][219]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.607ms to complete.
+[2024.05.23-05.43.49:539][369]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.05.23-05.43.49:580][369]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.05.23-05.43.49:580][369]PIE: New page: PIE session: L_Two (24/05/2024, 5:43:49 am)
+[2024.05.23-05.43.49:580][369]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_L_Two
+[2024.05.23-05.43.49:586][369]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005600s)
+[2024.05.23-05.43.49:586][369]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/L_Two.L_Two to /Game/Levels/UEDPIE_0_L_Two.L_Two (0.005644s)
+[2024.05.23-05.43.49:598][369]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2024.05.23-05.43.49:599][369]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.05.23-05.43.49:599][369]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.05.23-05.43.49:599][369]LogAIModule: Creating AISystem for world L_Two
+[2024.05.23-05.43.49:600][369]LogPlayLevel: PIE: World Init took: (0.000765s)
+[2024.05.23-05.43.49:600][369]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2024.05.23-05.43.49:600][369]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.05.23-05.43.49:600][369]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.05.23-05.43.49:600][369]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.05.23-05.43.49:600][369]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.05.23-05.43.49:600][369]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.05.23-05.43.49:600][369]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.05.23-05.43.49:600][369]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.05.23-05.43.49:600][369]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.05.23-05.43.49:600][369]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.05.23-05.43.49:600][369]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.05.23-05.43.49:600][369]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.05.23-05.43.49:602][369]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.05.23-05.43.49:649][369]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.05.23-05.43.49:649][369]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.05.23-05.43.49:649][369]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.05.23-05.43.49:649][369]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.05.23-05.43.49:649][369]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=5
+[2024.05.23-05.43.49:649][369]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=5
+[2024.05.23-05.43.49:651][369]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=5
+[2024.05.23-05.43.49:651][369]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=5
+[2024.05.23-05.43.49:651][369]LogInit: FAudioDevice initialized with ID 5.
+[2024.05.23-05.43.49:651][369]LogAudio: Display: Audio Device (ID: 5) registered with world 'L_Two'.
+[2024.05.23-05.43.49:651][369]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 5
+[2024.05.23-05.43.49:654][369]LogLoad: Game class is 'GameMode_C'
+[2024.05.23-05.43.49:656][369]LogWorld: Bringing World /Game/Levels/UEDPIE_0_L_Two.L_Two up for play (max tick rate 0) at 2024.05.23-17.43.49
+[2024.05.23-05.43.49:656][369]LogWorld: Bringing up level for play took: 0.000924
+[2024.05.23-05.43.49:659][369]LogOnline: OSS: Created online subsystem instance for: :Context_12
+[2024.05.23-05.43.49:660][369]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.05.23-05.43.49:660][369]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2024.05.23-05.43.49:660][369]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'CustomerBlockLengths' of length 0 in '/Game/BP/LevelManager.LevelManager_C'!
+[2024.05.23-05.43.49:660][369]LogScript: Warning: Script Msg called by: LevelManager_C /Game/Levels/UEDPIE_0_L_Two.L_Two:PersistentLevel.LevelManager_C_0
+[2024.05.23-05.43.49:660][369]PIE: Server logged in
+[2024.05.23-05.43.49:661][369]PIE: Play in editor total start time 0.081 seconds.
+[2024.05.23-05.43.49:939][394]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'nodes_35_86FC0DA44BA16826421D3F8834110971' of length 0 in '/Game/BP/NerdStuff/Tree/F_Storyline.F_Storyline'!
+[2024.05.23-05.43.49:939][394]LogScript: Warning: Script Msg called by: LevelManager_C /Game/Levels/UEDPIE_0_L_Two.L_Two:PersistentLevel.LevelManager_C_0
+[2024.05.23-05.43.49:939][394]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'CustomerInfomation_44_6ABD1AF047982DCC2FD04987BE5EF93E' of length 0 in '/Game/BP/NerdStuff/Tree/F_StoryInfoNode.F_StoryInfoNode'!
+[2024.05.23-05.43.49:939][394]LogScript: Warning: Script Msg called by: LevelManager_C /Game/Levels/UEDPIE_0_L_Two.L_Two:PersistentLevel.LevelManager_C_0
+[2024.05.23-05.43.58:546][426]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'leaveText_22_4077F91341C0E76DFD19A1AC9633A3FA' of length 0 in '/Game/BP/NerdStuff/Tree/F_CustomerSpawnInfo.F_CustomerSpawnInfo'!
+[2024.05.23-05.43.58:546][426]LogScript: Warning: Script Msg called by: Customer_C /Game/Levels/UEDPIE_0_L_Two.L_Two:PersistentLevel.Customer_C_0
+[2024.05.23-05.43.58:546][426]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllWidgetsOfClass_FoundWidgets' of length 0 in '/Game/BP/Parcel/BP_Parcel.BP_Parcel_C:deleteParcel'!
+[2024.05.23-05.43.58:546][426]LogScript: Warning: Script Msg called by: BP_Parcel_C /Game/Levels/UEDPIE_0_L_Two.L_Two:PersistentLevel.BP_Parcel_C_0
+[2024.05.23-05.44.07:891][547]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'LeaveText_55_F4BB2B4D466B46549453E4BE1CDFABAC' of length 0 in '/Game/BP/UI/Dialouge/Structure/Level1/BasicDialouge.BasicDialouge'!
+[2024.05.23-05.44.07:891][547]LogScript: Warning: Script Msg called by: Customer_C /Game/Levels/UEDPIE_0_L_Two.L_Two:PersistentLevel.Customer_C_1
+[2024.05.23-05.44.07:891][547]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllWidgetsOfClass_FoundWidgets' of length 0 in '/Game/BP/Parcel/BP_Parcel.BP_Parcel_C:deleteParcel'!
+[2024.05.23-05.44.07:891][547]LogScript: Warning: Script Msg called by: BP_Parcel_C /Game/Levels/UEDPIE_0_L_Two.L_Two:PersistentLevel.BP_Parcel_C_1
+[2024.05.23-05.44.10:955][914]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'nodes_35_86FC0DA44BA16826421D3F8834110971' of length 0 in '/Game/BP/NerdStuff/Tree/F_Storyline.F_Storyline'!
+[2024.05.23-05.44.10:955][914]LogScript: Warning: Script Msg called by: LevelManager_C /Game/Levels/UEDPIE_0_L_Two.L_Two:PersistentLevel.LevelManager_C_0
+[2024.05.23-05.44.10:955][914]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'CustomerInfomation_44_6ABD1AF047982DCC2FD04987BE5EF93E' of length 0 in '/Game/BP/NerdStuff/Tree/F_StoryInfoNode.F_StoryInfoNode'!
+[2024.05.23-05.44.10:955][914]LogScript: Warning: Script Msg called by: LevelManager_C /Game/Levels/UEDPIE_0_L_Two.L_Two:PersistentLevel.LevelManager_C_0
+[2024.05.23-05.44.18:914][869]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'leaveText_22_4077F91341C0E76DFD19A1AC9633A3FA' of length 0 in '/Game/BP/NerdStuff/Tree/F_CustomerSpawnInfo.F_CustomerSpawnInfo'!
+[2024.05.23-05.44.18:914][869]LogScript: Warning: Script Msg called by: Customer_C /Game/Levels/UEDPIE_0_L_Two.L_Two:PersistentLevel.Customer_C_2
+[2024.05.23-05.44.18:914][869]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllWidgetsOfClass_FoundWidgets' of length 0 in '/Game/BP/Parcel/BP_Parcel.BP_Parcel_C:deleteParcel'!
+[2024.05.23-05.44.18:914][869]LogScript: Warning: Script Msg called by: BP_Parcel_C /Game/Levels/UEDPIE_0_L_Two.L_Two:PersistentLevel.BP_Parcel_C_2
+[2024.05.23-05.44.28:243][988]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'LeaveText_55_F4BB2B4D466B46549453E4BE1CDFABAC' of length 0 in '/Game/BP/UI/Dialouge/Structure/Level1/BasicDialouge.BasicDialouge'!
+[2024.05.23-05.44.28:243][988]LogScript: Warning: Script Msg called by: Customer_C /Game/Levels/UEDPIE_0_L_Two.L_Two:PersistentLevel.Customer_C_3
+[2024.05.23-05.44.28:243][988]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllWidgetsOfClass_FoundWidgets' of length 0 in '/Game/BP/Parcel/BP_Parcel.BP_Parcel_C:deleteParcel'!
+[2024.05.23-05.44.28:243][988]LogScript: Warning: Script Msg called by: BP_Parcel_C /Game/Levels/UEDPIE_0_L_Two.L_Two:PersistentLevel.BP_Parcel_C_3
+[2024.05.23-05.44.31:374][362]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'nodes_35_86FC0DA44BA16826421D3F8834110971' of length 0 in '/Game/BP/NerdStuff/Tree/F_Storyline.F_Storyline'!
+[2024.05.23-05.44.31:374][362]LogScript: Warning: Script Msg called by: LevelManager_C /Game/Levels/UEDPIE_0_L_Two.L_Two:PersistentLevel.LevelManager_C_0
+[2024.05.23-05.44.31:374][362]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'CustomerInfomation_44_6ABD1AF047982DCC2FD04987BE5EF93E' of length 0 in '/Game/BP/NerdStuff/Tree/F_StoryInfoNode.F_StoryInfoNode'!
+[2024.05.23-05.44.31:374][362]LogScript: Warning: Script Msg called by: LevelManager_C /Game/Levels/UEDPIE_0_L_Two.L_Two:PersistentLevel.LevelManager_C_0
+[2024.05.23-05.44.37:591][108]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'leaveText_22_4077F91341C0E76DFD19A1AC9633A3FA' of length 0 in '/Game/BP/NerdStuff/Tree/F_CustomerSpawnInfo.F_CustomerSpawnInfo'!
+[2024.05.23-05.44.37:591][108]LogScript: Warning: Script Msg called by: Customer_C /Game/Levels/UEDPIE_0_L_Two.L_Two:PersistentLevel.Customer_C_4
+[2024.05.23-05.44.37:591][108]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllWidgetsOfClass_FoundWidgets' of length 0 in '/Game/BP/Parcel/BP_Parcel.BP_Parcel_C:deleteParcel'!
+[2024.05.23-05.44.37:591][108]LogScript: Warning: Script Msg called by: BP_Parcel_C /Game/Levels/UEDPIE_0_L_Two.L_Two:PersistentLevel.BP_Parcel_C_4
+[2024.05.23-05.44.40:780][490]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'customerQueue' of length 0 in '/Game/BP/LevelManager.LevelManager_C'!
+[2024.05.23-05.44.40:781][490]LogScript: Warning: Script Msg called by: LevelManager_C /Game/Levels/UEDPIE_0_L_Two.L_Two:PersistentLevel.LevelManager_C_0
+[2024.05.23-05.44.40:781][490]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'customerQueue' of length 0 in '/Game/BP/LevelManager.LevelManager_C'!
+[2024.05.23-05.44.40:781][490]LogScript: Warning: Script Msg called by: LevelManager_C /Game/Levels/UEDPIE_0_L_Two.L_Two:PersistentLevel.LevelManager_C_0
+[2024.05.23-05.44.48:362][396]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.05.23-05.44.48:362][396]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_L_Two
+[2024.05.23-05.44.48:362][396]LogWorld: UWorld::CleanupWorld for L_Two, bSessionEnded=true, bCleanupResources=true
+[2024.05.23-05.44.48:362][396]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.23-05.44.48:364][396]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.05.23-05.44.48:368][396]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.23-05.44.48:377][396]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.05.23-05.44.48:377][396]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 5
+[2024.05.23-05.44.48:377][396]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2024.05.23-05.44.48:379][396]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2024.05.23-05.44.48:387][396]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2024.05.23-05.44.48:608][409]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2024.05.23-05.45.57:121][308]BlueprintLog: New page: Compile Customer
+[2024.05.23-05.45.57:192][308]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2024.05.23-05.46.02:788][910]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.05.23-05.46.02:847][910]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.05.23-05.46.02:847][910]PIE: New page: PIE session: L_Two (24/05/2024, 5:46:02 am)
+[2024.05.23-05.46.02:847][910]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_L_Two
+[2024.05.23-05.46.02:851][910]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004039s)
+[2024.05.23-05.46.02:852][910]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/L_Two.L_Two to /Game/Levels/UEDPIE_0_L_Two.L_Two (0.004075s)
+[2024.05.23-05.46.02:864][910]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2024.05.23-05.46.02:869][910]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.05.23-05.46.02:869][910]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.05.23-05.46.02:870][910]LogAIModule: Creating AISystem for world L_Two
+[2024.05.23-05.46.02:870][910]LogPlayLevel: PIE: World Init took: (0.000851s)
+[2024.05.23-05.46.02:870][910]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2024.05.23-05.46.02:870][910]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.05.23-05.46.02:870][910]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.05.23-05.46.02:870][910]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.05.23-05.46.02:870][910]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.05.23-05.46.02:870][910]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.05.23-05.46.02:870][910]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.05.23-05.46.02:870][910]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.05.23-05.46.02:870][910]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.05.23-05.46.02:870][910]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.05.23-05.46.02:870][910]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.05.23-05.46.02:870][910]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.05.23-05.46.02:872][910]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.05.23-05.46.02:921][910]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.05.23-05.46.02:921][910]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.05.23-05.46.02:921][910]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.05.23-05.46.02:921][910]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.05.23-05.46.02:922][910]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=6
+[2024.05.23-05.46.02:922][910]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=6
+[2024.05.23-05.46.02:923][910]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=6
+[2024.05.23-05.46.02:923][910]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=6
+[2024.05.23-05.46.02:923][910]LogInit: FAudioDevice initialized with ID 6.
+[2024.05.23-05.46.02:923][910]LogAudio: Display: Audio Device (ID: 6) registered with world 'L_Two'.
+[2024.05.23-05.46.02:923][910]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 6
+[2024.05.23-05.46.02:926][910]LogLoad: Game class is 'GameMode_C'
+[2024.05.23-05.46.02:929][910]LogWorld: Bringing World /Game/Levels/UEDPIE_0_L_Two.L_Two up for play (max tick rate 0) at 2024.05.23-17.46.02
+[2024.05.23-05.46.02:929][910]LogWorld: Bringing up level for play took: 0.000978
+[2024.05.23-05.46.02:931][910]LogOnline: OSS: Created online subsystem instance for: :Context_13
+[2024.05.23-05.46.02:932][910]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.05.23-05.46.02:932][910]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2024.05.23-05.46.02:933][910]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'CustomerBlockLengths' of length 0 in '/Game/BP/LevelManager.LevelManager_C'!
+[2024.05.23-05.46.02:933][910]LogScript: Warning: Script Msg called by: LevelManager_C /Game/Levels/UEDPIE_0_L_Two.L_Two:PersistentLevel.LevelManager_C_0
+[2024.05.23-05.46.02:933][910]PIE: Server logged in
+[2024.05.23-05.46.02:933][910]PIE: Play in editor total start time 0.086 seconds.
+[2024.05.23-05.46.03:212][935]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'nodes_35_86FC0DA44BA16826421D3F8834110971' of length 0 in '/Game/BP/NerdStuff/Tree/F_Storyline.F_Storyline'!
+[2024.05.23-05.46.03:212][935]LogScript: Warning: Script Msg called by: LevelManager_C /Game/Levels/UEDPIE_0_L_Two.L_Two:PersistentLevel.LevelManager_C_0
+[2024.05.23-05.46.03:212][935]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'CustomerInfomation_44_6ABD1AF047982DCC2FD04987BE5EF93E' of length 0 in '/Game/BP/NerdStuff/Tree/F_StoryInfoNode.F_StoryInfoNode'!
+[2024.05.23-05.46.03:212][935]LogScript: Warning: Script Msg called by: LevelManager_C /Game/Levels/UEDPIE_0_L_Two.L_Two:PersistentLevel.LevelManager_C_0
+[2024.05.23-05.46.07:976][494]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.05.23-05.46.07:976][494]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_L_Two
+[2024.05.23-05.46.07:976][494]LogWorld: UWorld::CleanupWorld for L_Two, bSessionEnded=true, bCleanupResources=true
+[2024.05.23-05.46.07:977][494]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.23-05.46.07:980][494]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.05.23-05.46.07:983][494]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.23-05.46.07:995][494]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.05.23-05.46.07:995][494]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 6
+[2024.05.23-05.46.07:995][494]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2024.05.23-05.46.07:996][494]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2024.05.23-05.46.08:000][494]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.05.23-05.46.08:002][494]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2024.05.23-05.46.08:166][507]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2024.05.23-05.46.18:982][780]BlueprintLog: New page: Compile Customer
+[2024.05.23-05.46.19:052][780]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2024.05.23-05.46.21:799][ 64]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.05.23-05.46.21:841][ 64]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.05.23-05.46.21:841][ 64]PIE: New page: PIE session: L_Two (24/05/2024, 5:46:21 am)
+[2024.05.23-05.46.21:841][ 64]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_L_Two
+[2024.05.23-05.46.21:844][ 64]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003998s)
+[2024.05.23-05.46.21:844][ 64]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/L_Two.L_Two to /Game/Levels/UEDPIE_0_L_Two.L_Two (0.004025s)
+[2024.05.23-05.46.21:860][ 64]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2024.05.23-05.46.21:869][ 64]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.05.23-05.46.21:869][ 64]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.05.23-05.46.21:870][ 64]LogAIModule: Creating AISystem for world L_Two
+[2024.05.23-05.46.21:870][ 64]LogPlayLevel: PIE: World Init took: (0.000794s)
+[2024.05.23-05.46.21:870][ 64]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2024.05.23-05.46.21:870][ 64]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.05.23-05.46.21:870][ 64]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.05.23-05.46.21:870][ 64]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.05.23-05.46.21:870][ 64]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.05.23-05.46.21:870][ 64]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.05.23-05.46.21:870][ 64]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.05.23-05.46.21:870][ 64]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.05.23-05.46.21:870][ 64]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.05.23-05.46.21:871][ 64]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.05.23-05.46.21:871][ 64]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.05.23-05.46.21:871][ 64]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.05.23-05.46.21:872][ 64]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.05.23-05.46.21:920][ 64]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.05.23-05.46.21:920][ 64]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.05.23-05.46.21:920][ 64]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.05.23-05.46.21:920][ 64]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.05.23-05.46.21:921][ 64]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=7
+[2024.05.23-05.46.21:921][ 64]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=7
+[2024.05.23-05.46.21:922][ 64]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=7
+[2024.05.23-05.46.21:922][ 64]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=7
+[2024.05.23-05.46.21:922][ 64]LogInit: FAudioDevice initialized with ID 7.
+[2024.05.23-05.46.21:923][ 64]LogAudio: Display: Audio Device (ID: 7) registered with world 'L_Two'.
+[2024.05.23-05.46.21:923][ 64]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 7
+[2024.05.23-05.46.21:965][ 64]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.05.23-05.46.21:965][ 64]LogLoad: Game class is 'GameMode_C'
+[2024.05.23-05.46.21:969][ 64]LogWorld: Bringing World /Game/Levels/UEDPIE_0_L_Two.L_Two up for play (max tick rate 0) at 2024.05.23-17.46.21
+[2024.05.23-05.46.21:969][ 64]LogWorld: Bringing up level for play took: 0.000990
+[2024.05.23-05.46.21:971][ 64]LogOnline: OSS: Created online subsystem instance for: :Context_14
+[2024.05.23-05.46.21:973][ 64]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.05.23-05.46.21:973][ 64]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2024.05.23-05.46.21:973][ 64]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'CustomerBlockLengths' of length 0 in '/Game/BP/LevelManager.LevelManager_C'!
+[2024.05.23-05.46.21:973][ 64]LogScript: Warning: Script Msg called by: LevelManager_C /Game/Levels/UEDPIE_0_L_Two.L_Two:PersistentLevel.LevelManager_C_0
+[2024.05.23-05.46.21:976][ 64]PIE: Server logged in
+[2024.05.23-05.46.21:977][ 64]PIE: Play in editor total start time 0.136 seconds.
+[2024.05.23-05.46.21:984][ 64]LogViewport: Scene viewport resized to 3831x2028, mode Windowed.
+[2024.05.23-05.46.22:311][ 89]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'nodes_35_86FC0DA44BA16826421D3F8834110971' of length 0 in '/Game/BP/NerdStuff/Tree/F_Storyline.F_Storyline'!
+[2024.05.23-05.46.22:311][ 89]LogScript: Warning: Script Msg called by: LevelManager_C /Game/Levels/UEDPIE_0_L_Two.L_Two:PersistentLevel.LevelManager_C_0
+[2024.05.23-05.46.22:311][ 89]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'CustomerInfomation_44_6ABD1AF047982DCC2FD04987BE5EF93E' of length 0 in '/Game/BP/NerdStuff/Tree/F_StoryInfoNode.F_StoryInfoNode'!
+[2024.05.23-05.46.22:311][ 89]LogScript: Warning: Script Msg called by: LevelManager_C /Game/Levels/UEDPIE_0_L_Two.L_Two:PersistentLevel.LevelManager_C_0
+[2024.05.23-05.46.25:424][429]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllWidgetsOfClass_FoundWidgets' of length 0 in '/Game/BP/Parcel/BP_Parcel.BP_Parcel_C:ExecuteUbergraph_BP_Parcel'!
+[2024.05.23-05.46.25:424][429]LogScript: Warning: Script Msg called by: BP_Parcel_C /Game/Levels/UEDPIE_0_L_Two.L_Two:PersistentLevel.BP_Parcel_C_0
+[2024.05.23-05.46.26:487][543]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.05.23-05.46.26:487][543]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_L_Two
+[2024.05.23-05.46.26:487][543]LogSlate: Window 'lost_in_transit Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2024.05.23-05.46.26:491][543]LogWorld: UWorld::CleanupWorld for L_Two, bSessionEnded=true, bCleanupResources=true
+[2024.05.23-05.46.26:491][543]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.23-05.46.26:493][543]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.05.23-05.46.26:497][543]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.23-05.46.26:509][543]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.05.23-05.46.26:509][543]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 7
+[2024.05.23-05.46.26:509][543]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2024.05.23-05.46.26:511][543]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2024.05.23-05.46.26:517][543]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2024.05.23-05.46.26:681][556]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2024.05.23-05.46.42:602][417]LogEditorTransaction: Undo Modify Component Location
+[2024.05.23-05.46.43:684][489]LogEditorTransaction: Undo Modify Component Location
+[2024.05.23-05.46.45:609][703]LogEditorTransaction: Undo Modify Component Location
+[2024.05.23-05.46.49:227][112]LogEditorTransaction: Undo Modify Component(s)
+[2024.05.23-05.46.55:869][838]LogEditorTransaction: Undo Modify Component Location
+[2024.05.23-05.47.17:331][302]BlueprintLog: New page: Compile Customer
+[2024.05.23-05.47.17:403][302]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2024.05.23-05.47.17:974][352]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.05.23-05.47.18:020][352]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/Enviroment/Customer" FILE="H:/lost-in-transit/Content/BP/Enviroment/Customer.uasset" SILENT=true
+[2024.05.23-05.47.21:177][352]LogSavePackage: Moving output files for package: /Game/BP/Enviroment/Customer
+[2024.05.23-05.47.21:218][352]LogSavePackage: Moving 'H:/lost-in-transit/Saved/Customer958E0D5F4987327E68498FB091763F00.tmp' to 'H:/lost-in-transit/Content/BP/Enviroment/Customer.uasset'
+[2024.05.23-05.47.21:266][352]LogFileHelpers: InternalPromptForCheckoutAndSave took 3.29 sec (total: 17.2 sec)
+[2024.05.23-05.47.21:266][352]AssetCheck: New page: Asset Save: Customer
+[2024.05.23-05.47.21:266][352]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/BP/Enviroment/Customer.Customer
+[2024.05.23-05.47.23:143][536]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.05.23-05.47.23:185][536]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.05.23-05.47.23:185][536]PIE: New page: PIE session: L_Two (24/05/2024, 5:47:23 am)
+[2024.05.23-05.47.23:185][536]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_L_Two
+[2024.05.23-05.47.23:190][536]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005041s)
+[2024.05.23-05.47.23:190][536]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/L_Two.L_Two to /Game/Levels/UEDPIE_0_L_Two.L_Two (0.005075s)
+[2024.05.23-05.47.23:204][536]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2024.05.23-05.47.23:208][536]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.05.23-05.47.23:208][536]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.05.23-05.47.23:208][536]LogAIModule: Creating AISystem for world L_Two
+[2024.05.23-05.47.23:209][536]LogPlayLevel: PIE: World Init took: (0.000863s)
+[2024.05.23-05.47.23:209][536]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2024.05.23-05.47.23:209][536]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.05.23-05.47.23:209][536]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.05.23-05.47.23:209][536]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.05.23-05.47.23:209][536]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.05.23-05.47.23:209][536]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.05.23-05.47.23:209][536]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.05.23-05.47.23:209][536]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.05.23-05.47.23:209][536]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.05.23-05.47.23:209][536]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.05.23-05.47.23:209][536]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.05.23-05.47.23:209][536]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.05.23-05.47.23:211][536]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.05.23-05.47.23:257][536]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.05.23-05.47.23:258][536]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.05.23-05.47.23:258][536]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.05.23-05.47.23:258][536]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.05.23-05.47.23:259][536]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=8
+[2024.05.23-05.47.23:259][536]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=8
+[2024.05.23-05.47.23:261][536]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=8
+[2024.05.23-05.47.23:261][536]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=8
+[2024.05.23-05.47.23:261][536]LogInit: FAudioDevice initialized with ID 8.
+[2024.05.23-05.47.23:261][536]LogAudio: Display: Audio Device (ID: 8) registered with world 'L_Two'.
+[2024.05.23-05.47.23:261][536]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 8
+[2024.05.23-05.47.23:263][536]LogLoad: Game class is 'GameMode_C'
+[2024.05.23-05.47.23:266][536]LogWorld: Bringing World /Game/Levels/UEDPIE_0_L_Two.L_Two up for play (max tick rate 0) at 2024.05.23-17.47.23
+[2024.05.23-05.47.23:266][536]LogWorld: Bringing up level for play took: 0.000940
+[2024.05.23-05.47.23:267][536]LogOnline: OSS: Created online subsystem instance for: :Context_15
+[2024.05.23-05.47.23:268][536]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.05.23-05.47.23:268][536]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2024.05.23-05.47.23:269][536]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'CustomerBlockLengths' of length 0 in '/Game/BP/LevelManager.LevelManager_C'!
+[2024.05.23-05.47.23:269][536]LogScript: Warning: Script Msg called by: LevelManager_C /Game/Levels/UEDPIE_0_L_Two.L_Two:PersistentLevel.LevelManager_C_0
+[2024.05.23-05.47.23:269][536]PIE: Server logged in
+[2024.05.23-05.47.23:271][536]PIE: Play in editor total start time 0.085 seconds.
+[2024.05.23-05.47.23:549][561]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'nodes_35_86FC0DA44BA16826421D3F8834110971' of length 0 in '/Game/BP/NerdStuff/Tree/F_Storyline.F_Storyline'!
+[2024.05.23-05.47.23:549][561]LogScript: Warning: Script Msg called by: LevelManager_C /Game/Levels/UEDPIE_0_L_Two.L_Two:PersistentLevel.LevelManager_C_0
+[2024.05.23-05.47.23:549][561]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'CustomerInfomation_44_6ABD1AF047982DCC2FD04987BE5EF93E' of length 0 in '/Game/BP/NerdStuff/Tree/F_StoryInfoNode.F_StoryInfoNode'!
+[2024.05.23-05.47.23:549][561]LogScript: Warning: Script Msg called by: LevelManager_C /Game/Levels/UEDPIE_0_L_Two.L_Two:PersistentLevel.LevelManager_C_0
+[2024.05.23-05.47.30:071][337]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.05.23-05.47.30:071][337]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_L_Two
+[2024.05.23-05.47.30:071][337]LogWorld: UWorld::CleanupWorld for L_Two, bSessionEnded=true, bCleanupResources=true
+[2024.05.23-05.47.30:072][337]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.23-05.47.30:074][337]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.05.23-05.47.30:077][337]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.23-05.47.30:089][337]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.05.23-05.47.30:091][337]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 8
+[2024.05.23-05.47.30:091][337]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2024.05.23-05.47.30:092][337]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2024.05.23-05.47.30:096][337]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.05.23-05.47.30:098][337]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2024.05.23-05.47.30:252][350]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2024.05.23-05.47.38:956][361]BlueprintLog: New page: Compile Customer
+[2024.05.23-05.47.39:028][361]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2024.05.23-05.47.40:314][485]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.05.23-05.47.40:356][485]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.05.23-05.47.40:356][485]PIE: New page: PIE session: L_Two (24/05/2024, 5:47:40 am)
+[2024.05.23-05.47.40:356][485]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_L_Two
+[2024.05.23-05.47.40:360][485]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004340s)
+[2024.05.23-05.47.40:360][485]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/L_Two.L_Two to /Game/Levels/UEDPIE_0_L_Two.L_Two (0.004371s)
+[2024.05.23-05.47.40:374][485]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2024.05.23-05.47.40:379][485]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.05.23-05.47.40:379][485]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.05.23-05.47.40:379][485]LogAIModule: Creating AISystem for world L_Two
+[2024.05.23-05.47.40:379][485]LogPlayLevel: PIE: World Init took: (0.000872s)
+[2024.05.23-05.47.40:379][485]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2024.05.23-05.47.40:379][485]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.05.23-05.47.40:379][485]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.05.23-05.47.40:379][485]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.05.23-05.47.40:379][485]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.05.23-05.47.40:379][485]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.05.23-05.47.40:379][485]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.05.23-05.47.40:379][485]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.05.23-05.47.40:379][485]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.05.23-05.47.40:380][485]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.05.23-05.47.40:380][485]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.05.23-05.47.40:380][485]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.05.23-05.47.40:382][485]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.05.23-05.47.40:428][485]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.05.23-05.47.40:429][485]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.05.23-05.47.40:429][485]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.05.23-05.47.40:429][485]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.05.23-05.47.40:429][485]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=9
+[2024.05.23-05.47.40:429][485]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=9
+[2024.05.23-05.47.40:430][485]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=9
+[2024.05.23-05.47.40:430][485]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=9
+[2024.05.23-05.47.40:430][485]LogInit: FAudioDevice initialized with ID 9.
+[2024.05.23-05.47.40:430][485]LogAudio: Display: Audio Device (ID: 9) registered with world 'L_Two'.
+[2024.05.23-05.47.40:430][485]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 9
+[2024.05.23-05.47.40:433][485]LogLoad: Game class is 'GameMode_C'
+[2024.05.23-05.47.40:436][485]LogWorld: Bringing World /Game/Levels/UEDPIE_0_L_Two.L_Two up for play (max tick rate 0) at 2024.05.23-17.47.40
+[2024.05.23-05.47.40:436][485]LogWorld: Bringing up level for play took: 0.000919
+[2024.05.23-05.47.40:438][485]LogOnline: OSS: Created online subsystem instance for: :Context_16
+[2024.05.23-05.47.40:439][485]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.05.23-05.47.40:439][485]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2024.05.23-05.47.40:439][485]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'CustomerBlockLengths' of length 0 in '/Game/BP/LevelManager.LevelManager_C'!
+[2024.05.23-05.47.40:439][485]LogScript: Warning: Script Msg called by: LevelManager_C /Game/Levels/UEDPIE_0_L_Two.L_Two:PersistentLevel.LevelManager_C_0
+[2024.05.23-05.47.40:440][485]PIE: Server logged in
+[2024.05.23-05.47.40:440][485]PIE: Play in editor total start time 0.085 seconds.
+[2024.05.23-05.47.40:720][510]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'nodes_35_86FC0DA44BA16826421D3F8834110971' of length 0 in '/Game/BP/NerdStuff/Tree/F_Storyline.F_Storyline'!
+[2024.05.23-05.47.40:720][510]LogScript: Warning: Script Msg called by: LevelManager_C /Game/Levels/UEDPIE_0_L_Two.L_Two:PersistentLevel.LevelManager_C_0
+[2024.05.23-05.47.40:720][510]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'CustomerInfomation_44_6ABD1AF047982DCC2FD04987BE5EF93E' of length 0 in '/Game/BP/NerdStuff/Tree/F_StoryInfoNode.F_StoryInfoNode'!
+[2024.05.23-05.47.40:720][510]LogScript: Warning: Script Msg called by: LevelManager_C /Game/Levels/UEDPIE_0_L_Two.L_Two:PersistentLevel.LevelManager_C_0
+[2024.05.23-05.47.43:081][781]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.05.23-05.47.43:081][781]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_L_Two
+[2024.05.23-05.47.43:081][781]LogWorld: UWorld::CleanupWorld for L_Two, bSessionEnded=true, bCleanupResources=true
+[2024.05.23-05.47.43:081][781]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.23-05.47.43:084][781]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.05.23-05.47.43:087][781]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.23-05.47.43:101][781]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.05.23-05.47.43:101][781]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 9
+[2024.05.23-05.47.43:101][781]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2024.05.23-05.47.43:103][781]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2024.05.23-05.47.43:107][781]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.05.23-05.47.43:109][781]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2024.05.23-05.47.43:263][794]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2024.05.23-05.47.51:108][681]BlueprintLog: New page: Compile Customer
+[2024.05.23-05.47.51:180][681]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2024.05.23-05.47.52:345][786]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.05.23-05.47.52:385][786]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.05.23-05.47.52:386][786]PIE: New page: PIE session: L_Two (24/05/2024, 5:47:52 am)
+[2024.05.23-05.47.52:386][786]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_L_Two
+[2024.05.23-05.47.52:389][786]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004379s)
+[2024.05.23-05.47.52:389][786]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/L_Two.L_Two to /Game/Levels/UEDPIE_0_L_Two.L_Two (0.004411s)
+[2024.05.23-05.47.52:404][786]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2024.05.23-05.47.52:410][786]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.05.23-05.47.52:410][786]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.05.23-05.47.52:410][786]LogAIModule: Creating AISystem for world L_Two
+[2024.05.23-05.47.52:411][786]LogPlayLevel: PIE: World Init took: (0.000958s)
+[2024.05.23-05.47.52:411][786]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2024.05.23-05.47.52:411][786]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.05.23-05.47.52:411][786]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.05.23-05.47.52:411][786]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.05.23-05.47.52:411][786]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.05.23-05.47.52:411][786]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.05.23-05.47.52:411][786]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.05.23-05.47.52:411][786]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.05.23-05.47.52:411][786]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.05.23-05.47.52:411][786]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.05.23-05.47.52:411][786]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.05.23-05.47.52:411][786]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.05.23-05.47.52:413][786]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.05.23-05.47.52:458][786]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.05.23-05.47.52:458][786]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.05.23-05.47.52:458][786]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.05.23-05.47.52:458][786]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.05.23-05.47.52:459][786]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=10
+[2024.05.23-05.47.52:459][786]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=10
+[2024.05.23-05.47.52:461][786]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=10
+[2024.05.23-05.47.52:461][786]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=10
+[2024.05.23-05.47.52:461][786]LogInit: FAudioDevice initialized with ID 10.
+[2024.05.23-05.47.52:461][786]LogAudio: Display: Audio Device (ID: 10) registered with world 'L_Two'.
+[2024.05.23-05.47.52:461][786]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 10
+[2024.05.23-05.47.52:464][786]LogLoad: Game class is 'GameMode_C'
+[2024.05.23-05.47.52:466][786]LogWorld: Bringing World /Game/Levels/UEDPIE_0_L_Two.L_Two up for play (max tick rate 0) at 2024.05.23-17.47.52
+[2024.05.23-05.47.52:466][786]LogWorld: Bringing up level for play took: 0.000925
+[2024.05.23-05.47.52:468][786]LogOnline: OSS: Created online subsystem instance for: :Context_17
+[2024.05.23-05.47.52:469][786]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.05.23-05.47.52:469][786]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2024.05.23-05.47.52:469][786]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'CustomerBlockLengths' of length 0 in '/Game/BP/LevelManager.LevelManager_C'!
+[2024.05.23-05.47.52:469][786]LogScript: Warning: Script Msg called by: LevelManager_C /Game/Levels/UEDPIE_0_L_Two.L_Two:PersistentLevel.LevelManager_C_0
+[2024.05.23-05.47.52:469][786]PIE: Server logged in
+[2024.05.23-05.47.52:470][786]PIE: Play in editor total start time 0.085 seconds.
+[2024.05.23-05.47.52:753][811]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'nodes_35_86FC0DA44BA16826421D3F8834110971' of length 0 in '/Game/BP/NerdStuff/Tree/F_Storyline.F_Storyline'!
+[2024.05.23-05.47.52:753][811]LogScript: Warning: Script Msg called by: LevelManager_C /Game/Levels/UEDPIE_0_L_Two.L_Two:PersistentLevel.LevelManager_C_0
+[2024.05.23-05.47.52:753][811]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'CustomerInfomation_44_6ABD1AF047982DCC2FD04987BE5EF93E' of length 0 in '/Game/BP/NerdStuff/Tree/F_StoryInfoNode.F_StoryInfoNode'!
+[2024.05.23-05.47.52:753][811]LogScript: Warning: Script Msg called by: LevelManager_C /Game/Levels/UEDPIE_0_L_Two.L_Two:PersistentLevel.LevelManager_C_0
+[2024.05.23-05.47.57:331][347]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.05.23-05.47.57:331][347]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_L_Two
+[2024.05.23-05.47.57:331][347]LogWorld: UWorld::CleanupWorld for L_Two, bSessionEnded=true, bCleanupResources=true
+[2024.05.23-05.47.57:331][347]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.23-05.47.57:334][347]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.05.23-05.47.57:337][347]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.23-05.47.57:352][347]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.05.23-05.47.57:352][347]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 10
+[2024.05.23-05.47.57:352][347]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2024.05.23-05.47.57:354][347]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2024.05.23-05.47.57:357][347]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.05.23-05.47.57:360][347]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2024.05.23-05.47.57:514][360]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2024.05.23-05.48.22:126][303]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.05.23-05.48.22:189][303]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.05.23-05.48.22:189][303]PIE: New page: PIE session: L_Two (24/05/2024, 5:48:22 am)
+[2024.05.23-05.48.22:189][303]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_L_Two
+[2024.05.23-05.48.22:196][303]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006535s)
+[2024.05.23-05.48.22:196][303]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/L_Two.L_Two to /Game/Levels/UEDPIE_0_L_Two.L_Two (0.006596s)
+[2024.05.23-05.48.22:210][303]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2024.05.23-05.48.22:212][303]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.05.23-05.48.22:212][303]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.05.23-05.48.22:212][303]LogAIModule: Creating AISystem for world L_Two
+[2024.05.23-05.48.22:212][303]LogPlayLevel: PIE: World Init took: (0.000779s)
+[2024.05.23-05.48.22:213][303]LogAudio: Display: Creating Audio Device:                 Id: 11, Scope: Unique, Realtime: True
+[2024.05.23-05.48.22:213][303]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.05.23-05.48.22:213][303]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.05.23-05.48.22:213][303]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.05.23-05.48.22:213][303]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.05.23-05.48.22:213][303]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.05.23-05.48.22:213][303]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.05.23-05.48.22:213][303]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.05.23-05.48.22:213][303]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.05.23-05.48.22:213][303]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.05.23-05.48.22:213][303]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.05.23-05.48.22:213][303]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.05.23-05.48.22:215][303]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.05.23-05.48.22:262][303]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.05.23-05.48.22:262][303]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.05.23-05.48.22:262][303]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.05.23-05.48.22:262][303]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.05.23-05.48.22:263][303]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=11
+[2024.05.23-05.48.22:263][303]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=11
+[2024.05.23-05.48.22:264][303]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=11
+[2024.05.23-05.48.22:264][303]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=11
+[2024.05.23-05.48.22:264][303]LogInit: FAudioDevice initialized with ID 11.
+[2024.05.23-05.48.22:264][303]LogAudio: Display: Audio Device (ID: 11) registered with world 'L_Two'.
+[2024.05.23-05.48.22:264][303]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 11
+[2024.05.23-05.48.22:267][303]LogLoad: Game class is 'GameMode_C'
+[2024.05.23-05.48.22:269][303]LogWorld: Bringing World /Game/Levels/UEDPIE_0_L_Two.L_Two up for play (max tick rate 0) at 2024.05.23-17.48.22
+[2024.05.23-05.48.22:269][303]LogWorld: Bringing up level for play took: 0.000927
+[2024.05.23-05.48.22:271][303]LogOnline: OSS: Created online subsystem instance for: :Context_18
+[2024.05.23-05.48.22:272][303]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.05.23-05.48.22:272][303]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2024.05.23-05.48.22:272][303]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'CustomerBlockLengths' of length 0 in '/Game/BP/LevelManager.LevelManager_C'!
+[2024.05.23-05.48.22:272][303]LogScript: Warning: Script Msg called by: LevelManager_C /Game/Levels/UEDPIE_0_L_Two.L_Two:PersistentLevel.LevelManager_C_0
+[2024.05.23-05.48.22:273][303]PIE: Server logged in
+[2024.05.23-05.48.22:273][303]PIE: Play in editor total start time 0.084 seconds.
+[2024.05.23-05.48.22:555][328]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'nodes_35_86FC0DA44BA16826421D3F8834110971' of length 0 in '/Game/BP/NerdStuff/Tree/F_Storyline.F_Storyline'!
+[2024.05.23-05.48.22:555][328]LogScript: Warning: Script Msg called by: LevelManager_C /Game/Levels/UEDPIE_0_L_Two.L_Two:PersistentLevel.LevelManager_C_0
+[2024.05.23-05.48.22:555][328]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'CustomerInfomation_44_6ABD1AF047982DCC2FD04987BE5EF93E' of length 0 in '/Game/BP/NerdStuff/Tree/F_StoryInfoNode.F_StoryInfoNode'!
+[2024.05.23-05.48.22:555][328]LogScript: Warning: Script Msg called by: LevelManager_C /Game/Levels/UEDPIE_0_L_Two.L_Two:PersistentLevel.LevelManager_C_0
+[2024.05.23-05.48.30:392][264]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.05.23-05.48.30:392][264]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_L_Two
+[2024.05.23-05.48.30:392][264]LogWorld: UWorld::CleanupWorld for L_Two, bSessionEnded=true, bCleanupResources=true
+[2024.05.23-05.48.30:393][264]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.23-05.48.30:395][264]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.05.23-05.48.30:398][264]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.23-05.48.30:410][264]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.05.23-05.48.30:411][264]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 11
+[2024.05.23-05.48.30:411][264]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2024.05.23-05.48.30:412][264]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2024.05.23-05.48.30:418][264]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2024.05.23-05.48.30:584][277]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2024.05.23-05.49.43:280][909]LogEditorTransaction: Undo Move Nodes
+[2024.05.23-05.49.44:227][955]LogEditorTransaction: Undo Add Node
+[2024.05.23-05.49.56:162][226]LogEditorTransaction: Undo Move Node
+[2024.05.23-05.49.57:019][266]LogEditorTransaction: Undo Move Node
+[2024.05.23-05.49.57:638][305]LogEditorTransaction: Undo Add Node
+[2024.05.23-05.50.36:972][708]BlueprintLog: New page: Compile Customer
+[2024.05.23-05.50.37:047][708]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2024.05.23-05.50.44:683][491]BlueprintLog: New page: Compile Customer
+[2024.05.23-05.50.44:748][491]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2024.05.23-05.50.46:129][602]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.05.23-05.50.46:196][602]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.05.23-05.50.46:196][602]PIE: New page: PIE session: L_Two (24/05/2024, 5:50:46 am)
+[2024.05.23-05.50.46:197][602]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_L_Two
+[2024.05.23-05.50.46:202][602]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005739s)
+[2024.05.23-05.50.46:202][602]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/L_Two.L_Two to /Game/Levels/UEDPIE_0_L_Two.L_Two (0.005785s)
+[2024.05.23-05.50.46:216][602]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2024.05.23-05.50.46:222][602]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.05.23-05.50.46:222][602]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.05.23-05.50.46:222][602]LogAIModule: Creating AISystem for world L_Two
+[2024.05.23-05.50.46:223][602]LogPlayLevel: PIE: World Init took: (0.001035s)
+[2024.05.23-05.50.46:223][602]LogAudio: Display: Creating Audio Device:                 Id: 12, Scope: Unique, Realtime: True
+[2024.05.23-05.50.46:223][602]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.05.23-05.50.46:223][602]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.05.23-05.50.46:223][602]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.05.23-05.50.46:223][602]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.05.23-05.50.46:223][602]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.05.23-05.50.46:223][602]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.05.23-05.50.46:223][602]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.05.23-05.50.46:223][602]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.05.23-05.50.46:223][602]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.05.23-05.50.46:223][602]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.05.23-05.50.46:223][602]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.05.23-05.50.46:226][602]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.05.23-05.50.46:275][602]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.05.23-05.50.46:275][602]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.05.23-05.50.46:275][602]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.05.23-05.50.46:275][602]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.05.23-05.50.46:276][602]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=12
+[2024.05.23-05.50.46:276][602]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=12
+[2024.05.23-05.50.46:277][602]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=12
+[2024.05.23-05.50.46:277][602]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=12
+[2024.05.23-05.50.46:277][602]LogInit: FAudioDevice initialized with ID 12.
+[2024.05.23-05.50.46:277][602]LogAudio: Display: Audio Device (ID: 12) registered with world 'L_Two'.
+[2024.05.23-05.50.46:277][602]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 12
+[2024.05.23-05.50.46:279][602]LogLoad: Game class is 'GameMode_C'
+[2024.05.23-05.50.46:282][602]LogWorld: Bringing World /Game/Levels/UEDPIE_0_L_Two.L_Two up for play (max tick rate 0) at 2024.05.23-17.50.46
+[2024.05.23-05.50.46:282][602]LogWorld: Bringing up level for play took: 0.000969
+[2024.05.23-05.50.46:284][602]LogOnline: OSS: Created online subsystem instance for: :Context_19
+[2024.05.23-05.50.46:286][602]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.05.23-05.50.46:286][602]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2024.05.23-05.50.46:286][602]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'CustomerBlockLengths' of length 0 in '/Game/BP/LevelManager.LevelManager_C'!
+[2024.05.23-05.50.46:286][602]LogScript: Warning: Script Msg called by: LevelManager_C /Game/Levels/UEDPIE_0_L_Two.L_Two:PersistentLevel.LevelManager_C_0
+[2024.05.23-05.50.46:287][602]PIE: Server logged in
+[2024.05.23-05.50.46:287][602]PIE: Play in editor total start time 0.091 seconds.
+[2024.05.23-05.50.46:568][627]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'nodes_35_86FC0DA44BA16826421D3F8834110971' of length 0 in '/Game/BP/NerdStuff/Tree/F_Storyline.F_Storyline'!
+[2024.05.23-05.50.46:568][627]LogScript: Warning: Script Msg called by: LevelManager_C /Game/Levels/UEDPIE_0_L_Two.L_Two:PersistentLevel.LevelManager_C_0
+[2024.05.23-05.50.46:568][627]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'CustomerInfomation_44_6ABD1AF047982DCC2FD04987BE5EF93E' of length 0 in '/Game/BP/NerdStuff/Tree/F_StoryInfoNode.F_StoryInfoNode'!
+[2024.05.23-05.50.46:568][627]LogScript: Warning: Script Msg called by: LevelManager_C /Game/Levels/UEDPIE_0_L_Two.L_Two:PersistentLevel.LevelManager_C_0
+[2024.05.23-05.50.59:108][126]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.05.23-05.50.59:108][126]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_L_Two
+[2024.05.23-05.50.59:109][126]LogWorld: UWorld::CleanupWorld for L_Two, bSessionEnded=true, bCleanupResources=true
+[2024.05.23-05.50.59:109][126]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.23-05.50.59:112][126]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.05.23-05.50.59:115][126]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.23-05.50.59:128][126]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.05.23-05.50.59:128][126]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 12
+[2024.05.23-05.50.59:129][126]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2024.05.23-05.50.59:130][126]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2024.05.23-05.50.59:134][126]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.05.23-05.50.59:137][126]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2024.05.23-05.50.59:322][139]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2024.05.23-05.51.49:975][908]BlueprintLog: New page: Compile Customer
+[2024.05.23-05.51.50:047][908]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2024.05.23-05.51.50:724][937]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.05.23-05.51.50:762][937]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/Enviroment/Customer" FILE="H:/lost-in-transit/Content/BP/Enviroment/Customer.uasset" SILENT=true
+[2024.05.23-05.51.54:223][937]LogSavePackage: Moving output files for package: /Game/BP/Enviroment/Customer
+[2024.05.23-05.51.54:266][937]LogSavePackage: Moving 'H:/lost-in-transit/Saved/Customer5C4E7EF248614300F715188A38AAC911.tmp' to 'H:/lost-in-transit/Content/BP/Enviroment/Customer.uasset'
+[2024.05.23-05.51.54:309][937]LogFileHelpers: InternalPromptForCheckoutAndSave took 3.58 sec (total: 20.8 sec)
+[2024.05.23-05.51.54:310][937]AssetCheck: New page: Asset Save: Customer
+[2024.05.23-05.51.54:310][937]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/BP/Enviroment/Customer.Customer
+[2024.05.23-05.52.00:961][556]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.05.23-05.52.01:005][556]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.05.23-05.52.01:005][556]PIE: New page: PIE session: L_Two (24/05/2024, 5:52:01 am)
+[2024.05.23-05.52.01:006][556]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_L_Two
+[2024.05.23-05.52.01:011][556]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005007s)
+[2024.05.23-05.52.01:011][556]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/L_Two.L_Two to /Game/Levels/UEDPIE_0_L_Two.L_Two (0.005043s)
+[2024.05.23-05.52.01:025][556]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2024.05.23-05.52.01:029][556]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.05.23-05.52.01:030][556]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.05.23-05.52.01:030][556]LogAIModule: Creating AISystem for world L_Two
+[2024.05.23-05.52.01:030][556]LogPlayLevel: PIE: World Init took: (0.000947s)
+[2024.05.23-05.52.01:030][556]LogAudio: Display: Creating Audio Device:                 Id: 13, Scope: Unique, Realtime: True
+[2024.05.23-05.52.01:030][556]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.05.23-05.52.01:030][556]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.05.23-05.52.01:030][556]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.05.23-05.52.01:030][556]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.05.23-05.52.01:030][556]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.05.23-05.52.01:030][556]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.05.23-05.52.01:030][556]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.05.23-05.52.01:030][556]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.05.23-05.52.01:031][556]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.05.23-05.52.01:031][556]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.05.23-05.52.01:031][556]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.05.23-05.52.01:033][556]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.05.23-05.52.01:081][556]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.05.23-05.52.01:081][556]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.05.23-05.52.01:081][556]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.05.23-05.52.01:081][556]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.05.23-05.52.01:082][556]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=13
+[2024.05.23-05.52.01:082][556]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=13
+[2024.05.23-05.52.01:083][556]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=13
+[2024.05.23-05.52.01:083][556]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=13
+[2024.05.23-05.52.01:083][556]LogInit: FAudioDevice initialized with ID 13.
+[2024.05.23-05.52.01:083][556]LogAudio: Display: Audio Device (ID: 13) registered with world 'L_Two'.
+[2024.05.23-05.52.01:083][556]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 13
+[2024.05.23-05.52.01:086][556]LogLoad: Game class is 'GameMode_C'
+[2024.05.23-05.52.01:088][556]LogWorld: Bringing World /Game/Levels/UEDPIE_0_L_Two.L_Two up for play (max tick rate 0) at 2024.05.23-17.52.01
+[2024.05.23-05.52.01:088][556]LogWorld: Bringing up level for play took: 0.000940
+[2024.05.23-05.52.01:090][556]LogOnline: OSS: Created online subsystem instance for: :Context_20
+[2024.05.23-05.52.01:091][556]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.05.23-05.52.01:091][556]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2024.05.23-05.52.01:092][556]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'CustomerBlockLengths' of length 0 in '/Game/BP/LevelManager.LevelManager_C'!
+[2024.05.23-05.52.01:092][556]LogScript: Warning: Script Msg called by: LevelManager_C /Game/Levels/UEDPIE_0_L_Two.L_Two:PersistentLevel.LevelManager_C_0
+[2024.05.23-05.52.01:092][556]PIE: Server logged in
+[2024.05.23-05.52.01:092][556]PIE: Play in editor total start time 0.087 seconds.
+[2024.05.23-05.52.01:373][581]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'nodes_35_86FC0DA44BA16826421D3F8834110971' of length 0 in '/Game/BP/NerdStuff/Tree/F_Storyline.F_Storyline'!
+[2024.05.23-05.52.01:374][581]LogScript: Warning: Script Msg called by: LevelManager_C /Game/Levels/UEDPIE_0_L_Two.L_Two:PersistentLevel.LevelManager_C_0
+[2024.05.23-05.52.01:374][581]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'CustomerInfomation_44_6ABD1AF047982DCC2FD04987BE5EF93E' of length 0 in '/Game/BP/NerdStuff/Tree/F_StoryInfoNode.F_StoryInfoNode'!
+[2024.05.23-05.52.01:374][581]LogScript: Warning: Script Msg called by: LevelManager_C /Game/Levels/UEDPIE_0_L_Two.L_Two:PersistentLevel.LevelManager_C_0
+[2024.05.23-05.52.09:261][513]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.05.23-05.52.09:261][513]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_L_Two
+[2024.05.23-05.52.09:261][513]LogWorld: UWorld::CleanupWorld for L_Two, bSessionEnded=true, bCleanupResources=true
+[2024.05.23-05.52.09:261][513]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.23-05.52.09:264][513]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.05.23-05.52.09:267][513]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.23-05.52.09:280][513]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.05.23-05.52.09:280][513]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 13
+[2024.05.23-05.52.09:280][513]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2024.05.23-05.52.09:282][513]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2024.05.23-05.52.09:286][513]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.05.23-05.52.09:289][513]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2024.05.23-05.52.09:453][526]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2024.05.23-05.52.56:353][703]BlueprintLog: New page: Compile Customer
+[2024.05.23-05.52.56:424][703]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2024.05.23-05.52.57:850][821]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.05.23-05.52.57:910][821]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.05.23-05.52.57:910][821]PIE: New page: PIE session: L_Two (24/05/2024, 5:52:57 am)
+[2024.05.23-05.52.57:911][821]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_L_Two
+[2024.05.23-05.52.57:918][821]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006454s)
+[2024.05.23-05.52.57:918][821]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/L_Two.L_Two to /Game/Levels/UEDPIE_0_L_Two.L_Two (0.006531s)
+[2024.05.23-05.52.57:934][821]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2024.05.23-05.52.57:937][821]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.05.23-05.52.57:937][821]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.05.23-05.52.57:938][821]LogAIModule: Creating AISystem for world L_Two
+[2024.05.23-05.52.57:938][821]LogPlayLevel: PIE: World Init took: (0.000734s)
+[2024.05.23-05.52.57:938][821]LogAudio: Display: Creating Audio Device:                 Id: 14, Scope: Unique, Realtime: True
+[2024.05.23-05.52.57:938][821]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.05.23-05.52.57:938][821]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.05.23-05.52.57:938][821]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.05.23-05.52.57:938][821]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.05.23-05.52.57:938][821]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.05.23-05.52.57:938][821]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.05.23-05.52.57:938][821]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.05.23-05.52.57:938][821]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.05.23-05.52.57:939][821]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.05.23-05.52.57:939][821]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.05.23-05.52.57:939][821]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.05.23-05.52.57:940][821]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.05.23-05.52.57:988][821]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.05.23-05.52.57:988][821]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.05.23-05.52.57:988][821]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.05.23-05.52.57:988][821]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.05.23-05.52.57:989][821]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=14
+[2024.05.23-05.52.57:989][821]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=14
+[2024.05.23-05.52.57:990][821]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=14
+[2024.05.23-05.52.57:990][821]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=14
+[2024.05.23-05.52.57:990][821]LogInit: FAudioDevice initialized with ID 14.
+[2024.05.23-05.52.57:990][821]LogAudio: Display: Audio Device (ID: 14) registered with world 'L_Two'.
+[2024.05.23-05.52.57:990][821]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 14
+[2024.05.23-05.52.57:992][821]LogLoad: Game class is 'GameMode_C'
+[2024.05.23-05.52.57:996][821]LogWorld: Bringing World /Game/Levels/UEDPIE_0_L_Two.L_Two up for play (max tick rate 0) at 2024.05.23-17.52.57
+[2024.05.23-05.52.57:996][821]LogWorld: Bringing up level for play took: 0.000946
+[2024.05.23-05.52.57:998][821]LogOnline: OSS: Created online subsystem instance for: :Context_21
+[2024.05.23-05.52.57:999][821]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.05.23-05.52.57:999][821]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2024.05.23-05.52.57:999][821]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'CustomerBlockLengths' of length 0 in '/Game/BP/LevelManager.LevelManager_C'!
+[2024.05.23-05.52.57:999][821]LogScript: Warning: Script Msg called by: LevelManager_C /Game/Levels/UEDPIE_0_L_Two.L_Two:PersistentLevel.LevelManager_C_0
+[2024.05.23-05.52.57:999][821]PIE: Server logged in
+[2024.05.23-05.52.58:000][821]PIE: Play in editor total start time 0.09 seconds.
+[2024.05.23-05.52.58:279][846]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'nodes_35_86FC0DA44BA16826421D3F8834110971' of length 0 in '/Game/BP/NerdStuff/Tree/F_Storyline.F_Storyline'!
+[2024.05.23-05.52.58:279][846]LogScript: Warning: Script Msg called by: LevelManager_C /Game/Levels/UEDPIE_0_L_Two.L_Two:PersistentLevel.LevelManager_C_0
+[2024.05.23-05.52.58:279][846]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'CustomerInfomation_44_6ABD1AF047982DCC2FD04987BE5EF93E' of length 0 in '/Game/BP/NerdStuff/Tree/F_StoryInfoNode.F_StoryInfoNode'!
+[2024.05.23-05.52.58:279][846]LogScript: Warning: Script Msg called by: LevelManager_C /Game/Levels/UEDPIE_0_L_Two.L_Two:PersistentLevel.LevelManager_C_0
+[2024.05.23-05.53.05:072][658]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.05.23-05.53.05:072][658]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_L_Two
+[2024.05.23-05.53.05:072][658]LogWorld: UWorld::CleanupWorld for L_Two, bSessionEnded=true, bCleanupResources=true
+[2024.05.23-05.53.05:072][658]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.23-05.53.05:074][658]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.05.23-05.53.05:077][658]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.23-05.53.05:088][658]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.05.23-05.53.05:089][658]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 14
+[2024.05.23-05.53.05:089][658]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2024.05.23-05.53.05:091][658]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2024.05.23-05.53.05:094][658]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.05.23-05.53.05:096][658]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2024.05.23-05.53.05:258][671]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2024.05.23-05.53.28:049][ 39]BlueprintLog: New page: Compile Customer
+[2024.05.23-05.53.28:124][ 39]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2024.05.23-05.53.35:940][868]BlueprintLog: New page: Compile Customer
+[2024.05.23-05.53.36:002][868]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2024.05.23-05.53.37:738][ 22]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.05.23-05.53.37:778][ 22]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.05.23-05.53.37:778][ 22]PIE: New page: PIE session: L_Two (24/05/2024, 5:53:37 am)
+[2024.05.23-05.53.37:779][ 22]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_L_Two
+[2024.05.23-05.53.37:783][ 22]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004025s)
+[2024.05.23-05.53.37:783][ 22]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/L_Two.L_Two to /Game/Levels/UEDPIE_0_L_Two.L_Two (0.004056s)
+[2024.05.23-05.53.37:798][ 22]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2024.05.23-05.53.37:803][ 22]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.05.23-05.53.37:803][ 22]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.05.23-05.53.37:804][ 22]LogAIModule: Creating AISystem for world L_Two
+[2024.05.23-05.53.37:804][ 22]LogPlayLevel: PIE: World Init took: (0.000804s)
+[2024.05.23-05.53.37:804][ 22]LogAudio: Display: Creating Audio Device:                 Id: 15, Scope: Unique, Realtime: True
+[2024.05.23-05.53.37:804][ 22]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.05.23-05.53.37:804][ 22]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.05.23-05.53.37:804][ 22]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.05.23-05.53.37:804][ 22]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.05.23-05.53.37:804][ 22]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.05.23-05.53.37:804][ 22]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.05.23-05.53.37:804][ 22]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.05.23-05.53.37:804][ 22]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.05.23-05.53.37:804][ 22]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.05.23-05.53.37:804][ 22]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.05.23-05.53.37:804][ 22]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.05.23-05.53.37:807][ 22]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.05.23-05.53.37:854][ 22]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.05.23-05.53.37:854][ 22]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.05.23-05.53.37:854][ 22]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.05.23-05.53.37:854][ 22]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.05.23-05.53.37:855][ 22]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=15
+[2024.05.23-05.53.37:855][ 22]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=15
+[2024.05.23-05.53.37:856][ 22]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=15
+[2024.05.23-05.53.37:856][ 22]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=15
+[2024.05.23-05.53.37:856][ 22]LogInit: FAudioDevice initialized with ID 15.
+[2024.05.23-05.53.37:856][ 22]LogAudio: Display: Audio Device (ID: 15) registered with world 'L_Two'.
+[2024.05.23-05.53.37:856][ 22]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 15
+[2024.05.23-05.53.37:859][ 22]LogLoad: Game class is 'GameMode_C'
+[2024.05.23-05.53.37:861][ 22]LogWorld: Bringing World /Game/Levels/UEDPIE_0_L_Two.L_Two up for play (max tick rate 0) at 2024.05.23-17.53.37
+[2024.05.23-05.53.37:861][ 22]LogWorld: Bringing up level for play took: 0.000918
+[2024.05.23-05.53.37:863][ 22]LogOnline: OSS: Created online subsystem instance for: :Context_22
+[2024.05.23-05.53.37:864][ 22]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.05.23-05.53.37:864][ 22]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2024.05.23-05.53.37:865][ 22]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'CustomerBlockLengths' of length 0 in '/Game/BP/LevelManager.LevelManager_C'!
+[2024.05.23-05.53.37:865][ 22]LogScript: Warning: Script Msg called by: LevelManager_C /Game/Levels/UEDPIE_0_L_Two.L_Two:PersistentLevel.LevelManager_C_0
+[2024.05.23-05.53.37:865][ 22]PIE: Server logged in
+[2024.05.23-05.53.37:866][ 22]PIE: Play in editor total start time 0.087 seconds.
+[2024.05.23-05.53.38:144][ 47]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'nodes_35_86FC0DA44BA16826421D3F8834110971' of length 0 in '/Game/BP/NerdStuff/Tree/F_Storyline.F_Storyline'!
+[2024.05.23-05.53.38:144][ 47]LogScript: Warning: Script Msg called by: LevelManager_C /Game/Levels/UEDPIE_0_L_Two.L_Two:PersistentLevel.LevelManager_C_0
+[2024.05.23-05.53.38:144][ 47]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'CustomerInfomation_44_6ABD1AF047982DCC2FD04987BE5EF93E' of length 0 in '/Game/BP/NerdStuff/Tree/F_StoryInfoNode.F_StoryInfoNode'!
+[2024.05.23-05.53.38:144][ 47]LogScript: Warning: Script Msg called by: LevelManager_C /Game/Levels/UEDPIE_0_L_Two.L_Two:PersistentLevel.LevelManager_C_0
+[2024.05.23-05.53.43:273][650]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.05.23-05.53.43:273][650]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_L_Two
+[2024.05.23-05.53.43:273][650]LogWorld: UWorld::CleanupWorld for L_Two, bSessionEnded=true, bCleanupResources=true
+[2024.05.23-05.53.43:273][650]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.23-05.53.43:276][650]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.05.23-05.53.43:279][650]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.23-05.53.43:290][650]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.05.23-05.53.43:290][650]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 15
+[2024.05.23-05.53.43:290][650]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2024.05.23-05.53.43:292][650]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2024.05.23-05.53.43:297][650]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.05.23-05.53.43:299][650]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2024.05.23-05.53.43:465][663]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2024.05.23-05.56.04:102][583]BlueprintLog: New page: Compile Customer
+[2024.05.23-05.56.04:175][583]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2024.05.23-05.56.19:086][308]BlueprintLog: New page: Compile Customer
+[2024.05.23-05.56.19:160][308]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2024.05.23-05.56.55:561][176]BlueprintLog: New page: Compile Customer
+[2024.05.23-05.56.55:635][176]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2024.05.23-05.56.56:709][252]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.05.23-05.56.56:737][252]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/Enviroment/Customer" FILE="H:/lost-in-transit/Content/BP/Enviroment/Customer.uasset" SILENT=true
+[2024.05.23-05.57.00:447][252]LogSavePackage: Moving output files for package: /Game/BP/Enviroment/Customer
+[2024.05.23-05.57.00:473][252]LogSavePackage: Moving 'H:/lost-in-transit/Saved/Customer8AE6F1DF42634F7A0FA10990047923E8.tmp' to 'H:/lost-in-transit/Content/BP/Enviroment/Customer.uasset'
+[2024.05.23-05.57.00:521][252]LogFileHelpers: InternalPromptForCheckoutAndSave took 3.81 sec (total: 24.6 sec)
+[2024.05.23-05.57.00:522][252]AssetCheck: New page: Asset Save: Customer
+[2024.05.23-05.57.00:522][252]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/BP/Enviroment/Customer.Customer
+[2024.05.23-05.57.02:115][408]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.05.23-05.57.02:163][408]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.05.23-05.57.02:163][408]PIE: New page: PIE session: L_Two (24/05/2024, 5:57:02 am)
+[2024.05.23-05.57.02:163][408]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_L_Two
+[2024.05.23-05.57.02:168][408]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004839s)
+[2024.05.23-05.57.02:168][408]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/L_Two.L_Two to /Game/Levels/UEDPIE_0_L_Two.L_Two (0.004881s)
+[2024.05.23-05.57.02:182][408]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2024.05.23-05.57.02:186][408]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.05.23-05.57.02:186][408]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.05.23-05.57.02:186][408]LogAIModule: Creating AISystem for world L_Two
+[2024.05.23-05.57.02:187][408]LogPlayLevel: PIE: World Init took: (0.000884s)
+[2024.05.23-05.57.02:187][408]LogAudio: Display: Creating Audio Device:                 Id: 16, Scope: Unique, Realtime: True
+[2024.05.23-05.57.02:187][408]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.05.23-05.57.02:187][408]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.05.23-05.57.02:187][408]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.05.23-05.57.02:187][408]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.05.23-05.57.02:187][408]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.05.23-05.57.02:187][408]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.05.23-05.57.02:187][408]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.05.23-05.57.02:187][408]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.05.23-05.57.02:187][408]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.05.23-05.57.02:187][408]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.05.23-05.57.02:187][408]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.05.23-05.57.02:190][408]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.05.23-05.57.02:239][408]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.05.23-05.57.02:239][408]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.05.23-05.57.02:240][408]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.05.23-05.57.02:240][408]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.05.23-05.57.02:240][408]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=16
+[2024.05.23-05.57.02:240][408]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=16
+[2024.05.23-05.57.02:242][408]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=16
+[2024.05.23-05.57.02:242][408]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=16
+[2024.05.23-05.57.02:242][408]LogInit: FAudioDevice initialized with ID 16.
+[2024.05.23-05.57.02:242][408]LogAudio: Display: Audio Device (ID: 16) registered with world 'L_Two'.
+[2024.05.23-05.57.02:242][408]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 16
+[2024.05.23-05.57.02:244][408]LogLoad: Game class is 'GameMode_C'
+[2024.05.23-05.57.02:247][408]LogWorld: Bringing World /Game/Levels/UEDPIE_0_L_Two.L_Two up for play (max tick rate 0) at 2024.05.23-17.57.02
+[2024.05.23-05.57.02:247][408]LogWorld: Bringing up level for play took: 0.001016
+[2024.05.23-05.57.02:248][408]LogOnline: OSS: Created online subsystem instance for: :Context_23
+[2024.05.23-05.57.02:251][408]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.05.23-05.57.02:251][408]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2024.05.23-05.57.02:251][408]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'CustomerBlockLengths' of length 0 in '/Game/BP/LevelManager.LevelManager_C'!
+[2024.05.23-05.57.02:251][408]LogScript: Warning: Script Msg called by: LevelManager_C /Game/Levels/UEDPIE_0_L_Two.L_Two:PersistentLevel.LevelManager_C_0
+[2024.05.23-05.57.02:251][408]PIE: Server logged in
+[2024.05.23-05.57.02:252][408]PIE: Play in editor total start time 0.089 seconds.
+[2024.05.23-05.57.02:531][433]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'nodes_35_86FC0DA44BA16826421D3F8834110971' of length 0 in '/Game/BP/NerdStuff/Tree/F_Storyline.F_Storyline'!
+[2024.05.23-05.57.02:531][433]LogScript: Warning: Script Msg called by: LevelManager_C /Game/Levels/UEDPIE_0_L_Two.L_Two:PersistentLevel.LevelManager_C_0
+[2024.05.23-05.57.02:531][433]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'CustomerInfomation_44_6ABD1AF047982DCC2FD04987BE5EF93E' of length 0 in '/Game/BP/NerdStuff/Tree/F_StoryInfoNode.F_StoryInfoNode'!
+[2024.05.23-05.57.02:531][433]LogScript: Warning: Script Msg called by: LevelManager_C /Game/Levels/UEDPIE_0_L_Two.L_Two:PersistentLevel.LevelManager_C_0
+[2024.05.23-05.57.09:253][239]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'leaveText_22_4077F91341C0E76DFD19A1AC9633A3FA' of length 0 in '/Game/BP/NerdStuff/Tree/F_CustomerSpawnInfo.F_CustomerSpawnInfo'!
+[2024.05.23-05.57.09:253][239]LogScript: Warning: Script Msg called by: Customer_C /Game/Levels/UEDPIE_0_L_Two.L_Two:PersistentLevel.Customer_C_0
+[2024.05.23-05.57.09:253][239]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllWidgetsOfClass_FoundWidgets' of length 0 in '/Game/BP/Parcel/BP_Parcel.BP_Parcel_C:deleteParcel'!
+[2024.05.23-05.57.09:253][239]LogScript: Warning: Script Msg called by: BP_Parcel_C /Game/Levels/UEDPIE_0_L_Two.L_Two:PersistentLevel.BP_Parcel_C_0
+[2024.05.23-05.57.18:592][359]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'LeaveText_55_F4BB2B4D466B46549453E4BE1CDFABAC' of length 0 in '/Game/BP/UI/Dialouge/Structure/Level1/BasicDialouge.BasicDialouge'!
+[2024.05.23-05.57.18:592][359]LogScript: Warning: Script Msg called by: Customer_C /Game/Levels/UEDPIE_0_L_Two.L_Two:PersistentLevel.Customer_C_1
+[2024.05.23-05.57.18:592][359]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllWidgetsOfClass_FoundWidgets' of length 0 in '/Game/BP/Parcel/BP_Parcel.BP_Parcel_C:deleteParcel'!
+[2024.05.23-05.57.18:592][359]LogScript: Warning: Script Msg called by: BP_Parcel_C /Game/Levels/UEDPIE_0_L_Two.L_Two:PersistentLevel.BP_Parcel_C_1
+[2024.05.23-05.57.21:746][737]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'nodes_35_86FC0DA44BA16826421D3F8834110971' of length 0 in '/Game/BP/NerdStuff/Tree/F_Storyline.F_Storyline'!
+[2024.05.23-05.57.21:746][737]LogScript: Warning: Script Msg called by: LevelManager_C /Game/Levels/UEDPIE_0_L_Two.L_Two:PersistentLevel.LevelManager_C_0
+[2024.05.23-05.57.21:746][737]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'CustomerInfomation_44_6ABD1AF047982DCC2FD04987BE5EF93E' of length 0 in '/Game/BP/NerdStuff/Tree/F_StoryInfoNode.F_StoryInfoNode'!
+[2024.05.23-05.57.21:746][737]LogScript: Warning: Script Msg called by: LevelManager_C /Game/Levels/UEDPIE_0_L_Two.L_Two:PersistentLevel.LevelManager_C_0
+[2024.05.23-05.57.24:797][103]LogScript: Warning: Script Msg: Attempted to access index 1 from array 'leaveText_22_4077F91341C0E76DFD19A1AC9633A3FA' of length 0 in '/Game/BP/NerdStuff/Tree/F_CustomerSpawnInfo.F_CustomerSpawnInfo'!
+[2024.05.23-05.57.24:797][103]LogScript: Warning: Script Msg called by: Customer_C /Game/Levels/UEDPIE_0_L_Two.L_Two:PersistentLevel.Customer_C_2
+[2024.05.23-05.58.31:810][139]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'LeaveText_55_F4BB2B4D466B46549453E4BE1CDFABAC' of length 0 in '/Game/BP/UI/Dialouge/Structure/Level1/BasicDialouge.BasicDialouge'!
+[2024.05.23-05.58.31:810][139]LogScript: Warning: Script Msg called by: Customer_C /Game/Levels/UEDPIE_0_L_Two.L_Two:PersistentLevel.Customer_C_3
+[2024.05.23-05.58.31:810][139]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'leaveText_22_4077F91341C0E76DFD19A1AC9633A3FA' of length 0 in '/Game/BP/NerdStuff/Tree/F_CustomerSpawnInfo.F_CustomerSpawnInfo'!
+[2024.05.23-05.58.31:810][139]LogScript: Warning: Script Msg called by: Customer_C /Game/Levels/UEDPIE_0_L_Two.L_Two:PersistentLevel.Customer_C_3
+[2024.05.23-05.58.31:810][139]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllWidgetsOfClass_FoundWidgets' of length 0 in '/Game/BP/Parcel/BP_Parcel.BP_Parcel_C:deleteParcel'!
+[2024.05.23-05.58.31:810][139]LogScript: Warning: Script Msg called by: BP_Parcel_C /Game/Levels/UEDPIE_0_L_Two.L_Two:PersistentLevel.BP_Parcel_C_3
+[2024.05.23-05.58.35:831][621]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'nodes_35_86FC0DA44BA16826421D3F8834110971' of length 0 in '/Game/BP/NerdStuff/Tree/F_Storyline.F_Storyline'!
+[2024.05.23-05.58.35:831][621]LogScript: Warning: Script Msg called by: LevelManager_C /Game/Levels/UEDPIE_0_L_Two.L_Two:PersistentLevel.LevelManager_C_0
+[2024.05.23-05.58.35:831][621]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'CustomerInfomation_44_6ABD1AF047982DCC2FD04987BE5EF93E' of length 0 in '/Game/BP/NerdStuff/Tree/F_StoryInfoNode.F_StoryInfoNode'!
+[2024.05.23-05.58.35:831][621]LogScript: Warning: Script Msg called by: LevelManager_C /Game/Levels/UEDPIE_0_L_Two.L_Two:PersistentLevel.LevelManager_C_0
+[2024.05.23-05.58.49:491][252]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.05.23-05.58.49:491][252]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_L_Two
+[2024.05.23-05.58.49:491][252]LogWorld: UWorld::CleanupWorld for L_Two, bSessionEnded=true, bCleanupResources=true
+[2024.05.23-05.58.49:491][252]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.23-05.58.49:494][252]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.05.23-05.58.49:498][252]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.23-05.58.49:510][252]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.05.23-05.58.49:510][252]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 16
+[2024.05.23-05.58.49:510][252]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2024.05.23-05.58.49:512][252]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2024.05.23-05.58.49:516][252]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.05.23-05.58.49:517][252]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2024.05.23-05.58.49:694][265]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2024.05.23-05.58.50:998][420]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.05.23-05.58.51:044][420]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.05.23-05.58.51:044][420]PIE: New page: PIE session: L_Two (24/05/2024, 5:58:51 am)
+[2024.05.23-05.58.51:044][420]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_L_Two
+[2024.05.23-05.58.51:049][420]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004938s)
+[2024.05.23-05.58.51:049][420]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/L_Two.L_Two to /Game/Levels/UEDPIE_0_L_Two.L_Two (0.004975s)
+[2024.05.23-05.58.51:060][420]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2024.05.23-05.58.51:062][420]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.05.23-05.58.51:063][420]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.05.23-05.58.51:063][420]LogAIModule: Creating AISystem for world L_Two
+[2024.05.23-05.58.51:063][420]LogPlayLevel: PIE: World Init took: (0.000865s)
+[2024.05.23-05.58.51:063][420]LogAudio: Display: Creating Audio Device:                 Id: 17, Scope: Unique, Realtime: True
+[2024.05.23-05.58.51:063][420]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.05.23-05.58.51:063][420]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.05.23-05.58.51:063][420]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.05.23-05.58.51:063][420]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.05.23-05.58.51:063][420]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.05.23-05.58.51:063][420]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.05.23-05.58.51:063][420]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.05.23-05.58.51:063][420]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.05.23-05.58.51:064][420]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.05.23-05.58.51:064][420]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.05.23-05.58.51:064][420]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.05.23-05.58.51:065][420]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.05.23-05.58.51:111][420]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.05.23-05.58.51:111][420]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.05.23-05.58.51:111][420]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.05.23-05.58.51:111][420]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.05.23-05.58.51:111][420]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=17
+[2024.05.23-05.58.51:111][420]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=17
+[2024.05.23-05.58.51:114][420]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=17
+[2024.05.23-05.58.51:114][420]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=17
+[2024.05.23-05.58.51:114][420]LogInit: FAudioDevice initialized with ID 17.
+[2024.05.23-05.58.51:114][420]LogAudio: Display: Audio Device (ID: 17) registered with world 'L_Two'.
+[2024.05.23-05.58.51:114][420]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 17
+[2024.05.23-05.58.51:116][420]LogLoad: Game class is 'GameMode_C'
+[2024.05.23-05.58.51:119][420]LogWorld: Bringing World /Game/Levels/UEDPIE_0_L_Two.L_Two up for play (max tick rate 0) at 2024.05.23-17.58.51
+[2024.05.23-05.58.51:119][420]LogWorld: Bringing up level for play took: 0.000929
+[2024.05.23-05.58.51:120][420]LogOnline: OSS: Created online subsystem instance for: :Context_24
+[2024.05.23-05.58.51:122][420]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.05.23-05.58.51:122][420]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2024.05.23-05.58.51:122][420]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'CustomerBlockLengths' of length 0 in '/Game/BP/LevelManager.LevelManager_C'!
+[2024.05.23-05.58.51:122][420]LogScript: Warning: Script Msg called by: LevelManager_C /Game/Levels/UEDPIE_0_L_Two.L_Two:PersistentLevel.LevelManager_C_0
+[2024.05.23-05.58.51:122][420]PIE: Server logged in
+[2024.05.23-05.58.51:123][420]PIE: Play in editor total start time 0.079 seconds.
+[2024.05.23-05.58.51:403][445]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'nodes_35_86FC0DA44BA16826421D3F8834110971' of length 0 in '/Game/BP/NerdStuff/Tree/F_Storyline.F_Storyline'!
+[2024.05.23-05.58.51:403][445]LogScript: Warning: Script Msg called by: LevelManager_C /Game/Levels/UEDPIE_0_L_Two.L_Two:PersistentLevel.LevelManager_C_0
+[2024.05.23-05.58.51:403][445]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'CustomerInfomation_44_6ABD1AF047982DCC2FD04987BE5EF93E' of length 0 in '/Game/BP/NerdStuff/Tree/F_StoryInfoNode.F_StoryInfoNode'!
+[2024.05.23-05.58.51:403][445]LogScript: Warning: Script Msg called by: LevelManager_C /Game/Levels/UEDPIE_0_L_Two.L_Two:PersistentLevel.LevelManager_C_0
+[2024.05.23-05.59.00:128][492]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'LeaveText_55_F4BB2B4D466B46549453E4BE1CDFABAC' of length 0 in '/Game/BP/UI/Dialouge/Structure/Level1/BasicDialouge.BasicDialouge'!
+[2024.05.23-05.59.00:128][492]LogScript: Warning: Script Msg called by: Customer_C /Game/Levels/UEDPIE_0_L_Two.L_Two:PersistentLevel.Customer_C_0
+[2024.05.23-05.59.00:128][492]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'leaveText_22_4077F91341C0E76DFD19A1AC9633A3FA' of length 0 in '/Game/BP/NerdStuff/Tree/F_CustomerSpawnInfo.F_CustomerSpawnInfo'!
+[2024.05.23-05.59.00:128][492]LogScript: Warning: Script Msg called by: Customer_C /Game/Levels/UEDPIE_0_L_Two.L_Two:PersistentLevel.Customer_C_0
+[2024.05.23-05.59.00:128][492]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllWidgetsOfClass_FoundWidgets' of length 0 in '/Game/BP/Parcel/BP_Parcel.BP_Parcel_C:deleteParcel'!
+[2024.05.23-05.59.00:128][492]LogScript: Warning: Script Msg called by: BP_Parcel_C /Game/Levels/UEDPIE_0_L_Two.L_Two:PersistentLevel.BP_Parcel_C_0
+[2024.05.23-05.59.07:974][433]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'LeaveText_55_F4BB2B4D466B46549453E4BE1CDFABAC' of length 0 in '/Game/BP/UI/Dialouge/Structure/Level1/BasicDialouge.BasicDialouge'!
+[2024.05.23-05.59.07:974][433]LogScript: Warning: Script Msg called by: Customer_C /Game/Levels/UEDPIE_0_L_Two.L_Two:PersistentLevel.Customer_C_1
+[2024.05.23-05.59.07:974][433]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllWidgetsOfClass_FoundWidgets' of length 0 in '/Game/BP/Parcel/BP_Parcel.BP_Parcel_C:deleteParcel'!
+[2024.05.23-05.59.07:974][433]LogScript: Warning: Script Msg called by: BP_Parcel_C /Game/Levels/UEDPIE_0_L_Two.L_Two:PersistentLevel.BP_Parcel_C_1
+[2024.05.23-05.59.11:017][797]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'nodes_35_86FC0DA44BA16826421D3F8834110971' of length 0 in '/Game/BP/NerdStuff/Tree/F_Storyline.F_Storyline'!
+[2024.05.23-05.59.11:017][797]LogScript: Warning: Script Msg called by: LevelManager_C /Game/Levels/UEDPIE_0_L_Two.L_Two:PersistentLevel.LevelManager_C_0
+[2024.05.23-05.59.11:017][797]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'CustomerInfomation_44_6ABD1AF047982DCC2FD04987BE5EF93E' of length 0 in '/Game/BP/NerdStuff/Tree/F_StoryInfoNode.F_StoryInfoNode'!
+[2024.05.23-05.59.11:017][797]LogScript: Warning: Script Msg called by: LevelManager_C /Game/Levels/UEDPIE_0_L_Two.L_Two:PersistentLevel.LevelManager_C_0
+[2024.05.23-05.59.16:576][464]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'leaveText_22_4077F91341C0E76DFD19A1AC9633A3FA' of length 0 in '/Game/BP/NerdStuff/Tree/F_CustomerSpawnInfo.F_CustomerSpawnInfo'!
+[2024.05.23-05.59.16:576][464]LogScript: Warning: Script Msg called by: Customer_C /Game/Levels/UEDPIE_0_L_Two.L_Two:PersistentLevel.Customer_C_2
+[2024.05.23-05.59.16:576][464]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllWidgetsOfClass_FoundWidgets' of length 0 in '/Game/BP/Parcel/BP_Parcel.BP_Parcel_C:deleteParcel'!
+[2024.05.23-05.59.16:576][464]LogScript: Warning: Script Msg called by: BP_Parcel_C /Game/Levels/UEDPIE_0_L_Two.L_Two:PersistentLevel.BP_Parcel_C_2
+[2024.05.23-05.59.28:983][952]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'LeaveText_55_F4BB2B4D466B46549453E4BE1CDFABAC' of length 0 in '/Game/BP/UI/Dialouge/Structure/Level1/BasicDialouge.BasicDialouge'!
+[2024.05.23-05.59.28:983][952]LogScript: Warning: Script Msg called by: Customer_C /Game/Levels/UEDPIE_0_L_Two.L_Two:PersistentLevel.Customer_C_3
+[2024.05.23-05.59.28:983][952]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllWidgetsOfClass_FoundWidgets' of length 0 in '/Game/BP/Parcel/BP_Parcel.BP_Parcel_C:deleteParcel'!
+[2024.05.23-05.59.28:983][952]LogScript: Warning: Script Msg called by: BP_Parcel_C /Game/Levels/UEDPIE_0_L_Two.L_Two:PersistentLevel.BP_Parcel_C_3
+[2024.05.23-05.59.32:028][317]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'nodes_35_86FC0DA44BA16826421D3F8834110971' of length 0 in '/Game/BP/NerdStuff/Tree/F_Storyline.F_Storyline'!
+[2024.05.23-05.59.32:028][317]LogScript: Warning: Script Msg called by: LevelManager_C /Game/Levels/UEDPIE_0_L_Two.L_Two:PersistentLevel.LevelManager_C_0
+[2024.05.23-05.59.32:028][317]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'CustomerInfomation_44_6ABD1AF047982DCC2FD04987BE5EF93E' of length 0 in '/Game/BP/NerdStuff/Tree/F_StoryInfoNode.F_StoryInfoNode'!
+[2024.05.23-05.59.32:029][317]LogScript: Warning: Script Msg called by: LevelManager_C /Game/Levels/UEDPIE_0_L_Two.L_Two:PersistentLevel.LevelManager_C_0
+[2024.05.23-05.59.42:737][602]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'LeaveText_55_F4BB2B4D466B46549453E4BE1CDFABAC' of length 0 in '/Game/BP/UI/Dialouge/Structure/Level1/BasicDialouge.BasicDialouge'!
+[2024.05.23-05.59.42:737][602]LogScript: Warning: Script Msg called by: Customer_C /Game/Levels/UEDPIE_0_L_Two.L_Two:PersistentLevel.Customer_C_4
+[2024.05.23-05.59.42:737][602]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'leaveText_22_4077F91341C0E76DFD19A1AC9633A3FA' of length 0 in '/Game/BP/NerdStuff/Tree/F_CustomerSpawnInfo.F_CustomerSpawnInfo'!
+[2024.05.23-05.59.42:737][602]LogScript: Warning: Script Msg called by: Customer_C /Game/Levels/UEDPIE_0_L_Two.L_Two:PersistentLevel.Customer_C_4
+[2024.05.23-05.59.42:737][602]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllWidgetsOfClass_FoundWidgets' of length 0 in '/Game/BP/Parcel/BP_Parcel.BP_Parcel_C:deleteParcel'!
+[2024.05.23-05.59.42:737][602]LogScript: Warning: Script Msg called by: BP_Parcel_C /Game/Levels/UEDPIE_0_L_Two.L_Two:PersistentLevel.BP_Parcel_C_4
+[2024.05.23-05.59.45:835][973]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'customerQueue' of length 0 in '/Game/BP/LevelManager.LevelManager_C'!
+[2024.05.23-05.59.45:835][973]LogScript: Warning: Script Msg called by: LevelManager_C /Game/Levels/UEDPIE_0_L_Two.L_Two:PersistentLevel.LevelManager_C_0
+[2024.05.23-05.59.45:835][973]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'customerQueue' of length 0 in '/Game/BP/LevelManager.LevelManager_C'!
+[2024.05.23-05.59.45:835][973]LogScript: Warning: Script Msg called by: LevelManager_C /Game/Levels/UEDPIE_0_L_Two.L_Two:PersistentLevel.LevelManager_C_0
+[2024.05.23-06.00.14:384][398]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'LeaveText_55_F4BB2B4D466B46549453E4BE1CDFABAC' of length 0 in '/Game/BP/UI/Dialouge/Structure/Level1/BasicDialouge.BasicDialouge'!
+[2024.05.23-06.00.14:384][398]LogScript: Warning: Script Msg called by: Customer_C /Game/Levels/UEDPIE_0_L_Two.L_Two:PersistentLevel.Customer_C_5
+[2024.05.23-06.00.14:384][398]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'leaveText_22_4077F91341C0E76DFD19A1AC9633A3FA' of length 0 in '/Game/BP/NerdStuff/Tree/F_CustomerSpawnInfo.F_CustomerSpawnInfo'!
+[2024.05.23-06.00.14:384][398]LogScript: Warning: Script Msg called by: Customer_C /Game/Levels/UEDPIE_0_L_Two.L_Two:PersistentLevel.Customer_C_5
+[2024.05.23-06.00.14:384][398]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllWidgetsOfClass_FoundWidgets' of length 0 in '/Game/BP/Parcel/BP_Parcel.BP_Parcel_C:deleteParcel'!
+[2024.05.23-06.00.14:384][398]LogScript: Warning: Script Msg called by: BP_Parcel_C /Game/Levels/UEDPIE_0_L_Two.L_Two:PersistentLevel.BP_Parcel_C_5
+[2024.05.23-06.00.17:442][765]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'customerQueue' of length 0 in '/Game/BP/LevelManager.LevelManager_C'!
+[2024.05.23-06.00.17:442][765]LogScript: Warning: Script Msg called by: LevelManager_C /Game/Levels/UEDPIE_0_L_Two.L_Two:PersistentLevel.LevelManager_C_0
+[2024.05.23-06.00.17:445][765]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'customerQueue' of length 0 in '/Game/BP/LevelManager.LevelManager_C'!
+[2024.05.23-06.00.17:445][765]LogScript: Warning: Script Msg called by: LevelManager_C /Game/Levels/UEDPIE_0_L_Two.L_Two:PersistentLevel.LevelManager_C_0
+[2024.05.23-06.00.17:445][765]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'customerQueue' of length 0 in '/Game/BP/LevelManager.LevelManager_C'!
+[2024.05.23-06.00.17:445][765]LogScript: Warning: Script Msg called by: LevelManager_C /Game/Levels/UEDPIE_0_L_Two.L_Two:PersistentLevel.LevelManager_C_0
+[2024.05.23-06.00.17:445][765]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CustomerStorylineOrder' of length 0 in '/Game/BP/LevelManager.LevelManager_C'!
+[2024.05.23-06.00.17:445][765]LogScript: Warning: Script Msg called by: LevelManager_C /Game/Levels/UEDPIE_0_L_Two.L_Two:PersistentLevel.LevelManager_C_0
+[2024.05.23-06.00.17:445][765]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'nodes_35_86FC0DA44BA16826421D3F8834110971' of length 0 in '/Game/BP/NerdStuff/Tree/F_Storyline.F_Storyline'!
+[2024.05.23-06.00.17:445][765]LogScript: Warning: Script Msg called by: LevelManager_C /Game/Levels/UEDPIE_0_L_Two.L_Two:PersistentLevel.LevelManager_C_0
+[2024.05.23-06.00.17:445][765]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'CustomerInfomation_44_6ABD1AF047982DCC2FD04987BE5EF93E' of length 0 in '/Game/BP/NerdStuff/Tree/F_StoryInfoNode.F_StoryInfoNode'!
+[2024.05.23-06.00.17:445][765]LogScript: Warning: Script Msg called by: LevelManager_C /Game/Levels/UEDPIE_0_L_Two.L_Two:PersistentLevel.LevelManager_C_0
+[2024.05.23-06.00.17:445][765]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'customerQueue' of length 0 in '/Game/BP/LevelManager.LevelManager_C'!
+[2024.05.23-06.00.17:445][765]LogScript: Warning: Script Msg called by: LevelManager_C /Game/Levels/UEDPIE_0_L_Two.L_Two:PersistentLevel.LevelManager_C_0
+[2024.05.23-06.00.17:447][765]LogScript: Warning: Script Msg: Attempted to remove an item from an invalid index from array customerQueue [0/0]!
+[2024.05.23-06.00.17:447][765]LogScript: Warning: Script Msg called by: LevelManager_C /Game/Levels/UEDPIE_0_L_Two.L_Two:PersistentLevel.LevelManager_C_0
+[2024.05.23-06.00.17:447][765]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'customerQueue' of length 0 in '/Game/BP/LevelManager.LevelManager_C'!
+[2024.05.23-06.00.17:447][765]LogScript: Warning: Script Msg called by: LevelManager_C /Game/Levels/UEDPIE_0_L_Two.L_Two:PersistentLevel.LevelManager_C_0
+[2024.05.23-06.00.17:447][765]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'customerQueue' of length 0 in '/Game/BP/LevelManager.LevelManager_C'!
+[2024.05.23-06.00.17:447][765]LogScript: Warning: Script Msg called by: LevelManager_C /Game/Levels/UEDPIE_0_L_Two.L_Two:PersistentLevel.LevelManager_C_0
+[2024.05.23-06.00.20:012][ 68]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.05.23-06.00.20:012][ 68]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_L_Two
+[2024.05.23-06.00.20:012][ 68]LogWorld: UWorld::CleanupWorld for L_Two, bSessionEnded=true, bCleanupResources=true
+[2024.05.23-06.00.20:013][ 68]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.23-06.00.20:015][ 68]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.05.23-06.00.20:018][ 68]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.23-06.00.20:031][ 68]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.05.23-06.00.20:031][ 68]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 17
+[2024.05.23-06.00.20:031][ 68]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17
+[2024.05.23-06.00.20:033][ 68]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17
+[2024.05.23-06.00.20:039][ 68]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2024.05.23-06.00.20:202][ 81]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2024.05.23-06.01.40:507][545]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2024.05.23-06.01.40:511][545]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Levels/L_Two' took 0.018
+[2024.05.23-06.01.40:512][545]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BP/Enviroment/Customer] ([2] browsable assets)...
+[2024.05.23-06.01.40:512][545]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP/Enviroment/Customer]
+[2024.05.23-06.01.40:512][545]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/Enviroment/Customer" FILE="H:/lost-in-transit/Saved/Autosaves/Game/BP/Enviroment/Customer_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2024.05.23-06.01.44:021][545]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/BP/Enviroment/Customer_Auto2
+[2024.05.23-06.01.44:021][545]LogSavePackage: Moving 'H:/lost-in-transit/Saved/Customer_Auto27902729146484B760BAD25A0849E3CED.tmp' to 'H:/lost-in-transit/Saved/Autosaves/Game/BP/Enviroment/Customer_Auto2.uasset'
+[2024.05.23-06.01.44:070][545]LogFileHelpers: Auto-saving content packages took 3.559
+[2024.05.23-06.05.18:796][177]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2024.05.23-06.05.18:803][177]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.05.23-06.05.18:862][177]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/Enviroment/Customer" FILE="H:/lost-in-transit/Content/BP/Enviroment/Customer.uasset" SILENT=true
+[2024.05.23-06.05.22:381][177]LogSavePackage: Moving output files for package: /Game/BP/Enviroment/Customer
+[2024.05.23-06.05.22:404][177]LogSavePackage: Moving 'H:/lost-in-transit/Saved/Customer70408B3E4E8B80FA27EFA594202A81FB.tmp' to 'H:/lost-in-transit/Content/BP/Enviroment/Customer.uasset'
+[2024.05.23-06.05.22:447][177]LogFileHelpers: InternalPromptForCheckoutAndSave took 3.64 sec (total: 28.3 sec)
+[2024.05.23-06.05.22:448][177]AssetCheck: New page: Asset Save: Customer
+[2024.05.23-06.05.22:448][177]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/BP/Enviroment/Customer.Customer
